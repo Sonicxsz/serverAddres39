@@ -4,7 +4,6 @@ dotenv.config()
 
 const {EMAIL_HOST, EMAIL_HOST_USERNAME, EMAIL_PORT, EMAIL_HOST_PASSWORD} = process.env
 
-console.log(EMAIL_HOST)
 class Mail {
     #transporter = null;
     constructor(){

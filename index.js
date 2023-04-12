@@ -23,10 +23,11 @@ app.get('/api/v1/items', (req, res) => {
 
 app.post('/mail', async(req, res) => {
   const {order, type} = req.body
-  return res.json({res: await mail.send(order, type)})
+  console.log(res.json({res: await mail.send(order, type)}))
+  return 
 })  
 
 app.listen(port, () => {
-  console.log('server is running' + port);
+  console.log('server is running' + ' ' + port);
 });
 
