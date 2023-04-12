@@ -23,7 +23,6 @@ app.get('/api/v1/items', (req, res) => {
 
 app.post('/mail', async(req, res) => {
   const {order, type} = req.body
-  console.log(req.body)
   return res.json({res: await mail.send(order, type)})
 })  
 
