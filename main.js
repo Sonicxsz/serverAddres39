@@ -26,7 +26,7 @@ class Mail {
         try{
             const info = await this.#transporter.sendMail({
                 from: 'leadeer5@gmail.com',
-                to: 'Addrest.39@mail.ru',
+                to: 'arbih@mail.ru',
                 subject: type,
                 text: message,
                 html: message
