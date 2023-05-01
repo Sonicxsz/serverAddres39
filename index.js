@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const {mail} = require('./main');
-const { images } = require('./gallery');
-const { items } = require('./items');
+const apiRouter = require('./controller/api')
 const port = 3001;
 
 const app = express();
@@ -12,22 +11,17 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
-app.get('/api/v1/images', (req, res) => {
-  res.send(images);
-});
+app.use('/api/v1', apiRouter)
 
-app.get('/api/v1/items', (req, res) => {
-    const newItems = JSON.stringify(items)
-    res.send(newItems);
-  });
 
 app.post('/mail', async(req, res) => {
   const {order, type} = req.body
-  
   return res.json({res: await mail.send(order, type)})
 })  
 
 app.listen(port, () => {
   console.log('server is running' + ' ' + port);
 });
+
+
 
