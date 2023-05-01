@@ -732,7 +732,7 @@ const items = [
     'items': [
         {
             id: 'p1',
-            name:{'EN':'Спагетти с крабом в томатном соусе', 'RU':"Спагетти с крабом в томатном соусе"}, 
+            name:{'EN':'Spaghetti with crab in tomato sauce', 'RU':"Спагетти с крабом в томатном соусе"}, 
             title:{'EN':'Spaghetti, crab, chicken broth, basil, tomato sauce, butter', 'RU':"Спагетти, краб, куриный бульон, базилик, соус томатный, масло сливочное"}, 
             price: 990,
             count: 1,
