@@ -85,15 +85,7 @@ const items = [
     'mini' : false,
     'cat':{"EN":'Breakfasts until 14:00',"RU":'Завтраки до 14:00'}, 
     'items': [
-        {
-            id: 14,
-            name:{'EN': 'Bruschetta with poached egg, avocado and salmon', 'RU':"Брускетта с яйцом пашот, авокадо и лососем"},
-            title:{'EN': 'Grain bread, salted salmon, poached egg, avocado, mixed salad', 'RU':"Хлеб зерновой, лосось слабосоленый, яйцо пашот, авокадо, микс салатов"},
-            price: 679,
-            count: 1,
-            grams: 180,
-            img: "https://avatars.mds.yandex.net/get-eda/3401132/3e3083cbae1c4a9a815a5a88db9ed4ed/450x300",
-          },
+      
           {
             id: 15,
             name:{'EN': 'Zucchini dredges with salmon and cream sauce', 'RU':"Драники из цукини с лососем и сливочным соусом"} ,
@@ -112,15 +104,7 @@ const items = [
             grams: 140,
             img: "https://avatars.mds.yandex.net/get-eda/3813301/2309447194f24bc482ee55189d530799/450x300",
           },
-          {
-            id: 17,
-            name:{'EN': 'Tornado omelette with quinoa and vegetables', 'RU':"Торнадо омлет с киноа и овощами"},
-            title:{'EN': 'Chicken egg, quinoa, tomato, avocado, cucumber', 'RU':"Яйцо куриное, киноа, томат, авокадо, огурец"},
-            price: 349,
-            count: 1,
-            grams: 170,
-            img: "https://avatars.mds.yandex.net/get-eda/3507285/e18b21e6ceaa4236a45d5e46a2758a7f/450x300",
-          },
+          
           {
             id: 18,
             name:{'EN': 'Eggs Benedict with salmon on a brioche bun', 'RU':"Яйцо бенедикт с лососем на булочке бриошь"},
@@ -1053,15 +1037,6 @@ const items = [
             img: "",
           },
           {
-            id: 'ds1',
-            name:{'EN': 'Meringue roll', 'RU':"Меренговый рулет"},
-            title:{'EN': 'Airy meringue roll with soft cream and mango puree', 'RU':"Воздушный меренгой рулет с нежным сливочным кремом и пюре манго"},
-            price: 599,
-            count: 1,
-            grams: 130,
-            img: "/assets/items/ds1.jpeg",
-          },
-          {
             id: 'ds2',
             name:{'EN': 'Miles with patisserie cream and fresh berries', 'RU':"Милей с кремом патисьер и свежими ягодами"},
             title:{'EN': 'Puff pastry, cream, raspberries, strawberries, blueberries, blackberries, freeze-dried raspberries', 'RU':"Тесто слоеное, крем, малина, клубника, голубика, ежевика, малина сублимированная"},
@@ -1134,15 +1109,7 @@ const items = [
                 grams: 210,
                 img: "https://avatars.mds.yandex.net/get-eda/3813301/900e522b23a84369b9cd6a96527b6d48/450x300",
               },
-              {
-                id: 60,
-                name:{'EN': 'Vegetable sticks with cream sauce', 'RU':"Овощные палочки с сливочным соусом" },
-                title:{'EN': 'Bell peppers, carrots', 'RU':"Перец болгарский, морковь"},
-                price: 199,
-                count: 1,
-                grams: 110,
-                img: "",
-              },
+             
         ]
   },   
  
