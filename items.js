@@ -451,7 +451,7 @@ const items = [
             id: 76,
             name:{'EN': 'Meat Plateau', 'RU':"Мясное плато"},
             title:{'EN': 'Prosciutto, roast beef, salami', 'RU':"Прошутто, ростбиф, салями" },
-            price: 1299,
+            price: 1420,
             count: 1,
             grams: 150,
             img: "https://avatars.mds.yandex.net/get-eda/3506707/3a4692592f0e4b5a9100d490f02a0974/450x300",
@@ -460,7 +460,7 @@ const items = [
             id: 77,
             name:{'EN': 'Chicken liver pate with brioche', 'RU':"Паштет из куриной печени с бриошью" },
             title:{'EN': 'Chicken liver pate, brioche, fig jam', 'RU':"Паштет из куриной печени, бриошь, джем из инжира" },
-            price: 399,
+            price: 690,
             count: 1,
             grams: 120,
             img: "https://avatars.mds.yandex.net/get-eda/3420935/e586c76c33c445259979def0c227b0fd/450x300",
@@ -555,15 +555,7 @@ const items = [
             grams: 250,
             img: "https://avatars.mds.yandex.net/get-eda/3805363/c70b5268269944d4aa2eeccbc8c89f5e/450x300",
           },
-          {
-            id: 47,
-            name:{'EN':'Nisuaz', 'RU':"Нисуаз"}, 
-            title:{'EN':'Tuna fillet, baked potatoes, green beans, olives', 'RU':"Филе тунца, картофель запеченный, фасоль стручковая, оливки"}, 
-            price: 999,
-            count: 1,
-            grams: 220,
-            img: "",
-          },
+      
 
           {
             id: 'sd1',
@@ -1080,25 +1072,7 @@ const items = [
                 grams: 230,
                 img: "https://avatars.mds.yandex.net/get-eda/3436037/93fce62acc254aee95de5b1827dea56a/450x300",
               },
-              {
-                id: 58,
-                name:{'EN': 'Minestrone', 'RU':"Минестроне" },
-                title:{'EN': 'Vegetable broth, vegetables', 'RU':"Овощной бульон, овощи" },
-                modifier: {
-                  "EN": [
-                    'standard',
-                    'With chicken meatballs'
-                  ],
-                  "RU": [
-                    'cтандартное',
-                    'c куриными фрикадельками'
-                  ]
-                },
-                price: 229,
-                count: 1,
-                grams: 240,
-                img: "https://avatars.mds.yandex.net/get-eda/3724421/4128d6509dbe49faa7f43205d81a0557/450x300",
-              },
+             
               
               {
                 id: 59,
