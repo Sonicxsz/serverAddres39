@@ -96,6 +96,15 @@ const items = [
             img: "https://avatars.mds.yandex.net/get-eda/2050703/d0fe6a0797b741d1bf85f7b40e079136/450x300",
           },
           {
+            id: 'sum6',
+            name:{'EN': 'Yogurt with granola and fresh berries', 'RU':"Йогурт с гранолой и свежими ягодами"} ,
+            title:{'EN': '', 'RU':""},
+            price: 540,
+            count: 1,
+            grams: 250,
+            img: "https://eda.yandex/images/3547279/f068aade2a334607b0180819ddfc3e07-450x300.jpeg",
+          },
+          {
             id: 16,
             name:{'EN': 'Scramble with prosciutto and tomatoes', 'RU':"Скрамбл с прошутто и помидорами"},
             title:{'EN': 'Chicken eggs, prosciutto, tomatoes', 'RU':"Яйца куриные, прошутто, помидоры"},
@@ -1125,15 +1134,7 @@ const items = [
             grams: 160,
             img: "/assets/items/ds2.jpeg",
           },
-          {
-            id: 'sum6',
-            name:{'EN': 'Yogurt with granola and fresh berries', 'RU':"Йогурт с гранолой и свежими ягодами"} ,
-            title:{'EN': '', 'RU':""},
-            price: 540,
-            count: 1,
-            grams: 250,
-            img: "https://eda.yandex/images/3547279/f068aade2a334607b0180819ddfc3e07-450x300.jpeg",
-          },
+         
          
     ]
   },
