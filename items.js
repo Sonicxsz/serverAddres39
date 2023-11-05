@@ -93,7 +93,7 @@ const items = [
             price: 730,
             count: 1,
             grams: 160,
-            img: "https://avatars.mds.yandex.net/get-eda/2050703/d0fe6a0797b741d1bf85f7b40e079136/450x300",
+            img: "/assets/img/zucchinidredgeswithsalmonandcreamsauce.jpeg",
           },
           {
             id: 'sum6',
@@ -111,7 +111,7 @@ const items = [
             price: 490,
             count: 1,
             grams: 140,
-            img: "https://avatars.mds.yandex.net/get-eda/3813301/2309447194f24bc482ee55189d530799/450x300",
+            img: "/assets/img/scramblewithprosciuttoandtomatoes.jpeg",
           },
           
           {
@@ -121,7 +121,7 @@ const items = [
             price: 790,
             count: 1,
             grams: 220,
-            img: "https://avatars.mds.yandex.net/get-eda/2353725/9084d606a70e418b9e0a52ce76e08f80/450x300",
+            img: "/assets/img/eggsbenedictwithsalmononabriochebun.jpeg",
           },
           {
             id: 'z1',
@@ -130,7 +130,7 @@ const items = [
             price: 540,
             count: 1,
             grams: 260,
-            img: "/assets/items/z1.jpeg",
+            img: "/assets/img/z1.jpeg",
           },
           {
             id: 'z2',
@@ -139,7 +139,7 @@ const items = [
             price: 510,
             count: 1,
             grams: 370,
-            img: "/assets/items/z2.jpeg",
+            img: "/assets/img/buckwheatporridgewithpoachedeggandparmesan.jpeg",
           },{
             id: 'z3',
             name:{'EN': 'Omelet with crab and truffle sauce', 'RU':"Омлет с крабом и трюфельным соусом"},
@@ -147,7 +147,7 @@ const items = [
             price: 840,
             count: 1,
             grams: 220,
-            img: "/assets/items/z3.jpeg",
+            img: "/assets/img/omeletwithcrabandtrufflesauce.jpeg",
           },{
             id: 'z4',
             name:{'EN': 'Eggs Benedict with bacon and truffle hollandaise', 'RU':"Яйцо бенедикт с беконом и трюфельным голландез"},
@@ -155,7 +155,7 @@ const items = [
             price: 490,
             count: 1,
             grams: 175,
-            img: "/assets/items/z4.jpeg",
+            img: "/assets/img/eggsbenedictwithbaconandtrufflehollandaise.jpeg",
           },
          
           {
@@ -165,7 +165,7 @@ const items = [
             price: 360,
             count: 1,
             grams: 170,
-            img: "",
+            img: "/assets/img/cheesecakeswithmeltedmilkandsourcream.jpeg",
           },
         
     ]
@@ -254,7 +254,7 @@ const items = [
           price: 1100,
           count: 1,
           grams: 140,
-          img: "https://eda.yandex/images/3790679/fe7fe3f134834b88a77c73b3f3302410-450x300.jpeg",
+          img: "/assets/img/scallopceviche.jpeg",
         }
       ]
   },
@@ -315,7 +315,7 @@ const items = [
             price: 720,
             count: 1,
             grams: 190,
-            img: "https://avatars.mds.yandex.net/get-eda/3774488/873d863faa0f45789ce2dba5393d6c05/450x300",
+            img: "/assets/img/salmonandavocadotartare.jpeg",
           },
           {
             id: 51,
@@ -324,13 +324,13 @@ const items = [
             price: 800,
             count: 1,
             grams: 200,
-            img: "https://avatars.mds.yandex.net/get-eda/3436037/74e45e0bf868433489bc5e9545a634f0/450x300",
+            img: "/assets/img/tunatartar.jpeg",
           },
     ]
   },
   {
     'data': 'susi',
-    'mini': true,
+    'mini': false,
     'cat':{"EN":'Sushi',"RU":'Суши'},
     items: [
         {
@@ -358,7 +358,7 @@ const items = [
           price: 920,
           count: 1,
           grams: 60,
-          img: "",
+          img: "/assets/img/tunaSashimi.jpeg",
         },
         {
           id: 4,
@@ -366,7 +366,7 @@ const items = [
           price: 920,
           count: 1,
           grams: 60,
-          img: "",
+          img: "/assets/img/sashimieel.jpeg",
         },
         {
           id: 5,
@@ -375,7 +375,7 @@ const items = [
           price: 310,
           count: 1,
           grams: 35,
-          img: "",
+          img: "/assets/img/spicycrab.jpeg",
         },
         {
           id: 6,
@@ -384,7 +384,7 @@ const items = [
           price: 240,
           count: 1,
           grams: 35,
-          img: "",
+          img: "/assets/img/spicyshrimp.jpeg",
         },
         {
           id: 7,
@@ -393,7 +393,7 @@ const items = [
           price: 240,
           count: 1,
           grams: 35,
-          img: "",
+          img: "/assets/img/spicysalmon.jpeg",
         },
         {
           id: 8,
@@ -402,7 +402,7 @@ const items = [
           price: 310,
           count: 1,
           grams: 35,
-          img: "",
+          img: "/assets/img/spicytuna.jpeg",
         },
         {
           id: 9,
@@ -411,7 +411,7 @@ const items = [
           price: 310,
           count: 1,
           grams: 35,
-          img: "",
+          img: "/assets/img/spicywitheels.jpeg",
         },
         {
           id: 10,
@@ -429,7 +429,7 @@ const items = [
           price: 210,
           count: 1,
           grams: 30,
-          img: "",
+          img: "/assets/img/sushiwithsalmon.jpeg",
         },
         {
           id: 12,
@@ -447,13 +447,13 @@ const items = [
           price: 270,
           count: 1,
           grams: 30,
-          img: "",
+          img: "/assets/img/sushiwitheel.jpeg",
         },
       ]
   },
   {
     'data' : 'roll',
-    'mini' : true,
+    'mini' : false,
     'cat':{"EN":'Rolls',"RU":'Роллы'},
     'items': [
         {
@@ -472,7 +472,7 @@ const items = [
             price: 370,
             count: 1,
             grams: 100,
-            img: "",
+            img: "/assets/img/makiwithsalmon.jpeg",
           },
           {
             id: 26,
@@ -499,7 +499,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 100,
-            img: "",
+            img: "/assets/img/poppieswitheel.jpeg",
           },
           {
             id: 29,
@@ -517,7 +517,7 @@ const items = [
             price: 1020,
             count: 1,
             grams: 200,
-            img: "",
+            img: "/assets/img/rollcanada.jpeg",
           },
           {
             id: 31,
@@ -526,7 +526,7 @@ const items = [
             price: 910,
             count: 1,
             grams: 200,
-            img: "",
+            img: "/assets/img/philadelphiaroll.jpeg",
           },
           {
             id: 32,
@@ -560,7 +560,7 @@ const items = [
             price: 690,
             count: 1,
             grams: 120,
-            img: "https://avatars.mds.yandex.net/get-eda/3420935/e586c76c33c445259979def0c227b0fd/450x300",
+            img: "/assets/img/chickenliverpatewithbrioche.jpeg",
           },
           {
             id: 78,
@@ -605,7 +605,7 @@ const items = [
             price: 710,
             count: 1,
             grams: 360,
-            img: "https://avatars.mds.yandex.net/get-eda/3491582/25e0dfd69b2e4a4a9b73f952b85df7a4/450x300",
+            img: "/assets/img/brokencucumberandsalmon.jpeg",
           },
           {
             id: 42,
@@ -614,7 +614,7 @@ const items = [
             price: 610,
             count: 1,
             grams: 310,
-            img: "https://avatars.mds.yandex.net/get-eda/3547279/11fb7fac98ba4b90b0e57f9f59a77f26/450x300",
+            img: "/assets/img/greeksaladwithkalamataolives.jpeg",
           },
           {
             id: 43,
@@ -641,7 +641,7 @@ const items = [
             price: 610,
             count: 1,
             grams: 250,
-            img: "https://avatars.mds.yandex.net/get-eda/3725642/a7d5b0ec3e6b4f209bb066327c3cce68/450x300",
+            img: "/assets/img/grilledshrimpcaesar.jpeg",
           },
           {
             id: 46,
@@ -650,7 +650,7 @@ const items = [
             price: 510,
             count: 1,
             grams: 250,
-            img: "https://avatars.mds.yandex.net/get-eda/3805363/c70b5268269944d4aa2eeccbc8c89f5e/450x300",
+            img: "/assets/img/caesarwithgrilledchickenbreast.jpeg",
           },
       
 
@@ -671,7 +671,7 @@ const items = [
             price: 1100,
             count: 1,
             grams: 290,
-            img: "/assets/items/sd2.jpeg",
+            img: "/assets/img/saladwithseafoodandbeetdressing.jpeg",
           },
           
           {
@@ -681,7 +681,7 @@ const items = [
             price: 950,
             count: 1,
             grams: 240,
-            img: "/assets/items/sd3.jpeg",
+            img: "/assets/img/greensaladwithcrab.jpeg",
           },
           {
             id: 'sd1',
@@ -706,7 +706,7 @@ const items = [
             price: 720,
             count: 1,
             grams: 190,
-            img: "https://avatars.mds.yandex.net/get-eda/3593277/5753bda1f86e431db636ba66b1bc757c/450x300",
+            img: "/assets/img/withProsciuttoandStrachella.jpeg",
           },
           {
             id: 62,
@@ -724,7 +724,7 @@ const items = [
             price: 720,
             count: 1,
             grams: 220,
-            img: "https://avatars.mds.yandex.net/get-eda/3436037/a6696af622ca4bfa972e373ad7ea670d/450x300",
+            img: "/assets/img/salmonandavocado.jpeg",
           },
           {
             id: 'b1',
@@ -733,7 +733,7 @@ const items = [
             price: 610,
             count: 1,
             grams: 190,
-            img: "/assets/items/b1.jpeg"
+            img: "/assets/img/bruschettawithroastbeefandredonions.jpeg"
           },
           {
             id: 65,
@@ -742,7 +742,7 @@ const items = [
             price: 520,
             count: 1,
             grams: 165,
-            img: "https://avatars.mds.yandex.net/get-eda/3781088/e561170d1c754343833e9f34e786ef37/450x300",
+            img: "/assets/img/withtomatoesandavocado.jpeg",
           },
     ]
   },
@@ -758,7 +758,7 @@ const items = [
             price: 490,
             count: 1,
             grams: 450,
-            img: "/assets/items/so1.jpeg",
+            img: "/assets/img/borscht.jpeg",
           },
           {
             id: 86,
@@ -776,7 +776,7 @@ const items = [
             price: 750,
             count: 1,
             grams: 580,
-            img: "/assets/items/so2.jpeg",
+            img: "/assets/img/tomyamwithshrimpandwoodmushrooms.jpeg",
           },
           {
             id: 'so3',
@@ -819,7 +819,7 @@ const items = [
             price: 990,
             count: 1,
             grams: 390,
-            img: "/assets/items/p2.jpeg",
+            img: "/assets/img/p2.jpeg",
           },   {
             id: 'p3',
             name:{'EN':'Risotto with porcini mushrooms', 'RU':"Ризотто с белыми грибами"}, 
@@ -827,7 +827,7 @@ const items = [
             price: 920,
             count: 1,
             grams: 190,
-            img: "/assets/items/p3.jpeg",
+            img: "/assets/img/risottowithporcinimushrooms.jpeg",
           },   {
             id: 'p4',
             name:{'EN':'Penne with beef, porcini mushrooms and truffle sauce', 'RU':"Пенне с говядиной, белыми грибами и трюфельным соусом"}, 
@@ -835,7 +835,7 @@ const items = [
             price: 920,
             count: 1,
             grams: 350,
-            img: "/assets/items/p4.jpeg",
+            img: "/assets/img/pennewithbeefporcinimushroomsandtrufflesauce.jpeg",
           },        {
             id: 'p7',
             name:{'EN':'Spaghetti with vongole', 'RU':"Спагетти с вонголе"}, 
@@ -843,7 +843,7 @@ const items = [
             price: 750,
             count: 1,
             grams: 330,
-            img: "/assets/items/p7.jpeg",
+            img: "/assets/img/spaghettiwithvongole.jpeg",
           },   {
             id: 'p8',
             name:{'EN':'Risotto with beef tartare', 'RU':"Ризотто с тартаром из говядины"}, 
@@ -867,7 +867,7 @@ const items = [
             price: 790,
             count: 1,
             grams: 250,
-            img: "/assets/items/p10.jpeg",
+            img: "/assets/img/p10.jpeg",
           },
           
     ]
@@ -884,7 +884,7 @@ const items = [
             price: 570,
             count: 1,
             grams: 300,
-            img: "/assets/items/p5.jpeg",
+            img: "/assets/img/buckwheatnoodleswithchickeninAsiansauce.jpeg",
           }, 
           {
             id: 'p6',
@@ -893,7 +893,7 @@ const items = [
             price: 670,
             count: 1,
             grams: 320,
-            img: "/assets/items/p6.jpeg",
+            img: "/assets/img/p6.jpeg",
           },
         ]
   },
@@ -910,7 +910,7 @@ const items = [
           price: 1200,
           count: 1,
           grams: 200,
-          img: "https://avatars.mds.yandex.net/get-eda/3514991/e93a9c2fb26d46e9bfc020cead3f934e/450x300",
+          img: "/assets/img/salmonsteakwithvegetablesalsa.jpeg",
         },
         {
           id: 81,
@@ -928,7 +928,7 @@ const items = [
             price: 800,
             count: 1,
             grams: 150,
-            img: "https://avatars.mds.yandex.net/get-eda/3583740/eb737a5203734f5e8ec1557bf2c8ef49/450x300",
+            img: "/assets/img/grilledshrimpwithspicysauce.jpeg",
         },  
           
          {
@@ -947,7 +947,7 @@ const items = [
           price: 890,
           count: 1,
           grams: 180,
-          img: "/assets/items/2343.jpg"
+          img: "/assets/img/blackcodonabedofspinach.jpeg"
          },
          {
           id: 'f1',
@@ -981,7 +981,7 @@ const items = [
             price: 910,
             count: 1,
             grams: 280,
-            img: "https://avatars.mds.yandex.net/get-eda/3377781/0ef9d244a4de42268242ae341246337e/450x300",
+            img: "/assets/img/asianbeefwithrice.jpeg",
           },
           {
             id: 72,
@@ -990,7 +990,7 @@ const items = [
             price: 710,
             count: 1,
             grams: 280,
-            img: "https://avatars.mds.yandex.net/get-eda/2415806/5369455898bc4c4d869b3e4eb81f4f5d/450x300",
+            img: "/assets/img/chickencurrywithrice.jpeg",
           },
           {
             id: 73,
@@ -999,7 +999,7 @@ const items = [
             price: 2600,
             count: 1,
             grams: 380,
-            img: "",
+            img: "/assets/img/ribeyesteakwithgrilledcorn.jpeg",
           },
           {
             id: 75,
@@ -1026,7 +1026,7 @@ const items = [
             price: 890,
             count: 1,
             grams: 340,
-            img: "/assets/items/m2.jpeg",
+            img: "/assets/img/m2.jpeg",
           },
           {
             id: 'm3',
@@ -1035,7 +1035,7 @@ const items = [
             price: 850,
             count: 1,
             grams: 340,
-            img: "",
+            img: "/assets/img/beefstroganoff.jpeg",
           },
         
          
@@ -1043,7 +1043,7 @@ const items = [
   }, 
   {
     'data' : 'sideDishes',
-    'mini' : true,
+    'mini' : false,
     'cat':{"EN":'Side dishes',"RU":'Гарниры'},
     'items': [
         {
@@ -1123,7 +1123,7 @@ const items = [
             price: 520,
             count: 1,
             grams: 210,
-            img: "",
+            img: "/assets/img/warmapplepiewithanicecreamscoop.jpeg",
           },
           {
             id: 'ds2',
@@ -1132,7 +1132,7 @@ const items = [
             price: 750,
             count: 1,
             grams: 160,
-            img: "/assets/items/ds2.jpeg",
+            img: "/assets/img/mileswithpatisseriecreamandfreshberries.jpeg",
           },
          
          
@@ -1150,7 +1150,7 @@ const items = [
                 price: 500,
                 count: 1,
                 grams: 240,
-                img: "https://avatars.mds.yandex.net/get-eda/3774488/730b6bce9f584119a276fb9f20422bf6/450x300",
+                img: "/assets/img/beefstroganoffchild.jpeg",
               },
               {
                 id: 56,
@@ -1159,7 +1159,7 @@ const items = [
                 price: 500,
                 count: 1,
                 grams: 240,
-                img: "https://avatars.mds.yandex.net/get-eda/3559865/d81289567aa14454863b5cbe69461918/450x300",
+                img: "/assets/img/chickencutletswithmashedpotatoes.jpeg",
               },
               {
                 id: 57,
@@ -1179,7 +1179,7 @@ const items = [
                 price: 360,
                 count: 1,
                 grams: 210,
-                img: "https://avatars.mds.yandex.net/get-eda/3813301/900e522b23a84369b9cd6a96527b6d48/450x300",
+                img: "/assets/img/penneincreamsaucewithparmesancheese.jpeg",
               },
             
              
