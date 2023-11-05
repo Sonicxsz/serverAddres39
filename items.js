@@ -691,6 +691,15 @@ const items = [
             count: 1,
             grams: 120,
             img: "",
+          },
+          {
+            id: 'sd5',
+            name:{'EN':'Salmon and Blood Orange Salad', 'RU':"Салат с лососем и красным апельсином"}, 
+            title:{'EN':'', 'RU':""}, 
+            price: 1100,
+            count: 1,
+            grams: 180,
+            img: "/assets/img/salmonandBloodOrangeSalad.jpeg",
           }
     ]
   },
@@ -1037,6 +1046,19 @@ const items = [
             grams: 340,
             img: "/assets/img/beefstroganoff.jpeg",
           },
+          {
+            id: 'm4',
+            name: {
+              'EN': 'Chicken with Cole Slow', 'RU': 'Цыпленок с Коул Слоу'
+            },
+            title: {
+              'EN': 'Baked chicken with truffle coleslaw', 'RU': 'Запеченный цыпленек с трюфельным коул слоу'
+            },
+            price: 910,
+            count: 1,
+            grams: 260,
+            img: '/assets/img/chickenwithColeSlow.jpeg'
+          }
         
          
     ]
@@ -1134,6 +1156,24 @@ const items = [
             grams: 160,
             img: "/assets/img/mileswithpatisseriecreamandfreshberries.jpeg",
           },
+          {
+            id: 'ds3',
+            name: {'EN': 'Panna cotta', 'RU': 'Панна-котта'},
+            title: {'EN': '', 'RU': ''},
+            price: 510,
+            grams: 150,
+            count: 1,
+            img: '/assets/img/pannacotta.jpeg'
+          },
+          {
+            id: 'ds5',
+            name: {'EN': 'Chocolate fondant with vanilla ice cream', 'RU': 'Шоколадный фондан с ванильным мороженым'},
+            title: {'EN': '', 'RU': ''},
+            price: 620,
+            grams: 180,
+            count: 1,
+            img: '/assets/img/chocolatefondant.jpeg'
+          }
          
          
     ]
