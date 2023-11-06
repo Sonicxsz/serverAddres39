@@ -173,7 +173,7 @@ const items = [
   {
     'data' : 'autumn',
     'mini' : false,
-    'cat' : {"EN":'autumn',"RU":'Весеннее'},
+    'cat' : {"EN":'autumn',"RU":'Осеннее'},
     'items': [
       {
           id: 'au1',
