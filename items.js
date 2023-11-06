@@ -626,15 +626,6 @@ const items = [
             img: "https://avatars.mds.yandex.net/get-eda/3805363/38668bf155ad480288bd1359c6493097/450x300",
           },
           {
-            id: 44,
-            name:{'EN':'Avocado shrimp and tomato salad', 'RU':"Салат с креветками авокадо и томатами"}, 
-            title:{'EN':'Shrimp, Baku tomatoes, avocado, cilantro, sour cream, olive oil', 'RU':"Креветки, помидоры бакинские, авокадо, кинза, сметана, оливковое масло"},
-            price: 799,
-            count: 1,
-            grams: 250,
-            img: "https://avatars.mds.yandex.net/get-eda/3559865/16e8aaa2c91d4e1d87a1163fee124891/450x300",
-          },
-          {
             id: 45,
             name:{'EN':'Grilled shrimp Caesar', 'RU':"Цезарь с креветками на гриле"}, 
             title:{'EN':'Romano salad leaves, shrimp, cherry tomatoes, parmesan cheese, caesar sauce, wheat baguette croutons', 'RU':"Листья салата Романо, креветки, помидоры черри, сыр пармезан, соус цезарь, гренки из пшеничного багета"}, 
