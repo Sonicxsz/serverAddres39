@@ -764,7 +764,7 @@ const items = [
             id: 86,
             name:{'EN': 'Chicken noodle soup', 'RU':"Суп-лапша из цыпленка"} ,
             title:{'EN': 'Chicken broth, vermicelli, chicken fillet, quail egg, herbs', 'RU':"Куриный бульон, вермишель, куриное филе, перепелиное яйцо, зелень"} ,
-            price: 399,
+            price: 420,
             count: 1,
             grams: 450,
             img: "https://avatars.mds.yandex.net/get-eda/3725642/9f060f3824d44083bbdc5dae565dce9f/450x300",
@@ -1010,15 +1010,7 @@ const items = [
             grams: 350,
             img: "",
           },
-          {
-            id: 'm1',
-            name:{'EN': 'Chicken with truffle cole sloe', 'RU':"Цыпленок с трюфельным коул слоу" },
-            title:{'EN': 'Juicy baked farm chicken served whole with truffle cole sloe', 'RU':"Сочный запечённый фермерский цыпленок подается целиком с трюфельным коул слоу" },
-            price: 910,
-            count: 1,
-            grams: 260,
-            img: "/assets/items/m1.jpeg",
-          },
+      
           {
             id: 'm2',
             name:{'EN': 'Stewed veal cheek with mashed potatoes and tomatoes', 'RU':"Томлённая телячья щёчка с пюре и томатами" },
