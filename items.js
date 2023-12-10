@@ -340,7 +340,7 @@ const items = [
           price: 780,
           count: 1,
           grams: 60,
-          img: "",
+          img: "/assets/items/Sashimishrimp.jpeg",
         },
         {
           id: 2,
@@ -349,7 +349,7 @@ const items = [
           price: 820,
           count: 1,
           grams: 60,
-          img: "",
+          img: "/assets/items/Salmonsashimi.jpeg",
         },
         {
           id: 3,
@@ -420,7 +420,7 @@ const items = [
           price: 240,
           count: 1,
           grams: 30,
-          img: "",
+          img: "/assets/items/Sushishrimp.jpeg",
         },
         {
           id: 11,
@@ -463,7 +463,7 @@ const items = [
             price: 310,
             count: 1,
             grams: 100,
-            img: "",
+            img: "/assets/items/Avocadamaki.jpeg",
           },
           {
             id: 25,
@@ -481,7 +481,7 @@ const items = [
             price: 260,
             count: 1,
             grams: 100,
-            img: "",
+            img: "/assets/items/Makicucumber.jpeg",
           },
           {
             id: 27,
@@ -490,7 +490,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 100,
-            img: "",
+            img: "/assets/items/Makituna.jpeg",
           },
           {
             id: 28,
@@ -508,7 +508,7 @@ const items = [
             price: 910,
             count: 1,
             grams: 190,
-            img: "",
+            img: "/assets/items/RollCalifornia.jpeg",
           },
           {
             id: 30,
@@ -535,7 +535,7 @@ const items = [
             price: 1020,
             count: 1,
             grams: 200,
-            img: "",
+            img: "/assets/items/Rollwithsearedsalmon.jpeg",
           }
     ]
   },  
@@ -581,15 +581,6 @@ const items = [
             img: "https://avatars.mds.yandex.net/get-eda/3454897/71660cfbea344b4fbf02ce26adde63b3/450x300",
           },
           
-          {
-            id: 's1',
-            name:{'EN': 'Hummus with grilled broccoli', 'RU':"Хумус с брокколи гриль"},
-            title:{'EN': 'Chickpeas, tahini, ground cumin, lemon juice, broccoli, olive oil, sea salt, slivered almonds, zatar, sesame oil, sunflower and pumpkin seeds, microgreens', 'RU':"Нут, тахини, кумин молотый, лимонный сок, брокколи, масло оливковое, соль морская, миндаль слайс, затар, масло кунжутное, семечка подсолничника и тыквы, микрозелень"},
-            price: 490,
-            count: 1,
-            grams: 270,
-            img: "/assets/items/s1.jpeg",
-          },
      
     ]
   }, 
@@ -623,7 +614,7 @@ const items = [
             price: 489,
             count: 1,
             grams: 170,
-            img: "https://avatars.mds.yandex.net/get-eda/3805363/38668bf155ad480288bd1359c6493097/450x300",
+            img: "/assets/items/Greenbowl.jpeg",
           },
           {
             id: 45,
@@ -681,7 +672,7 @@ const items = [
             price: 890,
             count: 1,
             grams: 120,
-            img: "",
+            img: "/assets/items/Burratawithtomatoes.jpeg",
           },
           {
             id: 'sd5',
@@ -715,7 +706,7 @@ const items = [
             price: 920,
             count: 1,
             grams: 190,
-            img: "https://avatars.mds.yandex.net/get-eda/3502800/f9bcd9e54cff443394f97a19aaaf297b/450x300",
+            img: "/assets/items/Bruschettawithcrab.jpeg",
           },
           {
             id: 63,
@@ -767,7 +758,7 @@ const items = [
             price: 420,
             count: 1,
             grams: 450,
-            img: "https://avatars.mds.yandex.net/get-eda/3725642/9f060f3824d44083bbdc5dae565dce9f/450x300",
+            img: "/assets/img/Chickenbouillon.jpeg",
           }, 
           {
             id: 'so2',
@@ -785,7 +776,7 @@ const items = [
             price: 650,
             count: 1,
             grams: 450,
-            img: "/assets/items/so3.jpeg",
+            img: "/assets/items/Salmonseabassandcodfissoup.jpeg",
           },
           {
             id: 'so4',
@@ -810,7 +801,7 @@ const items = [
             price: 990,
             count: 1,
             grams: 300,
-            img: "/assets/items/p1.jpeg",
+            img: "/assets/items/Spaghettiwithcrab.jpeg",
           },
           {
             id: 'p2',
@@ -851,7 +842,7 @@ const items = [
             price: 790,
             count: 1,
             grams: 190,
-            img: "/assets/items/p8.jpeg",
+            img: "/assets/items/Risottowithbeeftartare.jpeg",
           },   {
             id: 'p9',
             name:{'EN':'Salmon ravioli', 'RU':"Равиоли с лососем"}, 
@@ -1104,15 +1095,6 @@ const items = [
             count: 1,
             grams: 170,
             img: "/assets/items/v1.jpeg",
-          },
-          {
-            id: 'v2',
-            name:{'EN': 'Baked yams with mushrooms and zazaki sauce', 'RU':"Запеченный батат с грибами и соусом дзадзики" },
-            title:{'EN': 'Batat, mushrooms, oyster mushrooms, ceps, vegetable oil, garlic puree, cucumbers, lean sour cream, olive oil, truffle oil, pearl onions, green onions, ground olives, dill, salt, pepper, thyme', 'RU':"Батат, шампиньоны, вешенки, белые грибы, масло растительное, чесночное пюре, огурцы, постная сметана, масло оливковое, масло трюфельное, жемчужный лук, лук зеленый, земля из маслин, укроп, соль, перец, тимьян" },
-            price: 590,
-            count: 1,
-            grams: 270,
-            img: "/assets/items/v2.jpeg",
           },
     ]
   }, 
