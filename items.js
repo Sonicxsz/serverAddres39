@@ -758,7 +758,7 @@ const items = [
             price: 420,
             count: 1,
             grams: 450,
-            img: "/assets/img/Chickenbouillon.jpeg",
+            img: "/assets/items/Chickenbouillon.jpeg",
           }, 
           {
             id: 'so2',
