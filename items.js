@@ -668,6 +668,7 @@ const items = [
             price: 710,
             count: 1,
             grams: 360,
+            modifier:{'EN':['sashimi','on the grill'], 'RU':['сашими','на гриле']}, 
             img: "/assets/img/brokencucumberandsalmon.jpeg",
           },
           {
@@ -718,15 +719,6 @@ const items = [
             img: "/assets/items/sd1.jpeg",
           },
           
-          {
-            id: 'sd2',
-            name:{'EN':'Salad with seafood and beet dressing', 'RU':"Салат с морепродуктами и свекольной заправкой"}, 
-            title:{'EN':'Fresh tomatoes, cherry tomatoes, cucumbers, green peas, cilantro, chervil, cream cheese beet, capers on a branch, mini squid, scallop, tiger prawns with head (1 piece), mussels, dressing (garlic juice, olive oil, lemon juice), salt, pepper', 'RU':"Помидоры свежие, томаты черри, огурцы, стручковый горох, кинза, кервель, крем-чиз свекольный, каперсы на ветке, мини-кальмар, гребешок, тигровые креветки с головой (1 шт.), мидии, заправка (чесночный сок, оливковое масло, лимонный фреш), соль, перец"}, 
-            price: 1100,
-            count: 1,
-            grams: 290,
-            img: "/assets/img/saladwithseafoodandbeetdressing.jpeg",
-          },
           
           {
             id: 'sd3',
@@ -994,15 +986,7 @@ const items = [
             img: "/assets/img/grilledshrimpwithspicysauce.jpeg",
         },  
           
-         {
-          id: 2342,
-          name: {'EN': 'Sea bass fillet with red couscous', 'RU': 'Филе сибаса с красным кускусом'},
-          title: {'EN': 'Sea bass fillet, zucchini, cilantro, pesto sauce, olive oil, tomato', 'RU': 'Сибас филе, цукини, кинза, соус песто, масло оливковое, томат'},
-          price: 910,
-          count: 1,
-          grams: 300,
-          img: "/assets/items/2342.jpg"
-         },  
+        
          {
           id: 2343,
           name: {'EN': 'Black cod on a bed of spinach', 'RU': 'Черная треска на подушке из шпината'},
@@ -1012,15 +996,7 @@ const items = [
           grams: 180,
           img: "/assets/img/blackcodonabedofspinach.jpeg"
          },
-         {
-          id: 'f1',
-          name: {'EN': 'Sautéed seafood', 'RU': 'Соте из морепродуктов'},
-          title: {'EN': 'Langoustines, shrimp, mussels, squid, scallop, grilled lemon and lime', 'RU': 'Лангустины, креветки, мидии, кальмары, гребешок, лимон и лайм гриль'},
-          price: 2400,
-          count: 1,
-          grams: 550,
-          img: "/assets/items/f1.jpeg"
-         },
+         
          {
           id: 'f2',
           name: {'EN': 'Mussels in Tom Yum Sauce', 'RU': 'Мидии в соусе том ям'},
