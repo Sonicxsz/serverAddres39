@@ -344,15 +344,7 @@ const items = [
             grams: 10,
             img: "https://avatars.mds.yandex.net/get-eda/3805363/82fc446f3def42d7bdf6a79840d52018/450x300",
           },
-          {
-            id: 52,
-            name:{'EN':'Imperial Oyster', 'RU':"Устрица императорская"}, 
-            title:{'EN':'Oyster, lemon, wine sauce (1 unit)', 'RU':"Устрица, лимон, соус Винный (1шт.)"}, 
-            price: 360,
-            count: 1,
-            grams: 10,
-            img: "https://avatars.mds.yandex.net/get-eda/3506804/3ba638771e994e14be16bbd17fd88590/450x300",
-          },
+         
           {
             id: 53,
             name:{'EN':'Oyster Pink Jolie', 'RU':"Устрица Розовая Джоли"},
@@ -397,6 +389,15 @@ const items = [
             count: 1,
             grams: 200,
             img: "/assets/img/tunatartar.jpeg",
+          },
+          {
+            id: 'rwb1',
+            name:{'EN':'Beef tartare', 'RU':"Тартар из говядины"}, 
+            title:{'EN':'', 'RU':""}, 
+            price: 920,
+            count: 1,
+            grams: 160,
+            img: "https://eda.yandex/images/3518584/f4fd21be40974999bb5348c1f1c61776-450x300.jpeg",
           },
     ]
   },
@@ -746,6 +747,15 @@ const items = [
             count: 1,
             grams: 180,
             img: "/assets/img/salmonandBloodOrangeSalad.jpeg",
+          },
+          {
+            id: 'sd6',
+            name:{'EN':'Salad with shrimp, avocado and tomatoes', 'RU':"Салат с креветками, авокадо и томатами"}, 
+            title:{'EN':'', 'RU':""}, 
+            price: 800,
+            count: 1,
+            grams: 250,
+            img: "https://eda.yandex/images/3682162/904470cd4da14c5fb961a577a3a79dc5-450x300.jpeg",
           }
     ]
   },
@@ -907,15 +917,8 @@ const items = [
             count: 1,
             grams: 190,
             img: "/assets/items/Risottowithbeeftartare.jpeg",
-          },   {
-            id: 'p9',
-            name:{'EN':'Salmon ravioli', 'RU':"Равиоли с лососем"}, 
-            title:{'EN':'Salmon, cremette cheese, fish broth, cream, tomatoes, microgreens, spinach, egg yolk, dough', 'RU':"Лосось, сыр креметте, рыбный бульон, сливки, томаты, микрозелень, шпинат, желток, тесто"}, 
-            price: 940,
-            count: 1,
-            grams: 200,
-            img: "/assets/items/p9.jpeg",
-          },   {
+          },   
+          {
             id: 'p10',
             name:{'EN':'Spaghetti Bolognese', 'RU':"Спагетти Болоньезе"}, 
             title:{'EN':'Spaghetti, bolognese sauce, arabiata pilati sauce, parmesan cheese, olive oil, microgreens, olive ground', 'RU':"Спагетти, соус болоньезе, соус арабьята пилати, сыр пармезан, масло оливковое, микрозелень, земля из маслин"}, 
