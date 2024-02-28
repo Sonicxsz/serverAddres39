@@ -363,15 +363,7 @@ const items = [
             grams: 10,
             img: "https://avatars.mds.yandex.net/get-eda/3378693/2f86c58f9fa14d4d957448168544b397/450x300",
           },
-          {
-            id: 49,
-            name:{'EN':'Beef tartar', 'RU':"Тартар из говядины"}, 
-            title:{'EN':'Beef loin, capers, mustard, tabasco, olive oil, croutons', 'RU':"Говяжья вырезка, каперсы, горчица, табаско, оливковое масло, гренки"},
-            price: 920,
-            count: 1,
-            grams: 160,
-            img: "https://avatars.mds.yandex.net/get-eda/3702558/efbdfaa6e41a44e381e6d08b932357ec/450x300",
-          },
+       
           {
             id: 50,
             name:{'EN':'Salmon and avocado tartare', 'RU':"Тартар из лосося и авокадо"}, 
@@ -393,7 +385,7 @@ const items = [
           {
             id: 'rwb1',
             name:{'EN':'Beef tartare', 'RU':"Тартар из говядины"}, 
-            title:{'EN':'', 'RU':""}, 
+            title:{'EN':'Beef loin, capers, mustard, tabasco, olive oil, croutons', 'RU':"Говяжья вырезка, каперсы, горчица, табаско, оливковое масло, гренки"}, 
             price: 920,
             count: 1,
             grams: 160,
@@ -710,16 +702,7 @@ const items = [
           },
       
 
-          {
-            id: 'sd1',
-            name:{'EN':'Salad with shrimp, avocado and tomatoes', 'RU':"Салат с креветками, авокадо и томатами"}, 
-            title:{'EN':'Shrimp, Baku tomatoes, avocado, cilantro, sour cream, olive oil, sesame', 'RU':"Креветки, помидоры бакинские, авокадо, кинза, сметана, оливковое масло, кунжут"}, 
-            price: 800,
-            count: 1,
-            grams: 250,
-            img: "/assets/items/sd1.jpeg",
-          },
-          
+        
           
           {
             id: 'sd3',
@@ -751,7 +734,7 @@ const items = [
           {
             id: 'sd6',
             name:{'EN':'Salad with shrimp, avocado and tomatoes', 'RU':"Салат с креветками, авокадо и томатами"}, 
-            title:{'EN':'', 'RU':""}, 
+            title:{'EN':'Shrimp, Baku tomatoes, avocado, cilantro, sour cream, olive oil, sesame', 'RU':"Креветки, помидоры бакинские, авокадо, кинза, сметана, оливковое масло, кунжут"}, 
             price: 800,
             count: 1,
             grams: 250,
@@ -1144,7 +1127,7 @@ const items = [
             title:{'EN': 'Grilled cabbage steak served with cream sauce and red caviar', 'RU':"Стейк из капусты на гриле подается со сливочным соусом и красной икрой" },
             price: 690,
             count: 1,
-            grams: 170,
+            grams: 250,
             img: "/assets/items/v1.jpeg",
           },
     ]
