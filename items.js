@@ -259,77 +259,7 @@ const items = [
         
     ]
   },
-  {
-    'data' : 'winter',
-    'mini' : false,
-    'cat' : {"EN":'Winter',"RU":'Зимнее'},
-    'items': [
-      {
-        id: 'zim1',
-        name:{'EN':'Salad with crab and mango', 'RU':"Салат с крабом и манго"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 1250,
-        count: 1,
-        grams: 220,
-        img: "https://eda.yandex/images/3514991/6e5d8a50f67b4574b2561c54f326268d-450x300.jpeg",
-      },
-      {
-        id: 'zim2',
-        name:{'EN':'Warm salad with chorizo', 'RU':"Тёплый салат с чоризо"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 860,
-        count: 1,
-        grams: 210,
-        img: "https://eda.yandex/images/3667559/692ceec1fd974697a4557695ef2a563b-450x300.jpeg",
-      },
-      {
-        id: 'zim3',
-        name:{'EN':'Black spaghetti with squid', 'RU':"Чёрные спагетти с кальмаром"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 790,
-        count: 1,
-        grams: 170,
-        img: "https://eda.yandex/images/3435765/268cbc7097a9462fb929efcb4426b406-450x300.jpeg",
-      },
-      {
-        id: 'zim4',
-        name:{'EN':'Pappardelle with Gorgonzola', 'RU':"Паппарделле с горгонзолой"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 790,
-        count: 1,
-        grams: 150,
-        img: "https://eda.yandex/images/3512182/4f2ac0d0a81a4bb5b81a34b2b7a6cf4c-450x300.jpeg",
-      },
-      {
-        id: 'zim5',
-        name:{'EN':'Beef rib', 'RU':"Говяжье ребро"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 1350,
-        modifier:{'EN':['with polenta', 'with puree'], 'RU':['с полентой','с пюре']},
-        count: 1,
-        grams: 350,
-        img: "https://eda.yandex/images/3512826/aa19592226444640a787c61eef028e59-450x300.jpeg",
-      },
-      {
-        id: 'zim6',
-        name:{'EN':'Beefsteak with mushroom julienne', 'RU':"Бифштекс с грибным жюльеном"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 1450,
-        count: 1,
-        grams: 350,
-        img: "https://eda.yandex/images/3507285/44245d4a3cdf4648835bd8ab090d2fa3-450x300.jpeg",
-      },
-      {
-        id: 'zim7',
-        name:{'EN':'Marbled beef cutlets', 'RU':"Котлеты из мраморной говядины"}, 
-        title:{'EN':'', 'RU':""}, 
-        price: 990,
-        count: 1,
-        grams: 380,
-        img: "/assets/img/mramorBeef.jpeg",
-      },
-    ]
-  },
+  
   {
     'data' : 'rawbar',
     'mini' : false,
