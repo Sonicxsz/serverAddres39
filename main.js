@@ -13,8 +13,8 @@ class Mail {
     #getTransporter(){
         return nodeMailer.createTransport({
             host: EMAIL_HOST,
-            port: EMAIL_PORT,
-            secure: false,
+            port: 465,
+            secure: true,
             auth: {
                 user: EMAIL_HOST_USERNAME,
                 pass: EMAIL_HOST_PASSWORD
