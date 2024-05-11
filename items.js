@@ -433,7 +433,7 @@ const items = [
           price: 270,
           count: 1,
           grams: 30,
-          img: "",
+          img: "/assets/img/susiTuna.jpg",
         },
         {
           id: 13,
@@ -546,7 +546,7 @@ const items = [
             price: 1420,
             count: 1,
             grams: 150,
-            img: "https://avatars.mds.yandex.net/get-eda/3506707/3a4692592f0e4b5a9100d490f02a0974/450x300",
+            img: "/assets/img/assorti.jpg",
           },
           {
             id: 77,
@@ -564,7 +564,7 @@ const items = [
             price: 1200,
             count: 1,
             grams: 250,
-            img: "https://avatars.mds.yandex.net/get-eda/3504598/5f54f90f71ff42eeb2bcf0cd3c58a9cc/450x300",
+            img: "/assets/img/anitipast.jpg",
           },
           {
             id: 79,
@@ -573,7 +573,7 @@ const items = [
             price: 1800,
             count: 1,
             grams: 340,
-            img: "https://avatars.mds.yandex.net/get-eda/3454897/71660cfbea344b4fbf02ce26adde63b3/450x300",
+            img: "/assets/img/chees.jpg",
           },
           
      
@@ -745,7 +745,7 @@ const items = [
             price: 420,
             count: 1,
             grams: 450,
-            img: "https://eda.yandex/images/3725642/9f060f3824d44083bbdc5dae565dce9f-450x300.jpeg",
+            img: "/assets/img/lap.jpg",
           }, 
           {
             id: 'so2',
@@ -890,7 +890,7 @@ const items = [
           price: 720,
           count: 1,
           grams: 500,
-          img: "https://avatars.mds.yandex.net/get-eda/3593277/88a00787ad4647a1a789d184cd12667a/450x300",
+          img: "/assets/img/midii.jpg",
         },
         {
             id: 80,
@@ -963,9 +963,8 @@ const items = [
             price: 1700,
             count: 1,
             grams: 350,
-            img: "",
+            img: "/assets/img/minon.jpg",
           },
-      
           {
             id: 'm2',
             name:{'EN': 'Stewed veal cheek with mashed potatoes and tomatoes', 'RU':"Томлённая телячья щёчка с пюре и томатами" },
