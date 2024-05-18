@@ -677,15 +677,7 @@ const items = [
     'mini' : false,
     'cat':{"EN":'Bruschetta',"RU":'Брускетты'},
     'items': [
-        {
-            id: 61,
-            name:{'EN': 'With Prosciutto and Strachella', 'RU':"С Прошутто и Страчеллой" },
-            title:{'EN': 'Grain bread, Prosciutto, Strachella cheese, cherry tomatoes, lettuce', 'RU':"Хлеб зерновой, Прошутто, сыр Страчелла, помидоры Черри, салат" },
-            price: 720,
-            count: 1,
-            grams: 190,
-            img: "/assets/img/withProsciuttoandStrachella.jpeg",
-          },
+
           {
             id: 62,
             name:{'EN': 'Bruschetta with crab and pickled tomatoes', 'RU':"Брускетта с крабом и маринованными томатами" },
@@ -742,7 +734,7 @@ const items = [
             id: 86,
             name:{'EN': 'Chicken noodle soup', 'RU':"Суп-лапша из цыпленка"} ,
             title:{'EN': 'Chicken broth, vermicelli, chicken fillet, quail egg, herbs', 'RU':"Куриный бульон, вермишель, куриное филе, перепелиное яйцо, зелень"} ,
-            price: 850,
+            price: 420,
             count: 1,
             grams: 450,
             img: "/assets/img/lap.jpg",
@@ -760,7 +752,7 @@ const items = [
             id: 'so3',
             name:{'EN': 'Salmon, sea bass and cod soup', 'RU':"Уха из лосося, сибаса и трески"} ,
             title:{'EN': 'Fish broth, mussels, salmon, sea bass, cod, potatoes, tomatoes, garlic fresh, dill, parsley', 'RU':"Бульон рыбный, мидии, лосось, сибас, треска, картофель, томаты, чесночный фреш, укроп, петрушка"} ,
-            price: 650,
+            price: 850,
             count: 1,
             grams: 450,
             img: "/assets/items/Salmonseabassandcodfissoup.jpeg",
@@ -929,15 +921,7 @@ const items = [
     'mini': false,
     'cat':{"EN":'Meat and poultry',"RU":'Мясо и птица'},
     'items': [
-        {
-            id: 71,
-            name:{'EN': 'Asian beef with rice', 'RU':"Говядина по-азиатски с рисом" },
-            title:{'EN': 'Beef loin, rice, pea pods, soy sprouts, Asian sauce', 'RU':"Говяжья вырезка, рис, стручки гороха, ростки сои, соус азиатский" },
-            price: 910,
-            count: 1,
-            grams: 280,
-            img: "/assets/img/asianbeefwithrice.jpeg",
-          },
+
           {
             id: 72,
             name:{'EN': 'Chicken curry with rice', 'RU':"Курица карри с рисом" },
