@@ -601,7 +601,7 @@ const items = [
             price: 810,
             count: 1,
             grams: 310,
-            img: "/assets/img/greeksaladwithkalamataolives.jpeg",
+            img: "/assets/items/photo1716123871.jpeg",
           },
           {
             id: 43,
@@ -903,19 +903,9 @@ const items = [
           count: 1,
           grams: 180,
           img: "/assets/img/blackcodonabedofspinach.jpeg"
-         },
-         
-         {
-          id: 'f2',
-          name: {'EN': 'Mussels in Tom Yum Sauce', 'RU': 'Мидии в соусе том ям'},
-          title: {'EN': 'Mussels, shallots, garlic fraiche, coconut milk, tom yum paste, butter, cilantro, bread', 'RU': 'Мидии, лук-шалот, чесночный фреш, молоко кокосовое, паста том ям, сливочное масло, кинза, хлеб'},
-          price: 800,
-          count: 1,
-          grams: 350,
-          img: "/assets/items/f2.jpeg"
          }
     ]
-  }, 
+  },
   {
     'data': 'meatPoultry',
     'mini': false,
