@@ -168,7 +168,96 @@
 //     ]
 // }
 
-const items = [ 
+
+
+
+const items = [
+  {
+    'data': 'season',
+    'mini':  false,
+    'cat': {
+      'EN': 'Season menu', 'RU': 'Сезонное меню'
+    },
+    items: [
+      {
+        id: 'rul6',
+        name: {
+          'EN': 'Ramiro pepper with ricotta and tarragon',
+          'RU': 'Перец рамиро с рикоттой и эстрагоном'
+        },
+        price: 720,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/3793239/63406e2911984686b49d6c8937ca14ce-400x400.jpeg",
+      },
+      {
+        id: 'rul5',
+        name: {
+          'EN': 'Country salad',
+          'RU': 'Салат деревенский'
+        },
+        price: 580,
+        count: 1,
+        grams: 225,
+        img: "https://eda.yandex/images/3508859/922c81105afa4827bd4c2bc3bc1fc215-400x400.jpeg",
+      },
+      {
+        id: 'rul4',
+        name: {
+          'EN': 'Salad with shrimps and wild garlic',
+          'RU': 'Салат с креветками и черемшой'
+        },
+        price: 1090,
+        count: 1,
+        grams: 210,
+        img: "https://eda.yandex/images/2761069/89cf07d3ac1a451da5befb1d01c064e9-400x400.jpeg",
+      },
+      {
+        id: 'rul3',
+        name: {
+          'EN': 'Okroshka with beef tongue',
+          'RU': 'Окрошка с говяжьим языком'
+        },
+        price: 650,
+        count: 1,
+        grams: 455,
+        img: "https://eda.yandex/images/3191933/7e461dc7723645a1a42fa802352cd530-400x400.jpeg",
+      },
+      {
+        id: 'rul2',
+        name: {
+          'EN': 'Gazpacho with crab',
+          'RU': 'Гаспачо с крабом'
+        },
+        price: 910,
+        count: 1,
+        grams: 350,
+        img: "https://eda.yandex/images/2761069/66533bae1e4f4193b94ad63b3ef78ce8-400x400.jpeg",
+      },
+      {
+        id: 'rul1',
+        name: {
+          'EN': 'Crab cakes with fresh vegetables',
+          'RU': 'Крабовые котлеты со свежими овощами'
+        },
+        price: 1450,
+        count: 1,
+        grams: 245,
+        img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-400x400.jpeg",
+      },
+      {
+        id: 'rul',
+        name: {
+          'EN': 'Baked eggplant with pesto',
+          'RU': 'Запеченный баклажан с песто'
+        },
+        price: 750,
+        count: 1,
+        grams: 170,
+        img: "",
+      }
+    ]
+  },
   {
     'data' : 'breakfast',
     'mini' : false,
