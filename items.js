@@ -200,6 +200,7 @@ const items = [
         count: 1,
         grams: 225,
         img: "https://eda.yandex/images/3508859/922c81105afa4827bd4c2bc3bc1fc215-400x400.jpeg",
+        modifier:{'EN':['Sour cream','Olive oil', 'Homemade Fragrance Oil'], 'RU':['Сметана','Оливковое масло', 'Домашнее ароматное масло']},
       },
       {
         id: 'rul4',
@@ -221,6 +222,7 @@ const items = [
         price: 650,
         count: 1,
         grams: 455,
+        modifier:{'EN':['with kvass','on kefir'], 'RU':['на квасе','на кефире']},
         img: "https://eda.yandex/images/3191933/7e461dc7723645a1a42fa802352cd530-400x400.jpeg",
       },
       {
