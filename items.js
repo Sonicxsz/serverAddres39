@@ -628,7 +628,7 @@ const items = [
   {
     'data' : 'starters',
     'mini' : false,
-    'cat':{"EN":'starters',"RU":'Закуски'},
+    'cat':{"EN":'Starters',"RU":'Закуски'},
     'items': [
         {
             id: 76,
