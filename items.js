@@ -331,7 +331,43 @@ const items = [
             grams: 170,
             img: "/assets/img/cheesecakeswithmeltedmilkandsourcream.jpeg",
           },
-        
+          {
+            id: "breakfast0108202403",
+            name:{'EN': 'Benedict with salmon and truffle Golandaise', 'RU':"Бенедикт с лососем и трюфельным Голандез"} ,
+            title:{'EN': '', 'RU':""} ,
+            price: 990,
+            count: 1,
+            grams: 220,
+            img: "/assets/img/eggsbenedictwithsalmononabriochebun.jpeg",
+          },
+
+      {
+        id: "breakfast0108202402",
+        name:{'EN': 'Benedict with mortadella and truffle Golandaise', 'RU':"Бенедикт с мортаделлой с трюфельным Голандез"} ,
+        title:{'EN': '', 'RU':""} ,
+        price: 990,
+        count: 1,
+        grams: 220,
+        img: "",
+      },
+      {
+        id: "breakfast0108202404",
+        name:{'EN': 'Shakshuka', 'RU':"Шакшука"} ,
+        title:{'EN': '', 'RU':""} ,
+        price: 800,
+        count: 1,
+        grams: 300,
+        img: "",
+      },
+      {
+        id: 22,
+        name:{'EN': 'Scrambled eggs with spinach', 'RU':"Яичница со шпинатом"} ,
+        title:{'EN': '', 'RU':""} ,
+        price: 500,
+        count: 1,
+        grams: 220,
+        img: "",
+      },
     ]
   },
   
