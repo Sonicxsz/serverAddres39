@@ -360,7 +360,7 @@ const items = [
         img: "",
       },
       {
-        id: 22,
+        id: "breakfast0108202406",
         name:{'EN': 'Scrambled eggs with spinach', 'RU':"Яичница со шпинатом"} ,
         title:{'EN': '', 'RU':""} ,
         price: 500,
