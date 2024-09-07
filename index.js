@@ -27,7 +27,7 @@ app.use('/api/v1', apiRouter)
 
 app.post('/mail', async(req, res) => {
   const {order, telegrammOrder, type} = req.body
-  await bot.sendMessage('-4548345225', telegrammOrder, { parse_mode: 'HTML' })
+  await bot.sendMessage('-1002362181304', telegrammOrder, { parse_mode: 'HTML' })
   return res.json({res: await mail.send(order, type)})
 })  
 
