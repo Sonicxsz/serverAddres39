@@ -185,7 +185,7 @@ const items = [
           'EN': 'Ramiro pepper with ricotta and tarragon',
           'RU': 'Перец рамиро с рикоттой и эстрагоном'
         },
-        price: 720,
+        price: 580,
         count: 1,
         grams: 200,
         img: "https://eda.yandex/images/3793239/63406e2911984686b49d6c8937ca14ce-400x400.jpeg",
@@ -196,7 +196,7 @@ const items = [
           'EN': 'Country salad',
           'RU': 'Салат деревенский'
         },
-        price: 580,
+        price: 480,
         count: 1,
         grams: 225,
         img: "https://eda.yandex/images/3508859/922c81105afa4827bd4c2bc3bc1fc215-400x400.jpeg",
@@ -208,7 +208,7 @@ const items = [
           'EN': 'Salad with shrimps and wild garlic',
           'RU': 'Салат с креветками и черемшой'
         },
-        price: 1090,
+        price: 980,
         count: 1,
         grams: 210,
         img: "https://eda.yandex/images/2761069/89cf07d3ac1a451da5befb1d01c064e9-400x400.jpeg",
@@ -219,7 +219,7 @@ const items = [
           'EN': 'Okroshka with beef tongue',
           'RU': 'Окрошка с говяжьим языком'
         },
-        price: 650,
+        price: 550,
         count: 1,
         grams: 455,
         modifier:{'EN':['with kvass','on kefir'], 'RU':['на квасе','на кефире']},
@@ -231,7 +231,7 @@ const items = [
           'EN': 'Gazpacho with crab',
           'RU': 'Гаспачо с крабом'
         },
-        price: 910,
+        price: 780,
         count: 1,
         grams: 350,
         img: "https://eda.yandex/images/2761069/66533bae1e4f4193b94ad63b3ef78ce8-400x400.jpeg",
@@ -242,7 +242,7 @@ const items = [
           'EN': 'Crab cakes with fresh vegetables',
           'RU': 'Крабовые котлеты со свежими овощами'
         },
-        price: 1450,
+        price: 1300,
         count: 1,
         grams: 245,
         img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-400x400.jpeg",
@@ -253,7 +253,7 @@ const items = [
           'EN': 'Baked eggplant with pesto',
           'RU': 'Запеченный баклажан с песто'
         },
-        price: 750,
+        price: 620,
         count: 1,
         grams: 170,
         img: "",
@@ -523,7 +523,7 @@ const items = [
           id: 10,
           name:{'EN': 'Sushi with shrimp', 'RU': "Суши с креветкой"},
           title:{'EN': 'Shrimp, rice', 'RU': "Креветка, рис"},
-          price: 240,
+          price: 210,
           count: 1,
           grams: 30,
           img: "/assets/items/Sushishrimp.jpeg",
@@ -672,7 +672,7 @@ const items = [
             id: 78,
             name:{'EN': 'Antipasti Set', 'RU': "Сет Антипасти"},
             title:{'EN': 'Kalamata olives, sun-dried tomatoes, artichokes', 'RU':"Оливки каламата, вяленые томаты, артишоки" },
-            price: 1200,
+            price: 1400,
             count: 1,
             grams: 250,
             img: "/assets/img/anitipast.jpg",
