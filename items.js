@@ -168,96 +168,204 @@
 //     ]
 // }
 
-
+// {
+//   'data': 'season',
+//     'mini':  false,
+//     'cat': {
+//   'EN': 'Season menu', 'RU': 'Сезонное меню'
+//
+//   items: [
+//     {
+//       id: 'rul6',
+//       name: {
+//         'EN': 'Ramiro pepper with ricotta and tarragon',
+//         'RU': 'Перец рамиро с рикоттой и эстрагоном'
+//       },
+//       price: 580,
+//       count: 1,
+//       grams: 200,
+//       img: "https://eda.yandex/images/3793239/63406e2911984686b49d6c8937ca14ce-400x400.jpeg",
+//     },
+//     {
+//       id: 'rul5',
+//       name: {
+//         'EN': 'Country salad',
+//         'RU': 'Салат деревенский'
+//       },
+//       price: 480,
+//       count: 1,
+//       grams: 225,
+//       img: "https://eda.yandex/images/3508859/922c81105afa4827bd4c2bc3bc1fc215-400x400.jpeg",
+//       modifier:{'EN':['Sour cream','Olive oil', 'Homemade Fragrance Oil'], 'RU':['Сметана','Оливковое масло', 'Домашнее ароматное масло']},
+//     },
+//     {
+//       id: 'rul4',
+//       name: {
+//         'EN': 'Salad with shrimps and wild garlic',
+//         'RU': 'Салат с креветками и черемшой'
+//       },
+//       price: 980,
+//       count: 1,
+//       grams: 210,
+//       img: "https://eda.yandex/images/2761069/89cf07d3ac1a451da5befb1d01c064e9-400x400.jpeg",
+//     },
+//     {
+//       id: 'rul3',
+//       name: {
+//         'EN': 'Okroshka with beef tongue',
+//         'RU': 'Окрошка с говяжьим языком'
+//       },
+//       price: 550,
+//       count: 1,
+//       grams: 455,
+//       modifier:{'EN':['with kvass','on kefir'], 'RU':['на квасе','на кефире']},
+//       img: "https://eda.yandex/images/3191933/7e461dc7723645a1a42fa802352cd530-400x400.jpeg",
+//     },
+//     {
+//       id: 'rul2',
+//       name: {
+//         'EN': 'Gazpacho with crab',
+//         'RU': 'Гаспачо с крабом'
+//       },
+//       price: 780,
+//       count: 1,
+//       grams: 350,
+//       img: "https://eda.yandex/images/2761069/66533bae1e4f4193b94ad63b3ef78ce8-400x400.jpeg",
+//     },
+//     {
+//       id: 'rul1',
+//       name: {
+//         'EN': 'Crab cakes with fresh vegetables',
+//         'RU': 'Крабовые котлеты со свежими овощами'
+//       },
+//       price: 1300,
+//       count: 1,
+//       grams: 245,
+//       img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-400x400.jpeg",
+//     },
+//     {
+//       id: 'rul',
+//       name: {
+//         'EN': 'Baked eggplant with pesto',
+//         'RU': 'Запеченный баклажан с песто'
+//       },
+//       price: 620,
+//       count: 1,
+//       grams: 170,
+//       img: "",
+//     }
+//   ]
+// }
 
 
 const items = [
   {
-    'data': 'season',
+    'data': 'autumn',
     'mini':  false,
     'cat': {
-      'EN': 'Season menu', 'RU': 'Сезонное меню'
+      'EN': 'Autumn menu', 'RU': 'Осеннее меню'
     },
     items: [
+
       {
-        id: 'rul6',
+        id: 'os1',
         name: {
-          'EN': 'Ramiro pepper with ricotta and tarragon',
-          'RU': 'Перец рамиро с рикоттой и эстрагоном'
+          'EN': 'Sea bass ceviche\n',
+          'RU': 'Севиче из сибаса'
         },
-        price: 580,
-        count: 1,
-        grams: 200,
-        img: "https://eda.yandex/images/3793239/63406e2911984686b49d6c8937ca14ce-400x400.jpeg",
-      },
-      {
-        id: 'rul5',
-        name: {
-          'EN': 'Country salad',
-          'RU': 'Салат деревенский'
-        },
-        price: 480,
-        count: 1,
-        grams: 225,
-        img: "https://eda.yandex/images/3508859/922c81105afa4827bd4c2bc3bc1fc215-400x400.jpeg",
-        modifier:{'EN':['Sour cream','Olive oil', 'Homemade Fragrance Oil'], 'RU':['Сметана','Оливковое масло', 'Домашнее ароматное масло']},
-      },
-      {
-        id: 'rul4',
-        name: {
-          'EN': 'Salad with shrimps and wild garlic',
-          'RU': 'Салат с креветками и черемшой'
-        },
-        price: 980,
-        count: 1,
-        grams: 210,
-        img: "https://eda.yandex/images/2761069/89cf07d3ac1a451da5befb1d01c064e9-400x400.jpeg",
-      },
-      {
-        id: 'rul3',
-        name: {
-          'EN': 'Okroshka with beef tongue',
-          'RU': 'Окрошка с говяжьим языком'
-        },
-        price: 550,
-        count: 1,
-        grams: 455,
-        modifier:{'EN':['with kvass','on kefir'], 'RU':['на квасе','на кефире']},
-        img: "https://eda.yandex/images/3191933/7e461dc7723645a1a42fa802352cd530-400x400.jpeg",
-      },
-      {
-        id: 'rul2',
-        name: {
-          'EN': 'Gazpacho with crab',
-          'RU': 'Гаспачо с крабом'
-        },
-        price: 780,
-        count: 1,
-        grams: 350,
-        img: "https://eda.yandex/images/2761069/66533bae1e4f4193b94ad63b3ef78ce8-400x400.jpeg",
-      },
-      {
-        id: 'rul1',
-        name: {
-          'EN': 'Crab cakes with fresh vegetables',
-          'RU': 'Крабовые котлеты со свежими овощами'
-        },
-        price: 1300,
-        count: 1,
-        grams: 245,
-        img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-400x400.jpeg",
-      },
-      {
-        id: 'rul',
-        name: {
-          'EN': 'Baked eggplant with pesto',
-          'RU': 'Запеченный баклажан с песто'
-        },
-        price: 620,
+        price: 800,
         count: 1,
         grams: 170,
-        img: "",
-      }
+        img: "https://avatars.mds.yandex.net/get-eda/3772831/c5c3a26c9f9b4190b693d9b61960c78f/orig",
+      },
+{
+  id: 'os2',
+      name: {
+      'EN': 'Salad with pumpkin and gorgonzola espuma',
+      'RU': 'Салат с тыквой и эспумой из горгондзолы'
+  },
+  price: 700,
+  count: 1,
+  grams: 170,
+  img: "https://avatars.mds.yandex.net/get-eda/1365461/9a7b732ad7f34cc0827428e28d733660/orig",
+},{
+  id: 'os3',
+      name: {
+      'EN': 'Salad with caramelized figs, prosciutto and goat cheese',
+        'RU': 'Салат с карамелизированным инжиром, прошутто и козьим сыром'
+  },
+  price: 900,
+      count: 1,
+      grams: 170,
+      img: "https://avatars.mds.yandex.net/get-eda/3809330/1e06c62364bb43de8f8fdab734d74275/orig",
+},{
+  id: 'os4',
+      name: {
+      'EN': 'Beef carpaccio with truffle',
+        'RU': 'Карпаччо из говядины с трюфелем'
+  },
+  price: 900,
+      count: 1,
+      grams: 170,
+      img: "https://avatars.mds.yandex.net/get-eda/1365461/e9d6dfb1fe924466934c22795bfcd420/orig",
+},
+{
+  id: 'os5',
+      name: {
+  'EN': 'Mushroom soup',
+      'RU': 'Грибная похлебка'
+},
+  price: 700,
+      count: 1,
+    grams: 300,
+    img: "https://avatars.mds.yandex.net/get-eda/12773219/2902a24fe8614dc0b54d6f3d09bc6cdd/orig",
+},
+{
+  id: 'os6',
+      name: {
+      'EN': 'Pumpkin cream soup with coconut milk\n',
+      'RU': 'Тыквенный крем-суп с кокосовым молоком'
+},
+  price: 600,
+      count: 1,
+    grams: 310,
+    img: "https://avatars.mds.yandex.net/get-eda/3793239/5c33e05812244958a9e75e198564a8a2/orig",
+},
+{
+  id: 'os7',
+      name: {
+  'EN': 'Risotto with pumpkin and gorgonzola cream',
+      'RU': 'Ризотто с тыквой и кремом из горгонзолы'
+},
+  price: 800,
+      count: 1,
+    grams: 240,
+    img: "https://avatars.mds.yandex.net/get-eda/10503578/c81113b47eef409ab3d260501a0158bc/orig",
+},
+      {
+        id: 'os8',
+        name: {
+          'EN': 'Lambs tongues with colored mini carrots\n',
+          'RU': 'Язычки ягнят с цветной мини-морковью'
+        },
+        price: 1100,
+        count: 1,
+        grams: 270,
+        img: "https://avatars.mds.yandex.net/get-eda/13055084/443b17e9848141f6b254fdf671661125/orig",
+      },
+      {
+        id: 'os9',
+        name: {
+          'EN': 'Casserole with figs, praline and ice cream',
+          'RU': 'Запеканка с инжиром, пралине и мороженным'
+        },
+        price: 870,
+        count: 1,
+        grams: 170,
+        img: "https://avatars.mds.yandex.net/get-eda/13055084/2198963c917b4c15a0371142f7d64463/orig",
+      },
+
+
     ]
   },
   {
