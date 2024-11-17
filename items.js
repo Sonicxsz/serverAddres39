@@ -381,7 +381,7 @@ const items = [
             price: 910,
             count: 1,
             grams: 200,
-            img: "/assets/img/zucchinidredgeswithsalmonandcreamsauce.jpeg",
+            img: "/assets/img/brekfast/10.jpg",
           },
         {
           id: "breakfast0108202401",
@@ -390,7 +390,7 @@ const items = [
           price: 870,
           count: 1,
           grams: 220,
-          img: "",
+          img: "/assets/img/brekfast/2.jpg",
         },
 
           {
@@ -400,7 +400,7 @@ const items = [
             price: 770,
             count: 1,
             grams: 265,
-            img: "",
+            img: "/assets/img/brekfast/6.jpg",
           },
 
           {
@@ -419,7 +419,7 @@ const items = [
             price: 550,
             count: 1,
             grams: 370,
-            img: "/assets/img/buckwheatporridgewithpoachedeggandparmesan.jpeg",
+            img: "/assets/img/brekfast/8.jpg",
           },{
             id: 'z3',
             name:{'EN': 'Omelet with crab and truffle sauce', 'RU':"Омлет с крабом и трюфельным соусом"},
@@ -427,7 +427,7 @@ const items = [
             price: 990,
             count: 1,
             grams: 220,
-            img: "/assets/img/omeletwithcrabandtrufflesauce.jpeg",
+          img: "/assets/img/brekfast/7.jpg",
           },
          
           {
@@ -437,7 +437,7 @@ const items = [
             price: 420,
             count: 1,
             grams: 170,
-            img: "/assets/img/cheesecakeswithmeltedmilkandsourcream.jpeg",
+            img: "/assets/img/brekfast/1.jpg",
           },
           {
             id: "breakfast0108202403",
@@ -446,7 +446,7 @@ const items = [
             price: 990,
             count: 1,
             grams: 220,
-            img: "/assets/img/eggsbenedictwithsalmononabriochebun.jpeg",
+            img: "/assets/img/brekfast/4.jpg",
           },
 
       {
@@ -456,26 +456,10 @@ const items = [
         price: 990,
         count: 1,
         grams: 220,
-        img: "",
+        img: "/assets/img/brekfast/9.jpg",
       },
-      {
-        id: "breakfast0108202404",
-        name:{'EN': 'Shakshuka', 'RU':"Шакшука"} ,
-        title:{'EN': '', 'RU':""} ,
-        price: 800,
-        count: 1,
-        grams: 300,
-        img: "",
-      },
-      {
-        id: "breakfast0108202406",
-        name:{'EN': 'Scrambled eggs with spinach', 'RU':"Яичница со шпинатом"} ,
-        title:{'EN': '', 'RU':""} ,
-        price: 500,
-        count: 1,
-        grams: 220,
-        img: "",
-      },
+
+
     ]
   },
   
@@ -1277,15 +1261,7 @@ const items = [
             grams: 160,
             img: "/assets/img/mileswithpatisseriecreamandfreshberries.jpeg",
           },
-          {
-            id: 'ds3',
-            name: {'EN': 'Panna cotta', 'RU': 'Панна-котта'},
-            title: {'EN': '', 'RU': ''},
-            price: 660,
-            grams: 150,
-            count: 1,
-            img: '/assets/img/pannacotta.jpeg'
-          },
+
           {
             id: 'ds5',
             name: {'EN': 'Chocolate fondant with vanilla ice cream', 'RU': 'Шоколадный фондан с ванильным мороженым'},
