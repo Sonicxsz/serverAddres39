@@ -1,6 +1,110 @@
 
 const items = [
   {
+    'data' : 'winter',
+    'mini' : false,
+    'cat':{"EN":'Winter menu',"RU":'Зимнее меню'},
+    'items': [
+
+      {
+        id: "W1",
+        name:{'EN': 'Assorted meze with ciabatta', 'RU':"Ассорти мезе с чиабаттой"} ,
+        title:{'EN': '', 'RU':""},
+        price: 1200,
+        count: 1,
+        grams: 290,
+        img: "",
+      },
+
+      {
+        id: "W2",
+        name:{'EN': 'Soup with salmon and green peas', 'RU':"Суп с лососем и зеленым горошком"} ,
+        title:{'EN': '', 'RU':""},
+        price: 790,
+        count: 1,
+        grams: 500,
+        img: "",
+      },
+
+      {
+        id: "W3",
+        name:{'EN': 'Vitello tonnato', 'RU':"Вителло тоннато"} ,
+        title:{'EN': '', 'RU':""},
+        price: 900,
+        count: 1,
+        grams: 150,
+        img: "",
+      },
+      {
+        id: "W4",
+        name:{'EN': 'Salad with squid and chorizo', 'RU':"Салат с кальмаром и чоризо"} ,
+        title:{'EN': '', 'RU':""},
+        price: 850,
+        count: 1,
+        grams: 210,
+        img: "",
+      },
+
+      {
+        id: "W5",
+        name:{'EN': 'Roast beef salad', 'RU':"Салат с ростбифом"} ,
+        title:{'EN': '', 'RU':""},
+        price: 1100,
+        count: 1,
+        grams: 200,
+        img: "",
+      },
+
+      {
+        id: "W6",
+        name:{'EN': 'Shrimp in creamy pepper sauce', 'RU':"Креветки в сливочно-перечном соусе"} ,
+        title:{'EN': '', 'RU':""},
+        price: 780,
+        count: 1,
+        grams: 200,
+        img: "",
+      },
+      {
+        id: "W7",
+        name:{'EN': 'Potato gratin with truffle and sour cream', 'RU':"Картофельный гратен с трюфелем и сметаной"} ,
+        title:{'EN': '', 'RU':""},
+        price: 840,
+        count: 1,
+        grams: 195,
+        img: "",
+      },
+
+      {
+        id: "W8",
+        name:{'EN': 'Black risotto with Commander squid', 'RU':"Черное ризотто с командорским кальмаром"} ,
+        title:{'EN': '', 'RU':""},
+        price: 1100,
+        count: 1,
+        grams: 280,
+        img: "",
+      },
+
+      {
+        id: "W9",
+        name:{'EN': 'Duck leg with couscous and cherry demigla', 'RU':"Утиная ножка с кускусом и вишневым демигла"} ,
+        title:{'EN': '', 'RU':""},
+        price: 1300,
+        count: 1,
+        grams: 290,
+        img: "",
+      },
+      {
+        id: "W10",
+        name:{'EN': 'Sour cream with malt and berries', 'RU':"Сметанник с солодом и ягодами"} ,
+        title:{'EN': '', 'RU':""},
+        price: 720,
+        count: 1,
+        grams: 140,
+        img: "",
+      }
+      ]
+  },
+  {
     'data' : 'breakfast',
     'mini' : false,
     'cat':{"EN":'Breakfasts until 14:00',"RU":'Завтраки до 14:00'}, 
