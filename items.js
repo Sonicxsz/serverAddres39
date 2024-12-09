@@ -1,9 +1,9 @@
 
 const items = [
   {
-    'data' : 'winter',
+    'data' : 'season',
     'mini' : false,
-    'cat':{"EN":'Winter menu',"RU":'Зимнее меню'},
+    'cat':{"EN":'Seasonal offer',"RU":'Сезонное предложение'},
     'items': [
 
       {
@@ -243,7 +243,7 @@ const items = [
             price: 980,
             count: 1,
             grams: 190,
-            img: "/assets/img/salmonandavocadotartare.jpeg",
+            img: "https://eda.yandex/images/13439948/e81bce53f2b84f3b8c9eb2ef2d158cdb-450x300.jpeg",
           },
           {
             id: 51,
@@ -613,15 +613,7 @@ const items = [
             grams: 120,
             img: "/assets/items/Burratawithtomatoes.jpeg",
           },
-          {
-            id: 'sd5',
-            name:{'EN':'Salmon and Blood Orange Salad', 'RU':"Салат с лососем и красным апельсином"}, 
-            title:{'EN':'', 'RU':""}, 
-            price: 1280,
-            count: 1,
-            grams: 180,
-            img: "/assets/img/salmonandBloodOrangeSalad.jpeg",
-          },
+         
           {
             id: 'sd6',
             name:{'EN':'Salad with shrimp, avocado and tomatoes', 'RU':"Салат с креветками, авокадо и томатами"}, 
@@ -985,15 +977,6 @@ const items = [
             price: 410,
             count: 1,
             grams: 200,
-            img: "",
-          },
-          {
-            id: 70,
-            name:{'EN': 'Asparagus', 'RU':"Спаржа" },
-            title:{'EN': 'Asparagus, olive oil', 'RU':"Спаржа, оливковое масло" },
-            price: 950,
-            count: 1,
-            grams: 100,
             img: "",
           },
           {
