@@ -1053,7 +1053,7 @@ const items = [
                 id: 55,
                 name:{'EN': 'Beef stroganoff with mashed potatoes', 'RU':"Бефстроганов из говядины с картофельным пюре" },
                 title:{'EN': 'Beef loin, mashed potatoes, cream sauce', 'RU':"Говяжья вырезка, картофельное пюре, сливочный соус" },
-                price: 500,
+                price: 700,
                 count: 1,
                 grams: 240,
                 img: "/assets/img/beefstroganoffchild.jpeg",
@@ -1062,7 +1062,7 @@ const items = [
                 id: 56,
                 name:{'EN': 'Chicken cutlets with mashed potatoes', 'RU':"Куриные котлеты с картофельным пюре" },
                 title:{'EN': 'Minced chicken, mashed potatoes, butter', 'RU':"Куриный фарш, картофельное пюре, сливочное масло" },
-                price: 500,
+                price: 700,
                 count: 1,
                 grams: 240,
                 img: "/assets/img/chickencutletswithmashedpotatoes.jpeg",
@@ -1071,24 +1071,12 @@ const items = [
                 id: 57,
                 name:{'EN': 'Chicken broth with noodles and vegetables', 'RU':"Куриный бульон с лапшой и овощами" },
                 title:{'EN': 'Chicken broth, chicken filet, noodles, vegetables', 'RU':"Куриный бульон, куриное филе, лапша, овощи" },
-                price: 230,
+                price: 260,
                 count: 1,
                 grams: 230,
                 img: "/assets/items/Chickenbouillon.jpeg",
               },
-             
-              
-              {
-                id: 59,
-                name:{'EN': 'Penne in cream sauce with parmesan cheese', 'RU':"Пенне в сливочном соусе с сыром пармезан" },
-                title:{'EN': 'Penne, parmesan cheese, cream sauce', 'RU':"Пенне, сыр пармезан, сливочный соус" },
-                price: 360,
-                count: 1,
-                grams: 210,
-                img: "/assets/img/penneincreamsaucewithparmesancheese.jpeg",
-              },
-            
-             
+
         ]
   },   
  
