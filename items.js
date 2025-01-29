@@ -1032,6 +1032,15 @@ const items = [
         'mini' : false,
         'cat':{"EN":'Children`s menu',"RU":'Детское меню'},
         'items': [
+          {
+            id: '55d2',
+            name:{'EN': 'Vegetable salad', 'RU':"Салат овощной" },
+            title:{'EN': '', 'RU':"" },
+            price: 300,
+            count: 1,
+            grams: 110,
+            img: "",
+          },
             {
                 id: 55,
                 name:{'EN': 'Beef stroganoff with mashed potatoes', 'RU':"Бефстроганов из говядины с картофельным пюре" },
@@ -1049,6 +1058,15 @@ const items = [
                 count: 1,
                 grams: 240,
                 img: "/assets/img/chickencutletswithmashedpotatoes.jpeg",
+              },
+              {
+                id: '56D1',
+                name:{'EN': 'Girandole in creamy sauce with Parmesan cheese', 'RU':"Джирандоле в сливочном соусе с сыром пармезан" },
+                title:{'EN': '', 'RU':"" },
+                price: 380,
+                count: 1,
+                grams: 210,
+                img: "",
               },
               {
                 id: 57,
