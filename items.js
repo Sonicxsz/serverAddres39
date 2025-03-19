@@ -130,7 +130,7 @@ const items = [
             price: 540,
             count: 1,
             grams: 260,
-            img: "/assets/img/z1.jpeg",
+            img: "https://eda.yandex/images/3809330/9fb26f19fac54e71ac15d9f90f739148-450x300.jpeg",
           },
           {
             id: 'z2',
@@ -218,7 +218,7 @@ const items = [
         price: 950,
         count: 1,
         grams: 170,
-        img: "https://avatars.mds.yandex.net/get-eda/1365461/e9d6dfb1fe924466934c22795bfcd420/orig",
+        img: "https://eda.yandex/images/3806315/f6b83d6aa2784cf4a1fc582d28a0fc9b-650x500.jpeg",
       },
           {
             id: 50,
@@ -236,7 +236,7 @@ const items = [
             price: 800,
             count: 1,
             grams: 200,
-            img: "/assets/img/tunatartar.jpeg",
+            img: "https://eda.yandex/images/2761069/079a850a4714436dac0569e109700c73-450x300.jpeg",
           },
           {
             id: 'rwb1',
@@ -245,7 +245,7 @@ const items = [
             price: 1080,
             count: 1,
             grams: 160,
-            img: "https://eda.yandex/images/3518584/f4fd21be40974999bb5348c1f1c61776-450x300.jpeg",
+            img: "https://eda.yandex/images/13912834/ab515a801156455b8f6df5e43929e9a0-450x300.jpeg",
           },
     ]
   },
@@ -811,6 +811,26 @@ const items = [
         count: 1,
         grams: 245,
         img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-450x300.jpeg",
+      },
+      {
+        id: "125a321312dpowjpodjapo",
+        name:{'EN': 'Sea bass fillet with zucchini', 'RU':"Филе сибаса с цукини"},
+        title:{'EN': '', 'RU':""},
+
+        price: 960,
+        count: 1,
+        grams: 275,
+        img: "https://eda.yandex/images/13806227/b56e32be6a6e4de789b0461cef3f9f05-450x300.jpeg",
+      },
+      {
+        id: "12225a321312dpowjpodjapo",
+        name:{'EN': 'Fried squid with tomatoes', 'RU':"Жареный кальмар с томатами"},
+        title:{'EN': '', 'RU':""},
+
+        price: 1100,
+        count: 1,
+        grams: 220,
+        img: "https://eda.yandex/images/3550919/e3c8ebb9f049414eb2a497c906e9d7c9-450x300.jpeg",
       },
 
         {
