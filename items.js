@@ -323,7 +323,7 @@ const items = [
           price: 310,
           count: 1,
           grams: 35,
-          img: "/assets/img/spicytuna.jpeg",
+          img: "https://eda.yandex/images/3512182/952cd6ccd2464ceb8c9c28c538ea3ebf-450x300.jpeg",
         },
         {
           id: 9,
@@ -411,7 +411,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 100,
-            img: "/assets/items/Makituna.jpeg",
+            img: "https://eda.yandex/images/3583740/4b7ea510c4a54018af14cb0119a49948-450x300.jpeg",
           },
           {
             id: 28,
@@ -438,7 +438,7 @@ const items = [
             price: 1300,
             count: 1,
             grams: 200,
-            img: "/assets/img/rollcanada.jpeg",
+            img: "https://eda.yandex/images/3538649/4e94d9ae011b451293ef4a9b569530d4-450x300.jpeg",
           },
           {
             id: 31,
@@ -447,7 +447,7 @@ const items = [
             price: 1250,
             count: 1,
             grams: 200,
-            img: "/assets/img/philadelphiaroll.jpeg",
+            img: "https://eda.yandex/images/13912834/505bfe0e0a574f3f90d40ffff9867b3b-450x300.jpeg",
           },
           {
             id: 32,
@@ -490,7 +490,7 @@ const items = [
             price: 690,
             count: 1,
             grams: 120,
-            img: "/assets/img/chickenliverpatewithbrioche.jpeg",
+            img: "https://eda.yandex/images/2761069/438f99bd697e4a6e8755d5aced1f0058-450x300.jpeg",
           },
           {
             id: 78,
@@ -537,7 +537,7 @@ const items = [
             count: 1,
             grams: 360,
             modifier:{'EN':['sashimi','on the grill'], 'RU':['сашими','на гриле']}, 
-            img: "/assets/img/brokencucumberandsalmon.jpeg",
+            img: "https://eda.yandex/images/1365461/5681b62da62948979fc0cd24460e795c-450x300.jpeg",
           },
           {
             id: 42,
@@ -546,7 +546,7 @@ const items = [
             price: 810,
             count: 1,
             grams: 310,
-            img: "/assets/items/photo1716123871.jpeg",
+            img: "https://eda.yandex/images/1365461/055b5a8109214689be7236d7865805e2-450x300.jpeg",
           },
           {
             id: 43,
@@ -555,7 +555,7 @@ const items = [
             price: 980,
             count: 1,
             grams: 170,
-            img: "/assets/items/Greenbowl.jpeg",
+            img: "https://eda.yandex/images/13806227/c256ce9db4354008af8cd73e34c09da4-450x300.jpeg",
           },
           {
             id: 45,
@@ -564,7 +564,7 @@ const items = [
             price: 800,
             count: 1,
             grams: 250,
-            img: "/assets/img/grilledshrimpcaesar.jpeg",
+            img: "https://eda.yandex/images/2050703/f30a4073c5334ab48b3ac9c5f31a07c2-450x300.jpeg",
           },
           {
             id: 46,
@@ -595,7 +595,7 @@ const items = [
             price: 950,
             count: 1,
             grams: 120,
-            img: "/assets/items/Burratawithtomatoes.jpeg",
+            img: "https://eda.yandex/images/13190335/5e234a36798646b591af3968d0d2836c-450x300.jpeg",
           },
          
           {
@@ -605,7 +605,7 @@ const items = [
             price: 980,
             count: 1,
             grams: 250,
-            img: "https://eda.yandex/images/3682162/904470cd4da14c5fb961a577a3a79dc5-450x300.jpeg",
+            img: "https://eda.yandex/images/13058477/d50cadeae4124a43a001913ca60247de-450x300.jpeg",
           }
     ]
   },
@@ -631,7 +631,7 @@ const items = [
             price: 980,
             count: 1,
             grams: 220,
-            img: "/assets/img/salmonandavocado.jpeg",
+            img: "https://eda.yandex/images/931388/85d02d4831534b53bf63a382e89f0c52-450x300.jpeg",
           },
           {
             id: 'b1',
@@ -640,7 +640,7 @@ const items = [
             price: 690,
             count: 1,
             grams: 190,
-            img: "/assets/img/bruschettawithroastbeefandredonions.jpeg"
+            img: "https://eda.yandex/images/13055084/a43a25323aed4b15b86b18c1cd550e6f-450x300.jpeg"
           },
           {
             id: 65,
@@ -717,7 +717,7 @@ const items = [
             price: 1050,
             count: 1,
             grams: 300,
-            img: "/assets/items/Spaghettiwithcrab.jpeg",
+            img: "https://eda.yandex/images/13190335/54837ea8097748f58c3dd6c2992df7b6-450x300.jpeg",
           },
           {
             id: 'p2',
@@ -726,7 +726,7 @@ const items = [
             price: 990,
             count: 1,
             grams: 390,
-            img: "/assets/img/p2.jpeg",
+            img: "https://eda.yandex/images/1219753/9ab891f2b3fc43bf961771aabd0e433e-450x300.jpeg",
           },   {
             id: 'p3',
             name:{'EN':'Risotto with porcini mushrooms', 'RU':"Ризотто с белыми грибами"}, 
@@ -734,7 +734,7 @@ const items = [
             price: 1200,
             count: 1,
             grams: 190,
-            img: "/assets/img/risottowithporcinimushrooms.jpeg",
+            img: "https://eda.yandex/images/931388/3aa89fcbcae943128735a629256d712e-450x300.jpeg",
           },   {
             id: 'p4',
             name:{'EN':'Penne with beef, porcini mushrooms and truffle sauce', 'RU':"Пенне с говядиной, белыми грибами и трюфельным соусом"}, 
@@ -742,7 +742,7 @@ const items = [
             price: 1250,
             count: 1,
             grams: 350,
-            img: "/assets/img/pennewithbeefporcinimushroomsandtrufflesauce.jpeg",
+            img: "https://eda.yandex/images/13912834/ca45dffbeb194e1ea29cd1b9754ac2e0-450x300.jpeg",
           },        {
             id: 'p7',
             name:{'EN':'Spaghetti with vongole', 'RU':"Спагетти с вонголе"}, 
@@ -750,7 +750,7 @@ const items = [
             price: 750,
             count: 1,
             grams: 330,
-            img: "/assets/img/spaghettiwithvongole.jpeg",
+            img: "https://eda.yandex/images/3806315/0322c3e249c142b0b99b8ecdd7e931e6-450x300.jpeg",
           },   {
             id: 'p8',
             name:{'EN':'Risotto with beef tartare', 'RU':"Ризотто с тартаром из говядины"}, 
@@ -758,7 +758,7 @@ const items = [
             price: 1160,
             count: 1,
             grams: 190,
-            img: "/assets/items/Risottowithbeeftartare.jpeg",
+            img: "https://eda.yandex/images/2370127/1f907a2519654f42839910c3dbd031c3-450x300.jpeg",
           },   
           {
             id: 'p10',
@@ -767,7 +767,7 @@ const items = [
             price: 790,
             count: 1,
             grams: 250,
-            img: "/assets/img/p10.jpeg",
+            img: "https://eda.yandex/images/1472406/5be00cf5216346d7a22655416a90e7ac-450x300.jpeg",
           },
           
     ]
@@ -784,7 +784,7 @@ const items = [
             price: 780,
             count: 1,
             grams: 300,
-            img: "/assets/img/buckwheatnoodleswithchickeninAsiansauce.jpeg",
+            img: "https://eda.yandex/images/1473782/41b66dcdfdb941d59c5cd30b7dc04684-450x300.jpeg",
           }, 
           {
             id: 'p6',
@@ -793,7 +793,7 @@ const items = [
             price: 800,
             count: 1,
             grams: 320,
-            img: "/assets/img/p6.jpeg",
+            img: "https://eda.yandex/images/3534679/c4b043de7c194c62adb9ca24c8ef9ba6-450x300.jpeg",
           },
         ]
   },
@@ -850,7 +850,7 @@ const items = [
           price: 880,
           count: 1,
           grams: 500,
-          img: "/assets/img/midii.jpg",
+          img: "https://eda.yandex/images/3805444/8e14cf41f42a49bf9dc19c974cda0f7c-450x300.jpeg",
         },
         {
             id: 80,
@@ -870,7 +870,7 @@ const items = [
           price: 1030,
           count: 1,
           grams: 180,
-          img: "/assets/img/blackcodonabedofspinach.jpeg"
+          img: "https://eda.yandex/images/3805363/5d493f8cb92746e5b390d7ade7a8a6e4-450x300.jpeg"
          }
     ]
   },
@@ -887,7 +887,7 @@ const items = [
             price: 920,
             count: 1,
             grams: 280,
-            img: "/assets/img/chickencurrywithrice.jpeg",
+            img: "https://eda.yandex/images/1473782/8cf7086ffe6149fbab407c13ca9ec17e-450x300.jpeg",
           },
           {
             id: 73,
@@ -896,7 +896,7 @@ const items = [
             price: 3400,
             count: 1,
             grams: 380,
-            img: "/assets/img/ribeyesteakwithgrilledcorn.jpeg",
+            img: "https://eda.yandex/images/3506707/a89969f78e974f268b0610de54dcded2-450x300.jpeg",
           },
           {
             id: 75,
@@ -905,7 +905,7 @@ const items = [
             price: 2200,
             count: 1,
             grams: 350,
-            img: "/assets/img/minon.jpg",
+            img: "https://eda.yandex/images/2353725/fbab8077fb2a40f1960caacdc08fcca0-450x300.jpeg",
           },
           {
             id: 'm2',
@@ -914,7 +914,7 @@ const items = [
             price: 1150,
             count: 1,
             grams: 340,
-            img: "/assets/img/m2.jpeg",
+            img: "https://eda.yandex/images/13055084/b23ae4bcc94a43b5b8b261c624cb384f-450x300.jpeg",
           },
           {
             id: 'm3',
@@ -923,7 +923,7 @@ const items = [
             price: 970,
             count: 1,
             grams: 340,
-            img: "/assets/img/beefstroganoff.jpeg",
+            img: "https://eda.yandex/images/13439948/75448d004dab456080ab38c9426a1e2d-450x300.jpeg",
           },
           {
             id: 'm4',
@@ -936,7 +936,7 @@ const items = [
             price: 1250,
             count: 1,
             grams: 260,
-            img: '/assets/img/chickenwithColeSlow.jpeg'
+            img: 'https://eda.yandex/images/1472406/c67dd898282c4815ae426d33726e6ced-450x300.jpeg'
           }
         
          
@@ -954,7 +954,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 200,
-            img: "",
+            img: "https://eda.yandex/images/1447609/031bdfa19c7c4038b06af56a6d500d3d-450x300.jpeg",
           },
           {
             id: 67,
@@ -963,7 +963,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 90,
-            img: "",
+            img: "https://eda.yandex/images/3784951/b8170ab76146432aa0e2e099f10e5e98-450x300.jpeg",
           },
           {
             id: 68,
@@ -972,7 +972,7 @@ const items = [
             price: 360,
             count: 1,
             grams: 150,
-            img: "",
+            img: "https://eda.yandex/images/3806466/e27e11ae989a4800b6f6346adee5577f-450x300.jpeg",
           },
           {
             id: 69,
@@ -981,7 +981,7 @@ const items = [
             price: 410,
             count: 1,
             grams: 200,
-            img: "",
+            img: "https://eda.yandex/images/3806315/e87cfe9fc265416aa9657619ffc42034-450x300.jpeg",
           },
           {
             id: 'v1',
@@ -1070,7 +1070,7 @@ const items = [
                 price: 380,
                 count: 1,
                 grams: 210,
-                img: "",
+                img: "https://eda.yandex/images/3596693/cbb90f9cc80e41439cdba76970191082-450x300.jpeg",
               },
               {
                 id: 57,
