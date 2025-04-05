@@ -474,6 +474,24 @@ const items = [
           grams: 170,
           img: "",
         },
+      {
+        id: 76214654,
+        name:{'EN': 'Baked Camembert', 'RU':"Запечённый камамбер"},
+        title:{'EN': '', 'RU':"" },
+        price: 1200,
+        count: 1,
+        grams: 225,
+        img: "https://eda.yandex/images/13058477/e005011873fa46cf9214a8c35c1ad0fd-400x400nocrop.jpeg",
+      },
+      {
+        id: 762146254,
+        name:{'EN': 'Pike caviar with toasts', 'RU':"Икра щуки с тостами"},
+        title:{'EN': '', 'RU':"" },
+        price: 980,
+        count: 1,
+        grams: 130,
+        img: "https://eda.yandex/images/3191933/e760f8aa043b4f0ba57827f2517af82d-400x400nocrop.jpeg",
+      },
         {
             id: 76,
             name:{'EN': 'Meat Plateau', 'RU':"Мясное плато"},
@@ -824,6 +842,16 @@ const items = [
       },
       {
         id: "12225a321312dpowjpodjapo",
+        name:{'EN': 'Tuna steak with guacamole', 'RU':"Стейк из тунца с гуакамоле"},
+        title:{'EN': '', 'RU':""},
+
+        price: 1200,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/3806466/092024d966bb4e7390ac00ae358b6c99-400x400nocrop.jpeg",
+      },
+      {
+        id: "12225a321312dpowjpodjapo",
         name:{'EN': 'Fried squid with tomatoes', 'RU':"Жареный кальмар с томатами"},
         title:{'EN': '', 'RU':""},
 
@@ -889,6 +917,15 @@ const items = [
             grams: 280,
             img: "https://eda.yandex/images/1473782/8cf7086ffe6149fbab407c13ca9ec17e-450x300.jpeg",
           },
+        {
+          id: 72,
+          name:{'EN': 'Marbled beef cutlets', 'RU':"Котлеты из мраморной говядины" },
+          title:{'EN': '', 'RU':"" },
+          price: 990,
+          count: 1,
+          grams: 300,
+          img: "https://eda.yandex/images/13190335/7b6ab4b8b059497d9eff2211154876ac-400x400nocrop.jpeg",
+        },
           {
             id: 73,
             name:{'EN': 'Ribeye steak with grilled corn', 'RU':"Рибай стейк с кукурузой на гриле" },
