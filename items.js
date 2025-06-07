@@ -93,7 +93,7 @@ const items = [
         price: 750,
         count: 1,
         grams: 210,
-        img: "/assets/season/1.jpg",
+        img: "/img/assets/season/1.jpg",
       },
       {
         id: 'ip11',
@@ -102,7 +102,7 @@ const items = [
         price: 870,
         count: 1,
         grams: 200,
-        img: "/assets/season/2.jpg",
+        img: "/img/assets/season/2.jpg",
       },
       ]
   },
