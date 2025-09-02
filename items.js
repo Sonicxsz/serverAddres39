@@ -1,112 +1,14 @@
+//  {
+//     'data' : 'season',
+//     'mini' : false,
+//     'cat':{"EN":'Seasonal offer',"RU":'Сезонное предложение'},
+//     'items': [
+     
+//       ]
+//   },
+
 
 const items = [
-  {
-    'data' : 'season',
-    'mini' : false,
-    'cat':{"EN":'Seasonal offer',"RU":'Сезонное предложение'},
-    'items': [
-      {
-        id: 'ip1',
-        name:{'EN': "Okroshka with kvass", 'RU':"Окрошка на квасе"} ,
-        title:{'EN': '', 'RU':""},
-        price: 650,
-        count: 1,
-        grams: 420,
-        img: "https://eda.yandex/images/15305317/d9df730e0f7b41199e8da3ce7b718ffb-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip2',
-        name:{'EN': "Summer salad with trout", 'RU':"Летний салат с форелью"} ,
-        title:{'EN': '', 'RU':""},
-        price: 750,
-        count: 1,
-        grams: 180,
-        img: "https://eda.yandex/images/15252145/7942fc6a7d9748de9f8b05a2c9b00a47-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip3',
-        name:{'EN': "Gazpacho with stracciatella cheese", 'RU':"Гаспачо с сыром страчателла"} ,
-        title:{'EN': '', 'RU':""},
-        price: 800,
-        count: 1,
-        grams: 340,
-        img: "https://eda.yandex/images/15252145/091eb4a5284c4082acb5203ffb14492a-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip9',
-        name:{'EN': "Okroshka with kefir", 'RU':"Окрошка на кефире"} ,
-        title:{'EN': '', 'RU':""},
-        price: 650,
-        count: 1,
-        grams: 420,
-        img: "https://eda.yandex/images/15305317/d9df730e0f7b41199e8da3ce7b718ffb-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip4',
-        name:{'EN': "Green salad with lemon dressing", 'RU':"Зеленый салат с лимонной заправкой"} ,
-        title:{'EN': '', 'RU':""},
-        price: 670,
-        count: 1,
-        grams: 170,
-        img: "https://eda.yandex/images/15382203/b6af0e232923478a9b6c32d831f2cb1c-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip5',
-        name:{'EN': "Village Salad", 'RU':"Салат Деревенский"} ,
-        title:{'EN': '', 'RU':""},
-        price: 550,
-        count: 1,
-        grams: 225,
-        img: "https://eda.yandex/images/15252145/1e4c2901b1734b4098b4b72fed9413c4-400x400nocrop.jpeg",
-      },
-      {
-        id: 'ip6',
-        name:{'EN': "Juicy Watermelon with Feta Cheese", 'RU':"Сочный Арбуз с сыром Фета"} ,
-        title:{'EN': '', 'RU':""},
-        price: 500,
-        count: 1,
-        grams: 160,
-        img: "",
-      },
-      {
-        id: 'ip7',
-        name:{'EN': "Eggplant Arabyata", 'RU':"Баклажан Арабьята"} ,
-        title:{'EN': '', 'RU':""},
-        price: 900,
-        count: 1,
-        grams: 330,
-        img: "https://eda.yandex/images/15377433/6f8e9b6b30c7424fa5c9117555da9b9e-450x300.jpeg",
-      },
-      {
-        id: 'ip8',
-        name:{'EN': "Panna Cotta", 'RU':"Панна-Котта"} ,
-        title:{'EN': '', 'RU':""},
-        price: 660,
-        count: 1,
-        grams: 100,
-        img: "",
-      },
-      {
-        id: 'ip10',
-        name:{'EN': "Ramiro Peppers", 'RU':"Перцы Рамиро"} ,
-        title:{'EN': '', 'RU':""},
-        price: 750,
-        count: 1,
-        grams: 210,
-        img: "/assets/img/brekfast/22.jpg",
-      },
-      {
-        id: 'ip11',
-        name:{'EN': "Salad with wild garlic", 'RU':"Салат с черемшой"} ,
-        title:{'EN': '', 'RU':""},
-        price: 870,
-        count: 1,
-        grams: 200,
-        img: "/assets/img/brekfast/11.jpg",
-      },
-      ]
-  },
-  
   {
     'data' : 'breakfast',
     'mini' : false,
@@ -149,7 +51,7 @@ const items = [
             price: 540,
             count: 1,
             grams: 260,
-            img: "https://eda.yandex/images/3809330/9fb26f19fac54e71ac15d9f90f739148-450x300.jpeg",
+            img: "",
           },
           {
             id: 'z2',
