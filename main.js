@@ -1,5 +1,6 @@
-const dotenv = require('dotenv');
-const nodeMailer = require('nodemailer');
+import dotenv from 'dotenv';
+import nodeMailer from 'nodemailer';
+
 dotenv.config()
 
 const {EMAIL_HOST, EMAIL_HOST_USERNAME, EMAIL_PORT, EMAIL_HOST_PASSWORD} = process.env
@@ -38,6 +39,5 @@ class Mail {
     }
 }
 
-const mail = new Mail()
+export const mail = new Mail()
 
-module.exports = { mail };

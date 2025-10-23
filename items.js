@@ -1,14 +1,6 @@
-//  {
-//     'data' : 'season',
-//     'mini' : false,
-//     'cat':{"EN":'Seasonal offer',"RU":'Сезонное предложение'},
-//     'items': [
-     
-//       ]
-//   },
 
 
-const items = [
+export const items = [
   {
     'data' : 'breakfast',
     'mini' : false,
@@ -819,5 +811,3 @@ const items = [
 
 
 
-
-module.exports = { items };
