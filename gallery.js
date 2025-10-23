@@ -1,4 +1,4 @@
-const images = [
+export const images = [
     "1108.jpg",
     "1109.jpg",
     "1110.jpg",
@@ -44,6 +44,6 @@ const images = [
     "IMG_9101-min.jpg",
     "IMG_9139-min.jpg",
     "IMG_8581-min.jpg",
-    "IMG_8695-min.jpg"];
+    "IMG_8695-min.jpg"
+];
 
-module.exports = { images };
