@@ -2,8 +2,11 @@ import {Router} from 'express'
 import {images} from '../gallery.js'
 import { items } from '../items.js';
 import { AddCategory, DeleteCategory, GetAllCategories } from '../services/category_service.js';
-import { AddItem, DeleteItem, GetAllItems } from '../services/items_service.js';
-import { AddModifier, DeleteModifier } from '../services/modifier_service.js';
+import { AddImageToItem, AddItem, DeleteItem, GetAllItems } from '../services/items_service.js';
+import { AddModifier, DeleteModifier, GetAllModifiers } from '../services/modifier_service.js';
+
+
+
 
 export const router = Router()
 
@@ -28,8 +31,9 @@ router.delete("/category/:id", DeleteCategory)
 router.post("/items", AddItem)
 router.get("/items/all", GetAllItems)
 router.delete("/items/:id", DeleteItem)
+router.post("/items/add-image", AddImageToItem)
 
 // МОДИФИКАТОРЫ
 router.post("/modifier", AddModifier)
 router.delete("/modifier/:id", DeleteModifier)
-
+router.get("/modifier/all", GetAllModifiers)

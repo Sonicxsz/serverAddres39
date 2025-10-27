@@ -1,7 +1,7 @@
 import { Modifier } from "../entities/modifier.js"
 import { modifierRepo } from "../repository/modifiers_repo.js"
 
-const {Create,Delete} = modifierRepo
+const {Create,Delete, GetAll} = modifierRepo
 
 export const AddModifier = async (req, res) => {
     const {item_id, option_name} = req.body
@@ -26,6 +26,21 @@ export const AddModifier = async (req, res) => {
     
      res.status = 500
      res.send(result.data)
+}
+
+
+export const GetAllModifiers = async(req, res) => {
+    const modifiers = await modifierRepo.GetAll()
+    
+    if(!modifiers.ok) {
+        res.status = 500
+        res.json({success: false, data: modifiers.data})   
+        return
+    }
+
+
+    res.status = 200
+    res.json({success: true, data: modifiers.data})
 }
 
 
