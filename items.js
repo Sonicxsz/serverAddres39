@@ -103,12 +103,21 @@ const items = [
 
     ]
   },
-  
+    
   {
     'data' : 'rawbar',
     'mini' : false,
     'cat' : {"EN":'RAW BAR',"RU":'RAW BAR'},
     'items': [
+         {
+        id: "wfafafaw241faw24125151awf",
+        name:{'EN': 'Севиче из тунца с понзу-соусом', 'RU':"Севиче из тунца с понзу-соусом"},
+        title:{'EN': '', 'RU':"" },
+        price: 900,
+        count: 1,
+        grams: 160,
+        img: "https://eda.yandex/images/16066946/a1b02d2d093e4ab6a5e661b49fbcde06-400x400nocrop.jpeg",
+      },
         {
             id: 48,
             name:{'EN':'Sea urchin', 'RU':"Морской ёж"}, 
@@ -299,11 +308,21 @@ const items = [
         
     ]
   },  
+
   {
     'data' : 'starters',
     'mini' : false,
     'cat':{"EN":'Starters',"RU":'Закуски'},
     'items': [
+      {
+        id: "dwad214214141241241",
+        name:{'EN': 'Бобы эдамаме', 'RU':"Бобы эдамаме"},
+        title:{'EN': '', 'RU':"" },
+        price: 750,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/18412808/792da638cad54441a5753b1b0d00c865-400x400nocrop.jpeg",
+      },
        
       {
         id: 76214654,
@@ -355,11 +374,39 @@ const items = [
      
     ]
   }, 
+  
   {
     'data' : 'salads',
     'mini' : false,
     'cat':{"EN":'Salads',"RU":'Салаты'},
     'items': [
+         {
+        id: "faw9818my981y80nyawdhiauhd87",
+        name:{'EN': 'Салат из зеленых овощей', 'RU':"Салат из зеленых овощей"},
+        title:{'EN': '', 'RU':"" },
+        price: 800,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/16066946/9aa21a1aea9b46adbe4eda1e21819653-400x400nocrop.jpeg",
+      },
+       {
+        id: "fjiuwah83nyr1y87r1yn8y871yr",
+        name:{'EN': 'Зеленый салат с креветками ', 'RU':"Зеленый салат с креветками "},
+        title:{'EN': '', 'RU':"" },
+        price: 1100,
+        count: 1,
+        grams: 200,
+        img: "",
+      },
+       {
+        id: "r9832muy9r8un2u",
+        name:{'EN': 'Салат с древесными грибами', 'RU':"Салат с древесными грибами"},
+        title:{'EN': '', 'RU':"" },
+        price: 750,
+        count: 1,
+        grams: 210,
+        img: "",
+      },
           {
             id: 42,
             name:{'EN':'Greek salad with kalamata olives', 'RU':"Греческий салат с оливками каламата"}, 
@@ -570,11 +617,39 @@ const items = [
           },
         ]
   },
+
   {
     'data' : 'fishSeafood',
     'mini' : false,
     'cat':{"EN":'Fish and seafood',"RU":'Рыба и морепродукты'},
     'items': [
+        {
+        id: "174vn1n6c92qy9e8mq982y",
+        name:{'EN': 'Судак с кремом из цветной капусты', 'RU':"Судак с кремом из цветной капусты"},
+        title:{'EN': '', 'RU':"" },
+        price: 1100,
+        count: 1,
+        grams: 230,
+        img: "https://eda.yandex/images/16066946/1dd34a24e3ac40bbbcf014a000419fbc-324x282.jpeg",
+      },
+      {
+        id: "9y0d821mydy1278y812my87f",
+        name:{'EN': 'Филе скумбрии с томатной сальсой', 'RU':"Филе скумбрии с томатной сальсой"},
+        title:{'EN': '', 'RU':"" },
+        price: 950,
+        count: 1,
+        grams: 240,
+        img: "https://eda.yandex/images/18412808/dbb0685bf65f48b58cb1f5203cfa050b-324x282.jpeg",
+      },
+       {
+        id: "91cmue82y08vry187rt976rcgt7g7w",
+        name:{'EN': 'Креветки в сливочно-перечном соусе', 'RU':"Креветки в сливочно-перечном соусе"},
+        title:{'EN': '', 'RU':"" },
+        price: 900,
+        count: 1,
+        grams: 250,
+        img: "https://eda.yandex/images/16489290/e7b2b49c335941ac9da5f9eb2f4d4368-400x400nocrop.jpeg",
+      },
       {
         id: "125adpowjpodjapo",
         name:{'EN': 'Crab cakes with fresh vegetables', 'RU':"Крабовые котлеты со свежими овощами"},
@@ -727,6 +802,7 @@ const items = [
     'mini' : false,
     'cat': {"EN": 'Desserts', "RU": 'Десерты'},
     'items': [
+        
         {
             id: 89,
             name:{'EN': 'Warm apple pie with an ice cream scoop', 'RU':"Теплый яблочный пирог с шариком мороженого"} ,
