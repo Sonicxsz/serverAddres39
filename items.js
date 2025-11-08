@@ -1,333 +1,488 @@
-//  {
-//     'data' : 'season',
-//     'mini' : false,
-//     'cat':{"EN":'Seasonal offer',"RU":'Сезонное предложение'},
-//     'items': [
-     
-//       ]
-//   },
-
-
 const items = [
   {
-    'data' : 'breakfast',
-    'mini' : false,
-    'cat':{"EN":'Breakfasts until 14:00',"RU":'Завтраки до 14:00'}, 
-    'items': [
-      
-          {
-            id: 15,
-            name:{'EN': 'Zucchini dredges with salmon and cream sauce', 'RU':"Драники из цукини с лососем и сметаной"} ,
-            title:{'EN': 'Zucchini, egg, lightly salted salmon, cream sauce', 'RU':"Цукини, яйцо, лосось слабосоленый, соус сметанный"},
-            price: 910,
-            count: 1,
-            grams: 200,
-            img: "/assets/img/brekfast/10.jpg",
-          },
-        {
-          id: "breakfast0108202401",
-          name:{'EN': 'Casserole with Patissiere cream and fresh berries', 'RU':"Запеканка с кремом Патисьер и свежими ягодами"} ,
-          title:{'EN': '', 'RU':""},
-          price: 870,
-          count: 1,
-          grams: 220,
-          img: "/assets/img/brekfast/2.jpg",
+    data: "season",
+    mini: false,
+    cat: { EN: "Seasonal offer", RU: "Сезонное предложение" },
+    items: [
+      {
+        id: "foijnaoiiwoaifowa1",
+        name: { EN: "Грибная похлебка", RU: "Грибная похлебка" },
+        title: { EN: "", RU: "" },
+        price: 750,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/16454428/0f09376d1d0c4da3a8453a4032303cf5-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifowa2",
+        name: { EN: "Суп Тыквенный", RU: "Суп Тыквенный" },
+        title: { EN: "", RU: "" },
+        price: 650,
+        count: 1,
+        grams: 350,
+        img: "https://eda.yandex/images/16700655/a36773b80f444188858560baa7161107-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifowa7",
+        name: { EN: "Карпаччо из цукини", RU: "Карпаччо из цукини" },
+        title: { EN: "", RU: "" },
+        price: 650,
+        count: 1,
+        grams: 150,
+        img: "https://eda.yandex/images/16066946/4f38dfa1fa9b4954a92cf99b29aaac4c-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifowa5",
+        name: {
+          EN: "Свекла со сливочным кремом",
+          RU: "Свекла со сливочным кремом",
         },
+        title: { EN: "", RU: "" },
+        price: 700,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/16489290/74ea844ab36e441fb67ed202ed6719a6-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifowa341",
+        name: { EN: "Ризотто с гребешками", RU: "Ризотто с гребешками" },
+        title: { EN: "", RU: "" },
+        price: 980,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/16066946/cbc63f9226604b6f889b32cc0e4fa61a-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifowa21w",
+        name: { EN: "Салат с тунцом", RU: "Салат с тунцом" },
+        title: { EN: "", RU: "" },
+        price: 950,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/16066946/1c549b4fbf7940de946ab383747c7a64-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoii2e1woaifowa",
+        name: { EN: "Салат с тыквой", RU: "Салат с тыквой" },
+        title: { EN: "", RU: "" },
+        price: 700,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/16066946/5dcce57bfe834e75817e014ac33ebacb-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijnaoiiwoaifo412a",
+        name: {
+          EN: "Язычки ягненка с мини картофелем",
+          RU: "Язычки ягненка с мини картофелем",
+        },
+        title: { EN: "", RU: "" },
+        price: 1100,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/16066946/2eaace2d9ac847c09c920ddbd83692e1-400x400nocrop.jpeg",
+      },
+      {
+        id: "foijfaw214naoiiwoaifowa",
+        name: { EN: "Говядина по-азиатски", RU: "Говядина по-азиатски" },
+        title: { EN: "", RU: "" },
+        price: 1100,
+        count: 1,
+        grams: 290,
+        img: "https://eda.yandex/images/16066946/d3a7468ba1e9487aa9e716f8e986921b-400x400nocrop.jpeg",
+      },
+    ],
+  },
+  {
+    data: "breakfast",
+    mini: false,
+    cat: { EN: "Breakfasts until 14:00", RU: "Завтраки до 14:00" },
+    items: [
+      {
+        id: 15,
+        name: {
+          EN: "Zucchini dredges with salmon and cream sauce",
+          RU: "Драники из цукини с лососем и сметаной",
+        },
+        title: {
+          EN: "Zucchini, egg, lightly salted salmon, cream sauce",
+          RU: "Цукини, яйцо, лосось слабосоленый, соус сметанный",
+        },
+        price: 910,
+        count: 1,
+        grams: 200,
+        img: "/assets/img/brekfast/10.jpg",
+      },
+      {
+        id: "breakfast0108202401",
+        name: {
+          EN: "Casserole with Patissiere cream and fresh berries",
+          RU: "Запеканка с кремом Патисьер и свежими ягодами",
+        },
+        title: { EN: "", RU: "" },
+        price: 870,
+        count: 1,
+        grams: 220,
+        img: "/assets/img/brekfast/2.jpg",
+      },
 
-          {
-            id: 16,
-            name:{'EN': 'Scramble with mortadella', 'RU':"Скрэмбл с мортаделлой"},
-            title:{'EN': '', 'RU':""},
-            price: 770,
-            count: 1,
-            grams: 265,
-            img: "/assets/img/brekfast/6.jpg",
-          },
+      {
+        id: 16,
+        name: { EN: "Scramble with mortadella", RU: "Скрэмбл с мортаделлой" },
+        title: { EN: "", RU: "" },
+        price: 770,
+        count: 1,
+        grams: 265,
+        img: "/assets/img/brekfast/6.jpg",
+      },
 
-          {
-            id: 'z1',
-            name:{'EN': 'Rice porridge with coconut milk and fresh berries', 'RU':"Рисовая каша на кокосовом молоке со свежими ягодами"},
-            title:{'EN': 'Rice, milk, coconut milk, sugar, salt, vanilla sugar, cream, cherry topping, raspberries, blackberries, strawberries, blueberries', 'RU':"Рис, молоко, молоко кокосовое, сахар, соль, ванильный сахар, сливки, топпинг вишневый, малина, ежевика, клубника, голубика"},
-            price: 540,
-            count: 1,
-            grams: 260,
-            img: "",
-          },
-          {
-            id: 'z2',
-            name:{'EN': 'Buckwheat porridge with poached egg and parmesan', 'RU':"Гречневая каша с яйцом пашот и пармезаном"},
-            title:{'EN': 'Buckwheat, fried onions, butter, soy sauce, grana cheese, green onions, pâté, truffle paste, truffle hollandaise, microgreens, olive ground, truffle oil', 'RU':"Гречка, лук жареный, масло сливочное, соевый соус, грана сыр, лук зеленый, пашот, паста трюфельная, голландез трюфельный, микрозелень, земля из маслин, масло трюфельное"},
-            price: 550,
-            count: 1,
-            grams: 370,
-            img: "/assets/img/brekfast/8.jpg",
-          },{
-            id: 'z3',
-            name:{'EN': 'Omelet with crab and truffle sauce', 'RU':"Омлет с крабом и трюфельным соусом"},
-            title:{'EN': 'Egg, cream, salt, pepper, corn, grana cheese, truffle oil, crab, green onions, truffle sauce', 'RU':"Яйцо, сливки, соль, перец, корн, сыр грана, масло трюфельное, краб, зеленый лук, трюфельный соус"},
-            price: 990,
-            count: 1,
-            grams: 220,
-          img: "/assets/img/brekfast/7.jpg",
-          },
-         
-          {
-            id: 22,
-            name:{'EN': 'Cheesecakes with melted milk and sour cream', 'RU':"Сырники из топленого молока со сметаной"} ,
-            title:{'EN': 'Cottage cheese, flour, chicken egg, sour cream', 'RU':"Творог, мука, яйцо куриное, сметана"} ,
-            price: 420,
-            count: 1,
-            grams: 170,
-            img: "/assets/img/brekfast/1.jpg",
-          },
-          {
-            id: "breakfast0108202403",
-            name:{'EN': 'Benedict with salmon and truffle Golandaise', 'RU':"Бенедикт с лососем и трюфельным Голандез"} ,
-            title:{'EN': '', 'RU':""} ,
-            price: 990,
-            count: 1,
-            grams: 220,
-            img: "/assets/img/brekfast/4.jpg",
-          },
+      {
+        id: "z1",
+        name: {
+          EN: "Rice porridge with coconut milk and fresh berries",
+          RU: "Рисовая каша на кокосовом молоке со свежими ягодами",
+        },
+        title: {
+          EN: "Rice, milk, coconut milk, sugar, salt, vanilla sugar, cream, cherry topping, raspberries, blackberries, strawberries, blueberries",
+          RU: "Рис, молоко, молоко кокосовое, сахар, соль, ванильный сахар, сливки, топпинг вишневый, малина, ежевика, клубника, голубика",
+        },
+        price: 540,
+        count: 1,
+        grams: 260,
+        img: "",
+      },
+      {
+        id: "z2",
+        name: {
+          EN: "Buckwheat porridge with poached egg and parmesan",
+          RU: "Гречневая каша с яйцом пашот и пармезаном",
+        },
+        title: {
+          EN: "Buckwheat, fried onions, butter, soy sauce, grana cheese, green onions, pâté, truffle paste, truffle hollandaise, microgreens, olive ground, truffle oil",
+          RU: "Гречка, лук жареный, масло сливочное, соевый соус, грана сыр, лук зеленый, пашот, паста трюфельная, голландез трюфельный, микрозелень, земля из маслин, масло трюфельное",
+        },
+        price: 550,
+        count: 1,
+        grams: 370,
+        img: "/assets/img/brekfast/8.jpg",
+      },
+      {
+        id: "z3",
+        name: {
+          EN: "Omelet with crab and truffle sauce",
+          RU: "Омлет с крабом и трюфельным соусом",
+        },
+        title: {
+          EN: "Egg, cream, salt, pepper, corn, grana cheese, truffle oil, crab, green onions, truffle sauce",
+          RU: "Яйцо, сливки, соль, перец, корн, сыр грана, масло трюфельное, краб, зеленый лук, трюфельный соус",
+        },
+        price: 990,
+        count: 1,
+        grams: 220,
+        img: "/assets/img/brekfast/7.jpg",
+      },
+
+      {
+        id: 22,
+        name: {
+          EN: "Cheesecakes with melted milk and sour cream",
+          RU: "Сырники из топленого молока со сметаной",
+        },
+        title: {
+          EN: "Cottage cheese, flour, chicken egg, sour cream",
+          RU: "Творог, мука, яйцо куриное, сметана",
+        },
+        price: 420,
+        count: 1,
+        grams: 170,
+        img: "/assets/img/brekfast/1.jpg",
+      },
+      {
+        id: "breakfast0108202403",
+        name: {
+          EN: "Benedict with salmon and truffle Golandaise",
+          RU: "Бенедикт с лососем и трюфельным Голандез",
+        },
+        title: { EN: "", RU: "" },
+        price: 990,
+        count: 1,
+        grams: 220,
+        img: "/assets/img/brekfast/4.jpg",
+      },
 
       {
         id: "breakfast0108202402",
-        name:{'EN': 'Benedict with mortadella and truffle Golandaise', 'RU':"Бенедикт с мортаделлой с трюфельным Голандез"} ,
-        title:{'EN': '', 'RU':""} ,
+        name: {
+          EN: "Benedict with mortadella and truffle Golandaise",
+          RU: "Бенедикт с мортаделлой с трюфельным Голандез",
+        },
+        title: { EN: "", RU: "" },
         price: 990,
         count: 1,
         grams: 220,
         img: "/assets/img/brekfast/9.jpg",
       },
-
-
-    ]
+    ],
   },
-    
+
   {
-    'data' : 'rawbar',
-    'mini' : false,
-    'cat' : {"EN":'RAW BAR',"RU":'RAW BAR'},
-    'items': [
-         {
+    data: "rawbar",
+    mini: false,
+    cat: { EN: "RAW BAR", RU: "RAW BAR" },
+    items: [
+      {
         id: "wfafafaw241faw24125151awf",
-        name:{'EN': 'Севиче из тунца с понзу-соусом', 'RU':"Севиче из тунца с понзу-соусом"},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Севиче из тунца с понзу-соусом",
+          RU: "Севиче из тунца с понзу-соусом",
+        },
+        title: { EN: "", RU: "" },
         price: 900,
         count: 1,
         grams: 160,
         img: "https://eda.yandex/images/16066946/a1b02d2d093e4ab6a5e661b49fbcde06-400x400nocrop.jpeg",
       },
-        {
-            id: 48,
-            name:{'EN':'Sea urchin', 'RU':"Морской ёж"}, 
-            title:{'EN':'Sea urchin, quail egg yolk, Ponzu sauce(1pc.)', 'RU':"Морской ёж, желток перепелиного яйца, соус Понзу(1шт.)"}, 
-            price: 490,
-            count: 1,
-            grams: 10,
-            img: "https://avatars.mds.yandex.net/get-eda/3805363/82fc446f3def42d7bdf6a79840d52018/450x300",
-          },
-      
-          {
-            id: 50,
-            name:{'EN':'Salmon and avocado tartare', 'RU':"Тартар из лосося и авокадо"}, 
-            title:{'EN':'Salmon fillet, avocado, sesame, olive oil, ponzu sauce, strawberries', 'RU':"Филе лосося, авокадо, кунжут, оливковое масло, соус понзу, клубника"},
-            price: 1200,
-            count: 1,
-            grams: 190,
-            img: "https://eda.yandex/images/13439948/e81bce53f2b84f3b8c9eb2ef2d158cdb-450x300.jpeg",
-          },
-          {
-            id: 51,
-            name:{'EN':'Tuna tartar', 'RU':"Тартар из тунца"}, 
-            title:{'EN':'Tuna fillet, avocado, guacamole, sesame oil, soy sauce', 'RU':"Филе тунца, авокадо, гуакамоле, кунжутное масло, соевый соус"}, 
-            price: 800,
-            count: 1,
-            grams: 200,
-            img: "https://eda.yandex/images/2761069/079a850a4714436dac0569e109700c73-450x300.jpeg",
-          },
-          {
-            id: 'rwb1',
-            name:{'EN':'Beef tartare', 'RU':"Тартар из говядины"}, 
-            title:{'EN':'Beef loin, capers, mustard, tabasco, olive oil, croutons', 'RU':"Говяжья вырезка, каперсы, горчица, табаско, оливковое масло, гренки"}, 
-            price: 1080,
-            count: 1,
-            grams: 160,
-            img: "https://eda.yandex/images/13912834/ab515a801156455b8f6df5e43929e9a0-450x300.jpeg",
-          },
-    ]
+      {
+        id: 48,
+        name: { EN: "Sea urchin", RU: "Морской ёж" },
+        title: {
+          EN: "Sea urchin, quail egg yolk, Ponzu sauce(1pc.)",
+          RU: "Морской ёж, желток перепелиного яйца, соус Понзу(1шт.)",
+        },
+        price: 490,
+        count: 1,
+        grams: 10,
+        img: "https://avatars.mds.yandex.net/get-eda/3805363/82fc446f3def42d7bdf6a79840d52018/450x300",
+      },
+
+      {
+        id: 50,
+        name: {
+          EN: "Salmon and avocado tartare",
+          RU: "Тартар из лосося и авокадо",
+        },
+        title: {
+          EN: "Salmon fillet, avocado, sesame, olive oil, ponzu sauce, strawberries",
+          RU: "Филе лосося, авокадо, кунжут, оливковое масло, соус понзу, клубника",
+        },
+        price: 1200,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/13439948/e81bce53f2b84f3b8c9eb2ef2d158cdb-450x300.jpeg",
+      },
+      {
+        id: 51,
+        name: { EN: "Tuna tartar", RU: "Тартар из тунца" },
+        title: {
+          EN: "Tuna fillet, avocado, guacamole, sesame oil, soy sauce",
+          RU: "Филе тунца, авокадо, гуакамоле, кунжутное масло, соевый соус",
+        },
+        price: 800,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/2761069/079a850a4714436dac0569e109700c73-450x300.jpeg",
+      },
+      {
+        id: "rwb1",
+        name: { EN: "Beef tartare", RU: "Тартар из говядины" },
+        title: {
+          EN: "Beef loin, capers, mustard, tabasco, olive oil, croutons",
+          RU: "Говяжья вырезка, каперсы, горчица, табаско, оливковое масло, гренки",
+        },
+        price: 1080,
+        count: 1,
+        grams: 160,
+        img: "https://eda.yandex/images/13912834/ab515a801156455b8f6df5e43929e9a0-450x300.jpeg",
+      },
+    ],
   },
   {
-    'data': 'susi',
-    'mini': false,
-    'cat':{"EN":'Sushi',"RU":'Суши'},
+    data: "susi",
+    mini: false,
+    cat: { EN: "Sushi", RU: "Суши" },
     items: [
-        {
-          id: 1,
-          name:{'EN': 'Sashimi Shrimp', 'RU': 'Сашими креветка'},
-          title: {'EN': 'Shrimp, wasabi, ginger', 'RU':"Креветка, васаби, имбирь"},
-          price: 780,
-          count: 1,
-          grams: 60,
-          img: "/assets/items/Sashimishrimp.jpeg",
+      {
+        id: 1,
+        name: { EN: "Sashimi Shrimp", RU: "Сашими креветка" },
+        title: { EN: "Shrimp, wasabi, ginger", RU: "Креветка, васаби, имбирь" },
+        price: 780,
+        count: 1,
+        grams: 60,
+        img: "/assets/items/Sashimishrimp.jpeg",
+      },
+      {
+        id: 2,
+        name: { EN: "Salmon Sashimi", RU: "Сашими лосось" },
+        title: { EN: "Salmon, wasabi, ginger", RU: "Лосось, васаби, имбирь" },
+        price: 1150,
+        count: 1,
+        grams: 60,
+        img: "/assets/items/Salmonsashimi.jpeg",
+      },
+      {
+        id: 3,
+        name: { EN: "Tuna Sashimi", RU: "Сашими тунец" },
+        title: { EN: "Tuna, wasabi, ginger", RU: "Тунец, васаби, имбирь" },
+        price: 920,
+        count: 1,
+        grams: 60,
+        img: "/assets/img/tunaSashimi.jpeg",
+      },
+      {
+        id: 6,
+        name: { EN: "Spicy shrimp", RU: "Спайси с креветкой" },
+        title: {
+          EN: "Shrimp, rice, nori, spicy sauce",
+          RU: "Креветка, рис, нори, спайси соус",
         },
-        {
-          id: 2,
-          name:{'EN': 'Salmon Sashimi', 'RU': "Сашими лосось"},
-          title:{'EN': 'Salmon, wasabi, ginger', 'RU': "Лосось, васаби, имбирь"},
-          price: 1150,
-          count: 1,
-          grams: 60,
-          img: "/assets/items/Salmonsashimi.jpeg",
+        price: 250,
+        count: 1,
+        grams: 35,
+        img: "/assets/img/spicyshrimp.jpeg",
+      },
+      {
+        id: 7,
+        name: { EN: "Spicy salmon", RU: "Спайси с лососем" },
+        title: {
+          EN: "Salmon, rice, nori, spicy sauce",
+          RU: "Лосось, рис, нори, спайси соус",
         },
-        {
-          id: 3,
-          name:{'EN': 'Tuna Sashimi', 'RU': "Сашими тунец"},
-          title:{'EN': 'Tuna, wasabi, ginger', 'RU': "Тунец, васаби, имбирь"},
-          price: 920,
-          count: 1,
-          grams: 60,
-          img: "/assets/img/tunaSashimi.jpeg",
+        price: 400,
+        count: 1,
+        grams: 35,
+        img: "/assets/img/spicysalmon.jpeg",
+      },
+      {
+        id: 8,
+        name: { EN: "Spicy tuna", RU: "Спайси с тунцом" },
+        title: {
+          EN: "Tuna, rice, nori, spicy sauce",
+          RU: "Тунец, рис, нори, спайси соус",
         },
-        {
-          id: 6,
-          name:{'EN': 'Spicy shrimp', 'RU': "Спайси с креветкой"},
-          title:{'EN': 'Shrimp, rice, nori, spicy sauce', 'RU': "Креветка, рис, нори, спайси соус"},
-          price: 250,
-          count: 1,
-          grams: 35,
-          img: "/assets/img/spicyshrimp.jpeg",
-        },
-        {
-          id: 7,
-          name:{'EN': 'Spicy salmon', 'RU': "Спайси с лососем"},
-          title:{'EN': 'Salmon, rice, nori, spicy sauce', 'RU': "Лосось, рис, нори, спайси соус"},
-          price: 400,
-          count: 1,
-          grams: 35,
-          img: "/assets/img/spicysalmon.jpeg",
-        },
-        {
-          id: 8,
-          name:{'EN': 'Spicy tuna', 'RU': "Спайси с тунцом"},
-          title:{'EN': 'Tuna, rice, nori, spicy sauce', 'RU': "Тунец, рис, нори, спайси соус"},
-          price: 300,
-          count: 1,
-          grams: 35,
-          img: "https://eda.yandex/images/3512182/952cd6ccd2464ceb8c9c28c538ea3ebf-450x300.jpeg",
-        },
-        {
-          id: 10,
-          name:{'EN': 'Sushi with shrimp', 'RU': "Суши с креветкой"},
-          title:{'EN': 'Shrimp, rice', 'RU': "Креветка, рис"},
-          price: 250,
-          count: 1,
-          grams: 30,
-          img: "/assets/items/Sushishrimp.jpeg",
-        },
-        {
-          id: 11,
-          name:{'EN': 'Sushi with salmon', 'RU': "Суши с лососем"},
-          title:{'EN': 'Salmon, rice', 'RU': "Лосось, рис"},
-          price: 400,
-          count: 1,
-          grams: 30,
-          img: "/assets/img/sushiwithsalmon.jpeg",
-        },
-        {
-          id: 12,
-          name:{'EN': 'Sushi with tuna', 'RU': "Суши с тунцом"},
-          title:{'EN': 'Tuna, rice', 'RU': "Тунец, рис"},
-          price: 300,
-          count: 1,
-          grams: 30,
-          img: "/assets/img/susiTuna.jpg",
-        },
-       
-      ]
+        price: 300,
+        count: 1,
+        grams: 35,
+        img: "https://eda.yandex/images/3512182/952cd6ccd2464ceb8c9c28c538ea3ebf-450x300.jpeg",
+      },
+      {
+        id: 10,
+        name: { EN: "Sushi with shrimp", RU: "Суши с креветкой" },
+        title: { EN: "Shrimp, rice", RU: "Креветка, рис" },
+        price: 250,
+        count: 1,
+        grams: 30,
+        img: "/assets/items/Sushishrimp.jpeg",
+      },
+      {
+        id: 11,
+        name: { EN: "Sushi with salmon", RU: "Суши с лососем" },
+        title: { EN: "Salmon, rice", RU: "Лосось, рис" },
+        price: 400,
+        count: 1,
+        grams: 30,
+        img: "/assets/img/sushiwithsalmon.jpeg",
+      },
+      {
+        id: 12,
+        name: { EN: "Sushi with tuna", RU: "Суши с тунцом" },
+        title: { EN: "Tuna, rice", RU: "Тунец, рис" },
+        price: 300,
+        count: 1,
+        grams: 30,
+        img: "/assets/img/susiTuna.jpg",
+      },
+    ],
   },
   {
-    'data' : 'roll',
-    'mini' : false,
-    'cat':{"EN":'Rolls',"RU":'Роллы'},
-    'items': [
-        {
-            id: 24,
-            name: {'EN': 'Maki and avocado', 'RU': "Маки с авокадо"},
-            title:{'EN': 'Avocado, rice, nori', 'RU': "Авокадо, рис, нори"},
-            price: 360,
-            count: 1,
-            grams: 100,
-            img: "/assets/items/Avocadamaki.jpeg",
-          },
-          {
-            id: 26,
-            name:{'EN': 'Poppies with cucumber', 'RU': "Маки с огурцом"},
-            title:{'EN': 'Cucumber, rice, nori', 'RU': "Огурец, рис, нори"},
-            price: 360,
-            count: 1,
-            grams: 100,
-            img: "/assets/items/Makicucumber.jpeg",
-          },
-          {
-            id: 27,
-            name:{'EN': 'Tuna maki', 'RU': "Маки с тунцом"} ,
-            title:{'EN': 'Tuna, rice, nori', 'RU': "Тунец, рис, нори"} ,
-            price: 400,
-            count: 1,
-            grams: 100,
-            img: "https://eda.yandex/images/3583740/4b7ea510c4a54018af14cb0119a49948-450x300.jpeg",
-          },
-          {
-            id: 29,
-            name:{'EN': 'California Roll', 'RU': "Ролл Калифорния"} ,
-            title:{'EN': 'Crab, rice, Japanese mayonnaise, avocado, nori, tobiko', 'RU': "Краб, рис, японский майонез, авокадо, нори, тобико"},
-            price: 1100,
-            count: 1,
-            grams: 190,
-            img: "/assets/items/RollCalifornia.jpeg",
-          },
-          {
-            id: 30,
-            name:{'EN': 'Roll Canada', 'RU': "Ролл Канада"} ,
-            title:{'EN': 'Salmon, eel, cream cheese, avocado, nori, unagi yuzu sauce, sesame, rice', 'RU': "Лосось, угорь, сливочный сыр, авокадо, нори, соус унаги юдзу, кунжут, рис"},
-            price: 1300,
-            count: 1,
-            grams: 200,
-            img: "https://eda.yandex/images/3538649/4e94d9ae011b451293ef4a9b569530d4-450x300.jpeg",
-          },
-          {
-            id: 31,
-            name:{'EN': 'Philadelphia Roll', 'RU': "Ролл Филадельфия"},
-            title:{'EN': 'Salmon, cream cheese, rice, avocado, nori', 'RU': "Лосось, сливочный сыр, рис, авокадо, нори"},
-            price: 1250,
-            count: 1,
-            grams: 200,
-            img: "https://eda.yandex/images/13912834/505bfe0e0a574f3f90d40ffff9867b3b-450x300.jpeg",
-          },
-        
-    ]
-  },  
+    data: "roll",
+    mini: false,
+    cat: { EN: "Rolls", RU: "Роллы" },
+    items: [
+      {
+        id: 24,
+        name: { EN: "Maki and avocado", RU: "Маки с авокадо" },
+        title: { EN: "Avocado, rice, nori", RU: "Авокадо, рис, нори" },
+        price: 360,
+        count: 1,
+        grams: 100,
+        img: "/assets/items/Avocadamaki.jpeg",
+      },
+      {
+        id: 26,
+        name: { EN: "Poppies with cucumber", RU: "Маки с огурцом" },
+        title: { EN: "Cucumber, rice, nori", RU: "Огурец, рис, нори" },
+        price: 360,
+        count: 1,
+        grams: 100,
+        img: "/assets/items/Makicucumber.jpeg",
+      },
+      {
+        id: 27,
+        name: { EN: "Tuna maki", RU: "Маки с тунцом" },
+        title: { EN: "Tuna, rice, nori", RU: "Тунец, рис, нори" },
+        price: 400,
+        count: 1,
+        grams: 100,
+        img: "https://eda.yandex/images/3583740/4b7ea510c4a54018af14cb0119a49948-450x300.jpeg",
+      },
+      {
+        id: 29,
+        name: { EN: "California Roll", RU: "Ролл Калифорния" },
+        title: {
+          EN: "Crab, rice, Japanese mayonnaise, avocado, nori, tobiko",
+          RU: "Краб, рис, японский майонез, авокадо, нори, тобико",
+        },
+        price: 1100,
+        count: 1,
+        grams: 190,
+        img: "/assets/items/RollCalifornia.jpeg",
+      },
+      {
+        id: 30,
+        name: { EN: "Roll Canada", RU: "Ролл Канада" },
+        title: {
+          EN: "Salmon, eel, cream cheese, avocado, nori, unagi yuzu sauce, sesame, rice",
+          RU: "Лосось, угорь, сливочный сыр, авокадо, нори, соус унаги юдзу, кунжут, рис",
+        },
+        price: 1300,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/3538649/4e94d9ae011b451293ef4a9b569530d4-450x300.jpeg",
+      },
+      {
+        id: 31,
+        name: { EN: "Philadelphia Roll", RU: "Ролл Филадельфия" },
+        title: {
+          EN: "Salmon, cream cheese, rice, avocado, nori",
+          RU: "Лосось, сливочный сыр, рис, авокадо, нори",
+        },
+        price: 1250,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/13912834/505bfe0e0a574f3f90d40ffff9867b3b-450x300.jpeg",
+      },
+    ],
+  },
 
   {
-    'data' : 'starters',
-    'mini' : false,
-    'cat':{"EN":'Starters',"RU":'Закуски'},
-    'items': [
+    data: "starters",
+    mini: false,
+    cat: { EN: "Starters", RU: "Закуски" },
+    items: [
       {
         id: "dwad214214141241241",
-        name:{'EN': 'Бобы эдамаме', 'RU':"Бобы эдамаме"},
-        title:{'EN': '', 'RU':"" },
+        name: { EN: "Бобы эдамаме", RU: "Бобы эдамаме" },
+        title: { EN: "", RU: "" },
         price: 750,
         count: 1,
         grams: 190,
         img: "https://eda.yandex/images/18412808/792da638cad54441a5753b1b0d00c865-400x400nocrop.jpeg",
       },
-       
+
       {
         id: 76214654,
-        name:{'EN': 'Baked Camembert', 'RU':"Запечённый камамбер"},
-        title:{'EN': '', 'RU':"" },
+        name: { EN: "Baked Camembert", RU: "Запечённый камамбер" },
+        title: { EN: "", RU: "" },
         price: 1350,
         count: 1,
         grams: 225,
@@ -335,298 +490,425 @@ const items = [
       },
       {
         id: 762146254,
-        name:{'EN': 'Pike caviar with toasts', 'RU':"Икра щуки с тостами"},
-        title:{'EN': '', 'RU':"" },
+        name: { EN: "Pike caviar with toasts", RU: "Икра щуки с тостами" },
+        title: { EN: "", RU: "" },
         price: 1300,
         count: 1,
         grams: 130,
         img: "https://eda.yandex/images/3191933/e760f8aa043b4f0ba57827f2517af82d-400x400nocrop.jpeg",
       },
-        {
-            id: 76,
-            name:{'EN': 'Meat Plateau', 'RU':"Мясное плато"},
-            title:{'EN': 'Prosciutto, roast beef, salami', 'RU':"Прошутто, ростбиф, салями" },
-            price: 2500,
-            count: 1,
-            grams: 150,
-            img: "/assets/img/assorti.jpg",
-          },
-          {
-            id: 77,
-            name:{'EN': 'Chicken liver pate with brioche', 'RU':"Паштет из куриной печени с бриошью" },
-            title:{'EN': 'Chicken liver pate, brioche, fig jam', 'RU':"Паштет из куриной печени, бриошь, джем из инжира" },
-            price: 790,
-            count: 1,
-            grams: 120,
-            img: "https://eda.yandex/images/2761069/438f99bd697e4a6e8755d5aced1f0058-450x300.jpeg",
-          },
-         
-          {
-            id: 79,
-            name:{'EN': 'Cheese Plateau', 'RU':"Сырное плато" },
-            title:{'EN': 'Gorgonzola, Brie, Parmesan, nuts, dried fruit, grapes and honey', 'RU':"Горгонзола, бри, пармезан, орехи, сухофрукты, виноград и мед" },
-            price: 2100,
-            count: 1,
-            grams: 340,
-            img: "/assets/img/chees.jpg",
-          },
-          
-     
-    ]
-  }, 
-  
+      {
+        id: 76,
+        name: { EN: "Meat Plateau", RU: "Мясное плато" },
+        title: {
+          EN: "Prosciutto, roast beef, salami",
+          RU: "Прошутто, ростбиф, салями",
+        },
+        price: 2500,
+        count: 1,
+        grams: 150,
+        img: "/assets/img/assorti.jpg",
+      },
+      {
+        id: 77,
+        name: {
+          EN: "Chicken liver pate with brioche",
+          RU: "Паштет из куриной печени с бриошью",
+        },
+        title: {
+          EN: "Chicken liver pate, brioche, fig jam",
+          RU: "Паштет из куриной печени, бриошь, джем из инжира",
+        },
+        price: 790,
+        count: 1,
+        grams: 120,
+        img: "https://eda.yandex/images/2761069/438f99bd697e4a6e8755d5aced1f0058-450x300.jpeg",
+      },
+
+      {
+        id: 79,
+        name: { EN: "Cheese Plateau", RU: "Сырное плато" },
+        title: {
+          EN: "Gorgonzola, Brie, Parmesan, nuts, dried fruit, grapes and honey",
+          RU: "Горгонзола, бри, пармезан, орехи, сухофрукты, виноград и мед",
+        },
+        price: 2100,
+        count: 1,
+        grams: 340,
+        img: "/assets/img/chees.jpg",
+      },
+    ],
+  },
+
   {
-    'data' : 'salads',
-    'mini' : false,
-    'cat':{"EN":'Salads',"RU":'Салаты'},
-    'items': [
-         {
+    data: "salads",
+    mini: false,
+    cat: { EN: "Salads", RU: "Салаты" },
+    items: [
+      {
         id: "faw9818my981y80nyawdhiauhd87",
-        name:{'EN': 'Салат из зеленых овощей', 'RU':"Салат из зеленых овощей"},
-        title:{'EN': '', 'RU':"" },
+        name: { EN: "Салат из зеленых овощей", RU: "Салат из зеленых овощей" },
+        title: { EN: "", RU: "" },
         price: 800,
         count: 1,
         grams: 200,
         img: "https://eda.yandex/images/16066946/9aa21a1aea9b46adbe4eda1e21819653-400x400nocrop.jpeg",
       },
-       {
+      {
         id: "fjiuwah83nyr1y87r1yn8y871yr",
-        name:{'EN': 'Зеленый салат с креветками ', 'RU':"Зеленый салат с креветками "},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Зеленый салат с креветками ",
+          RU: "Зеленый салат с креветками ",
+        },
+        title: { EN: "", RU: "" },
         price: 1100,
         count: 1,
         grams: 200,
         img: "",
       },
-       {
+      {
         id: "r9832muy9r8un2u",
-        name:{'EN': 'Салат с древесными грибами', 'RU':"Салат с древесными грибами"},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Салат с древесными грибами",
+          RU: "Салат с древесными грибами",
+        },
+        title: { EN: "", RU: "" },
         price: 750,
         count: 1,
         grams: 210,
         img: "",
       },
-          {
-            id: 42,
-            name:{'EN':'Greek salad with kalamata olives', 'RU':"Греческий салат с оливками каламата"}, 
-            title:{'EN':'Baku tomatoes, cucumbers, bell peppers, red onions, mixed salad', 'RU':"Помидоры бакинские, огурцы, болгарский перец, красный лук, микс салатов"},
-            price: 850,
-            count: 1,
-            grams: 310,
-            img: "https://eda.yandex/images/1365461/055b5a8109214689be7236d7865805e2-450x300.jpeg",
-          },
-         
-          {
-            id: 45,
-            name:{'EN':'Grilled shrimp Caesar', 'RU':"Цезарь с креветками на гриле"}, 
-            title:{'EN':'Romano salad leaves, shrimp, cherry tomatoes, parmesan cheese, caesar sauce, wheat baguette croutons', 'RU':"Листья салата Романо, креветки, помидоры черри, сыр пармезан, соус цезарь, гренки из пшеничного багета"}, 
-            price: 870,
-            count: 1,
-            grams: 250,
-            img: "https://eda.yandex/images/2050703/f30a4073c5334ab48b3ac9c5f31a07c2-450x300.jpeg",
-          },
-          {
-            id: 46,
-            name:{'EN':'Caesar with grilled chicken breast', 'RU':"Цезарь с куриной грудкой на гриле"}, 
-            title:{'EN':'Romano salad leaves, chicken fillet, cherry tomatoes, parmesan cheese, sauce', 'RU':"Листья салата Романо, куриное филе, помидоры черри, сыр пармезан, соус"},
-            price: 850,
-            count: 1,
-            grams: 250,
-            img: "/assets/img/caesarwithgrilledchickenbreast.jpeg",
-          },
+      {
+        id: 42,
+        name: {
+          EN: "Greek salad with kalamata olives",
+          RU: "Греческий салат с оливками каламата",
+        },
+        title: {
+          EN: "Baku tomatoes, cucumbers, bell peppers, red onions, mixed salad",
+          RU: "Помидоры бакинские, огурцы, болгарский перец, красный лук, микс салатов",
+        },
+        price: 850,
+        count: 1,
+        grams: 310,
+        img: "https://eda.yandex/images/1365461/055b5a8109214689be7236d7865805e2-450x300.jpeg",
+      },
 
-          {
-            id: 'sd1',
-            name:{'EN':'Burrata with tomatoes and spinach', 'RU':"Буррата с томатами и шпинатом"}, 
-            title:{'EN':'Burrata cheese, tomatoes, spinach', 'RU':"Сыр буррата, томаты, шпинат"}, 
-            price: 1200,
-            count: 1,
-            grams: 120,
-            img: "https://eda.yandex/images/13190335/5e234a36798646b591af3968d0d2836c-450x300.jpeg",
-          },
-         
-          {
-            id: 'sd6',
-            name:{'EN':'Salad with shrimp, avocado and tomatoes', 'RU':"Салат с креветками, авокадо и томатами"}, 
-            title:{'EN':'Shrimp, Baku tomatoes, avocado, cilantro, sour cream, olive oil, sesame', 'RU':"Креветки, помидоры бакинские, авокадо, кинза, сметана, оливковое масло, кунжут"}, 
-            price: 980,
-            count: 1,
-            grams: 250,
-            img: "https://eda.yandex/images/13058477/d50cadeae4124a43a001913ca60247de-450x300.jpeg",
-          }
-    ]
+      {
+        id: 45,
+        name: {
+          EN: "Grilled shrimp Caesar",
+          RU: "Цезарь с креветками на гриле",
+        },
+        title: {
+          EN: "Romano salad leaves, shrimp, cherry tomatoes, parmesan cheese, caesar sauce, wheat baguette croutons",
+          RU: "Листья салата Романо, креветки, помидоры черри, сыр пармезан, соус цезарь, гренки из пшеничного багета",
+        },
+        price: 870,
+        count: 1,
+        grams: 250,
+        img: "https://eda.yandex/images/2050703/f30a4073c5334ab48b3ac9c5f31a07c2-450x300.jpeg",
+      },
+      {
+        id: 46,
+        name: {
+          EN: "Caesar with grilled chicken breast",
+          RU: "Цезарь с куриной грудкой на гриле",
+        },
+        title: {
+          EN: "Romano salad leaves, chicken fillet, cherry tomatoes, parmesan cheese, sauce",
+          RU: "Листья салата Романо, куриное филе, помидоры черри, сыр пармезан, соус",
+        },
+        price: 850,
+        count: 1,
+        grams: 250,
+        img: "/assets/img/caesarwithgrilledchickenbreast.jpeg",
+      },
+
+      {
+        id: "sd1",
+        name: {
+          EN: "Burrata with tomatoes and spinach",
+          RU: "Буррата с томатами и шпинатом",
+        },
+        title: {
+          EN: "Burrata cheese, tomatoes, spinach",
+          RU: "Сыр буррата, томаты, шпинат",
+        },
+        price: 1200,
+        count: 1,
+        grams: 120,
+        img: "https://eda.yandex/images/13190335/5e234a36798646b591af3968d0d2836c-450x300.jpeg",
+      },
+
+      {
+        id: "sd6",
+        name: {
+          EN: "Salad with shrimp, avocado and tomatoes",
+          RU: "Салат с креветками, авокадо и томатами",
+        },
+        title: {
+          EN: "Shrimp, Baku tomatoes, avocado, cilantro, sour cream, olive oil, sesame",
+          RU: "Креветки, помидоры бакинские, авокадо, кинза, сметана, оливковое масло, кунжут",
+        },
+        price: 980,
+        count: 1,
+        grams: 250,
+        img: "https://eda.yandex/images/13058477/d50cadeae4124a43a001913ca60247de-450x300.jpeg",
+      },
+    ],
   },
   {
-    'data' : 'brusshetta',
-    'mini' : false,
-    'cat':{"EN":'Bruschetta',"RU":'Брускетты'},
-    'items': [
-          {
-            id: 63,
-            name:{'EN': 'With salmon and avocado', 'RU':"С лососем и авокадо" },
-            title:{'EN': 'Grain bread, lightly salted salmon, avocado, tomato, creamy', 'RU':"Хлеб зерновой, лосось слабосоленый, авокадо, помидоры, сливочный" },
-            price: 980,
-            count: 1,
-            grams: 220,
-            img: "https://eda.yandex/images/931388/85d02d4831534b53bf63a382e89f0c52-450x300.jpeg",
-          },
-          {
-            id: 'b1',
-            name: {'EN': "Bruschetta with roast beef and red onions", 'RU': "Брускетта с ростбифом и красным луком"},
-            title: {'EN': "Grain bread, roast beef, tomatoes, red onion, mustard, horseradish, olive oil, parsley", 'RU': "Хлеб зерновой, ростбиф (говядина), помидоры, красный лук, горчица, хрен, оливковое масло, петрушка"},
-            price: 700,
-            count: 1,
-            grams: 190,
-            img: "https://eda.yandex/images/13055084/a43a25323aed4b15b86b18c1cd550e6f-450x300.jpeg"
-          },
-          {
-            id: 65,
-            name:{'EN': 'With tomatoes and avocado', 'RU':"С томатами и авокадо" },
-            title:{'EN': 'Grain bread, tomatoes, avocado, guacamole sauce, Romano salads, Frise', 'RU': "Хлеб зерновой, помидоры, авокадо, соус Гуакамоле, салаты Романо, Фризе"},
-            price: 700,
-            count: 1,
-            grams: 165,
-            img: "/assets/img/withtomatoesandavocado.jpeg",
-          },
-    ]
+    data: "brusshetta",
+    mini: false,
+    cat: { EN: "Bruschetta", RU: "Брускетты" },
+    items: [
+      {
+        id: 63,
+        name: { EN: "With salmon and avocado", RU: "С лососем и авокадо" },
+        title: {
+          EN: "Grain bread, lightly salted salmon, avocado, tomato, creamy",
+          RU: "Хлеб зерновой, лосось слабосоленый, авокадо, помидоры, сливочный",
+        },
+        price: 980,
+        count: 1,
+        grams: 220,
+        img: "https://eda.yandex/images/931388/85d02d4831534b53bf63a382e89f0c52-450x300.jpeg",
+      },
+      {
+        id: "b1",
+        name: {
+          EN: "Bruschetta with roast beef and red onions",
+          RU: "Брускетта с ростбифом и красным луком",
+        },
+        title: {
+          EN: "Grain bread, roast beef, tomatoes, red onion, mustard, horseradish, olive oil, parsley",
+          RU: "Хлеб зерновой, ростбиф (говядина), помидоры, красный лук, горчица, хрен, оливковое масло, петрушка",
+        },
+        price: 700,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/13055084/a43a25323aed4b15b86b18c1cd550e6f-450x300.jpeg",
+      },
+      {
+        id: 65,
+        name: { EN: "With tomatoes and avocado", RU: "С томатами и авокадо" },
+        title: {
+          EN: "Grain bread, tomatoes, avocado, guacamole sauce, Romano salads, Frise",
+          RU: "Хлеб зерновой, помидоры, авокадо, соус Гуакамоле, салаты Романо, Фризе",
+        },
+        price: 700,
+        count: 1,
+        grams: 165,
+        img: "/assets/img/withtomatoesandavocado.jpeg",
+      },
+    ],
   },
   {
-    'data': 'soap',
-    'mini' : false,
-    'cat':{"EN":'Soups',"RU":'Супы'},
-    'items': [
-        {
-            id: 'so1',
-            name:{'EN': 'Borscht with veal cheek and smoked prunes', 'RU':"Борщ с телячьей щёчкой и копченым черносливом"} ,
-            title:{'EN': 'Salt, black pepper, sugar, garlic fraiche, dill, parsley, sour cream, green onions, borodino bread', 'RU':"Соль, перец черный, сахар, фреш чесночный, укроп, петрушка, сметана, лук зеленый, хлеб бородинский"} ,
-            price: 760,
-            count: 1,
-            grams: 450,
-            img: "/assets/img/borscht.jpeg",
-          },
-          {
-            id: 86,
-            name:{'EN': 'Chicken noodle soup', 'RU':"Суп-лапша из цыпленка"} ,
-            title:{'EN': 'Chicken broth, vermicelli, chicken fillet, quail egg, herbs', 'RU':"Куриный бульон, вермишель, куриное филе, перепелиное яйцо, зелень"} ,
-            price: 500,
-            count: 1,
-            grams: 450,
-            img: "/assets/img/lap.jpg",
-          }, 
-          {
-            id: 'so2',
-            name:{'EN': 'Tom yam with shrimp and wood mushrooms', 'RU':"Том ям с креветками и древесными грибами"} ,
-            title:{'EN': 'Squid, wood mushrooms, basmati rice, sesame oil, coconut milk, tomato, lime, shrimp, tomato paste, ginger, oyster mushrooms, mussels, cilantro', 'RU':"Кальмар, грибы древесные, рис басмати, масло кунжутное, молоко кокосовое, помидоры, лайм, креветки, паста томатная, имбирь, вешенки, мидии, кинза"} ,
-            price: 950,
-            count: 1,
-            grams: 580,
-            img: "/assets/img/tomyamwithshrimpandwoodmushrooms.jpeg",
-          },
-          {
-            id: 'so3',
-            name:{'EN': 'Salmon, sea bass and cod soup', 'RU':"Уха из лосося, сибаса и трески"} ,
-            title:{'EN': 'Fish broth, mussels, salmon, sea bass, cod, potatoes, tomatoes, garlic fresh, dill, parsley', 'RU':"Бульон рыбный, мидии, лосось, сибас, треска, картофель, томаты, чесночный фреш, укроп, петрушка"} ,
-            price: 920,
-            count: 1,
-            grams: 450,
-            img: "/assets/items/Salmonseabassandcodfissoup.jpeg",
-          },
-    ]
+    data: "soap",
+    mini: false,
+    cat: { EN: "Soups", RU: "Супы" },
+    items: [
+      {
+        id: "so1",
+        name: {
+          EN: "Borscht with veal cheek and smoked prunes",
+          RU: "Борщ с телячьей щёчкой и копченым черносливом",
+        },
+        title: {
+          EN: "Salt, black pepper, sugar, garlic fraiche, dill, parsley, sour cream, green onions, borodino bread",
+          RU: "Соль, перец черный, сахар, фреш чесночный, укроп, петрушка, сметана, лук зеленый, хлеб бородинский",
+        },
+        price: 760,
+        count: 1,
+        grams: 450,
+        img: "/assets/img/borscht.jpeg",
+      },
+      {
+        id: 86,
+        name: { EN: "Chicken noodle soup", RU: "Суп-лапша из цыпленка" },
+        title: {
+          EN: "Chicken broth, vermicelli, chicken fillet, quail egg, herbs",
+          RU: "Куриный бульон, вермишель, куриное филе, перепелиное яйцо, зелень",
+        },
+        price: 500,
+        count: 1,
+        grams: 450,
+        img: "/assets/img/lap.jpg",
+      },
+      {
+        id: "so2",
+        name: {
+          EN: "Tom yam with shrimp and wood mushrooms",
+          RU: "Том ям с креветками и древесными грибами",
+        },
+        title: {
+          EN: "Squid, wood mushrooms, basmati rice, sesame oil, coconut milk, tomato, lime, shrimp, tomato paste, ginger, oyster mushrooms, mussels, cilantro",
+          RU: "Кальмар, грибы древесные, рис басмати, масло кунжутное, молоко кокосовое, помидоры, лайм, креветки, паста томатная, имбирь, вешенки, мидии, кинза",
+        },
+        price: 950,
+        count: 1,
+        grams: 580,
+        img: "/assets/img/tomyamwithshrimpandwoodmushrooms.jpeg",
+      },
+      {
+        id: "so3",
+        name: {
+          EN: "Salmon, sea bass and cod soup",
+          RU: "Уха из лосося, сибаса и трески",
+        },
+        title: {
+          EN: "Fish broth, mussels, salmon, sea bass, cod, potatoes, tomatoes, garlic fresh, dill, parsley",
+          RU: "Бульон рыбный, мидии, лосось, сибас, треска, картофель, томаты, чесночный фреш, укроп, петрушка",
+        },
+        price: 920,
+        count: 1,
+        grams: 450,
+        img: "/assets/items/Salmonseabassandcodfissoup.jpeg",
+      },
+    ],
   },
   {
-    'data' : 'pasta',
-    'mini' : false,
-    'cat':{"EN": 'Pasta and risotto',"RU": 'Паста и ризотто'},
-    'items': [
-          {
-            id: 'p2',
-            name:{'EN':'Tagliatelle with seafood', 'RU':"Тальятелле с морепродуктами"}, 
-            title:{'EN':'Tagliatelle, calamari, shrimp, mussels, octopus, white wine, chicken broth, rosemary, thyme, olive oil, vegetable oil, Parmesan', 'RU':"Тальятелле, кальмары, креветки, мидии, осьминог, вино белое, куриный бульон, розмарин, тимьян, масло оливковое, масло растительное, пармезан"}, 
-            price: 990,
-            count: 1,
-            grams: 390,
-            img: "https://eda.yandex/images/1219753/9ab891f2b3fc43bf961771aabd0e433e-450x300.jpeg",
-          },   {
-            id: 'p3',
-            name:{'EN':'Risotto with porcini mushrooms', 'RU':"Ризотто с белыми грибами"}, 
-            title:{'EN':'Arborio rice, porcini mushrooms', 'RU':"Рис арборио, белые грибы"}, 
-            price: 1200,
-            count: 1,
-            grams: 190,
-            img: "https://eda.yandex/images/931388/3aa89fcbcae943128735a629256d712e-450x300.jpeg",
-          },   {
-            id: 'p4',
-            name:{'EN':'Penne with beef, porcini mushrooms and truffle sauce', 'RU':"Пенне с говядиной, белыми грибами и трюфельным соусом"}, 
-            title:{'EN':'Penne, beef, parmesan cheese, porcini mushrooms, white wine, cream, tomatoes, truffle oil, olive oil', 'RU':"Пенне, говяжья вырезка, сыр пармезан, белые грибы, вино белое, сливки, помидоры, масло трюфельное, масло оливковое"}, 
-            price: 1250,
-            count: 1,
-            grams: 350,
-            img: "https://eda.yandex/images/13912834/ca45dffbeb194e1ea29cd1b9754ac2e0-450x300.jpeg",
-          },        {
-            id: 'p7',
-            name:{'EN':'Spaghetti with vongole', 'RU':"Спагетти с вонголе"}, 
-            title:{'EN':'Vongole, white wine, salt, pepper, shallot, garlic puree, chicken broth, butter, parsley', 'RU':"Вонголе, вино белое, соль, перец, шалот, чесночное пюре, бульон куриный, сливочное масло, петрушка"}, 
-            price: 800,
-            count: 1,
-            grams: 330,
-            img: "https://eda.yandex/images/3806315/0322c3e249c142b0b99b8ecdd7e931e6-450x300.jpeg",
-          },   {
-            id: 'p8',
-            name:{'EN':'Risotto with beef tartare', 'RU':"Ризотто с тартаром из говядины"}, 
-            title:{'EN':'Chicken broth, salt, pepper, butter, cream, beef tartare, green peas, watercress, olive oil, truffle oil', 'RU':"Куриный бульон, соль, перец, масло сливочное, сливки, тартар из говядины, горошек зеленый, кресс-салат, масло оливковое, масло трюфельное"}, 
-            price: 1100,
-            count: 1,
-            grams: 190,
-            img: "https://eda.yandex/images/2370127/1f907a2519654f42839910c3dbd031c3-450x300.jpeg",
-          },   
-          {
-            id: 'p10',
-            name:{'EN':'Spaghetti Bolognese', 'RU':"Спагетти Болоньезе"}, 
-            title:{'EN':'Spaghetti, bolognese sauce, arabiata pilati sauce, parmesan cheese, olive oil, microgreens, olive ground', 'RU':"Спагетти, соус болоньезе, соус арабьята пилати, сыр пармезан, масло оливковое, микрозелень, земля из маслин"}, 
-            price: 800,
-            count: 1,
-            grams: 250,
-            img: "https://eda.yandex/images/1472406/5be00cf5216346d7a22655416a90e7ac-450x300.jpeg",
-          },
-          
-    ]
-  },  
+    data: "pasta",
+    mini: false,
+    cat: { EN: "Pasta and risotto", RU: "Паста и ризотто" },
+    items: [
+      {
+        id: "p2",
+        name: {
+          EN: "Tagliatelle with seafood",
+          RU: "Тальятелле с морепродуктами",
+        },
+        title: {
+          EN: "Tagliatelle, calamari, shrimp, mussels, octopus, white wine, chicken broth, rosemary, thyme, olive oil, vegetable oil, Parmesan",
+          RU: "Тальятелле, кальмары, креветки, мидии, осьминог, вино белое, куриный бульон, розмарин, тимьян, масло оливковое, масло растительное, пармезан",
+        },
+        price: 990,
+        count: 1,
+        grams: 390,
+        img: "https://eda.yandex/images/1219753/9ab891f2b3fc43bf961771aabd0e433e-450x300.jpeg",
+      },
+      {
+        id: "p3",
+        name: {
+          EN: "Risotto with porcini mushrooms",
+          RU: "Ризотто с белыми грибами",
+        },
+        title: {
+          EN: "Arborio rice, porcini mushrooms",
+          RU: "Рис арборио, белые грибы",
+        },
+        price: 1200,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/931388/3aa89fcbcae943128735a629256d712e-450x300.jpeg",
+      },
+      {
+        id: "p4",
+        name: {
+          EN: "Penne with beef, porcini mushrooms and truffle sauce",
+          RU: "Пенне с говядиной, белыми грибами и трюфельным соусом",
+        },
+        title: {
+          EN: "Penne, beef, parmesan cheese, porcini mushrooms, white wine, cream, tomatoes, truffle oil, olive oil",
+          RU: "Пенне, говяжья вырезка, сыр пармезан, белые грибы, вино белое, сливки, помидоры, масло трюфельное, масло оливковое",
+        },
+        price: 1250,
+        count: 1,
+        grams: 350,
+        img: "https://eda.yandex/images/13912834/ca45dffbeb194e1ea29cd1b9754ac2e0-450x300.jpeg",
+      },
+      {
+        id: "p7",
+        name: { EN: "Spaghetti with vongole", RU: "Спагетти с вонголе" },
+        title: {
+          EN: "Vongole, white wine, salt, pepper, shallot, garlic puree, chicken broth, butter, parsley",
+          RU: "Вонголе, вино белое, соль, перец, шалот, чесночное пюре, бульон куриный, сливочное масло, петрушка",
+        },
+        price: 850,
+        count: 1,
+        grams: 330,
+        img: "https://eda.yandex/images/3806315/0322c3e249c142b0b99b8ecdd7e931e6-450x300.jpeg",
+      },
+      {
+        id: "p8",
+        name: {
+          EN: "Risotto with beef tartare",
+          RU: "Ризотто с тартаром из говядины",
+        },
+        title: {
+          EN: "Chicken broth, salt, pepper, butter, cream, beef tartare, green peas, watercress, olive oil, truffle oil",
+          RU: "Куриный бульон, соль, перец, масло сливочное, сливки, тартар из говядины, горошек зеленый, кресс-салат, масло оливковое, масло трюфельное",
+        },
+        price: 1100,
+        count: 1,
+        grams: 190,
+        img: "https://eda.yandex/images/2370127/1f907a2519654f42839910c3dbd031c3-450x300.jpeg",
+      },
+      {
+        id: "p10",
+        name: { EN: "Spaghetti Bolognese", RU: "Спагетти Болоньезе" },
+        title: {
+          EN: "Spaghetti, bolognese sauce, arabiata pilati sauce, parmesan cheese, olive oil, microgreens, olive ground",
+          RU: "Спагетти, соус болоньезе, соус арабьята пилати, сыр пармезан, масло оливковое, микрозелень, земля из маслин",
+        },
+        price: 800,
+        count: 1,
+        grams: 250,
+        img: "https://eda.yandex/images/1472406/5be00cf5216346d7a22655416a90e7ac-450x300.jpeg",
+      },
+    ],
+  },
   {
-        'data' : 'noodles',
-        'mini' : false,
-        'cat':{"EN":'Noodles',"RU":'Лапша'},
-        'items': [
-          {
-            id: 'p5',
-            name:{'EN':'Buckwheat noodles with chicken in Asian sauce', 'RU':"Гречневая лапша с курицей в азиатском соусе"}, 
-            title:{'EN':'Buckwheat noodles, chicken thigh, bell peppers, carrots, zucchini, pea pods, Singapore sauce, sesame', 'RU':"Лапша гречневая, куриное бедро, болгарский перец, морковь, цукини, стручки гороха, сингапурский соус, кунжут"}, 
-            price: 850,
-            count: 1,
-            grams: 300,
-            img: "https://eda.yandex/images/1473782/41b66dcdfdb941d59c5cd30b7dc04684-450x300.jpeg",
-          }, 
-          {
-            id: 'p6',
-            name:{'EN':'Rice noodles with tiger shrimps', 'RU':"Рисовая лапша с тигровыми креветками"}, 
-            title:{'EN':'Rice noodles, tiger shrimp, bell peppers, carrots, zucchini, egg, Singapore sauce, cilantro', 'RU':"Рисовая лапша, тигровые креветки, болгарский перец, морковь, цукини, яйцо, сингапурский соус, кинза"}, 
-            price: 850,
-            count: 1,
-            grams: 320,
-            img: "https://eda.yandex/images/3534679/c4b043de7c194c62adb9ca24c8ef9ba6-450x300.jpeg",
-          },
-        ]
+    data: "noodles",
+    mini: false,
+    cat: { EN: "Noodles", RU: "Лапша" },
+    items: [
+      {
+        id: "p5",
+        name: {
+          EN: "Buckwheat noodles with chicken in Asian sauce",
+          RU: "Гречневая лапша с курицей в азиатском соусе",
+        },
+        title: {
+          EN: "Buckwheat noodles, chicken thigh, bell peppers, carrots, zucchini, pea pods, Singapore sauce, sesame",
+          RU: "Лапша гречневая, куриное бедро, болгарский перец, морковь, цукини, стручки гороха, сингапурский соус, кунжут",
+        },
+        price: 850,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/1473782/41b66dcdfdb941d59c5cd30b7dc04684-450x300.jpeg",
+      },
+      {
+        id: "p6",
+        name: {
+          EN: "Rice noodles with tiger shrimps",
+          RU: "Рисовая лапша с тигровыми креветками",
+        },
+        title: {
+          EN: "Rice noodles, tiger shrimp, bell peppers, carrots, zucchini, egg, Singapore sauce, cilantro",
+          RU: "Рисовая лапша, тигровые креветки, болгарский перец, морковь, цукини, яйцо, сингапурский соус, кинза",
+        },
+        price: 850,
+        count: 1,
+        grams: 320,
+        img: "https://eda.yandex/images/3534679/c4b043de7c194c62adb9ca24c8ef9ba6-450x300.jpeg",
+      },
+    ],
   },
 
   {
-    'data' : 'fishSeafood',
-    'mini' : false,
-    'cat':{"EN":'Fish and seafood',"RU":'Рыба и морепродукты'},
-    'items': [
-        {
+    data: "fishSeafood",
+    mini: false,
+    cat: { EN: "Fish and seafood", RU: "Рыба и морепродукты" },
+    items: [
+      {
         id: "174vn1n6c92qy9e8mq982y",
-        name:{'EN': 'Судак с кремом из цветной капусты', 'RU':"Судак с кремом из цветной капусты"},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Судак с кремом из цветной капусты",
+          RU: "Судак с кремом из цветной капусты",
+        },
+        title: { EN: "", RU: "" },
         price: 1100,
         count: 1,
         grams: 230,
@@ -634,17 +916,23 @@ const items = [
       },
       {
         id: "9y0d821mydy1278y812my87f",
-        name:{'EN': 'Филе скумбрии с томатной сальсой', 'RU':"Филе скумбрии с томатной сальсой"},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Филе скумбрии с томатной сальсой",
+          RU: "Филе скумбрии с томатной сальсой",
+        },
+        title: { EN: "", RU: "" },
         price: 950,
         count: 1,
         grams: 240,
         img: "https://eda.yandex/images/18412808/dbb0685bf65f48b58cb1f5203cfa050b-324x282.jpeg",
       },
-       {
+      {
         id: "91cmue82y08vry187rt976rcgt7g7w",
-        name:{'EN': 'Креветки в сливочно-перечном соусе', 'RU':"Креветки в сливочно-перечном соусе"},
-        title:{'EN': '', 'RU':"" },
+        name: {
+          EN: "Креветки в сливочно-перечном соусе",
+          RU: "Креветки в сливочно-перечном соусе",
+        },
+        title: { EN: "", RU: "" },
         price: 900,
         count: 1,
         grams: 250,
@@ -652,29 +940,41 @@ const items = [
       },
       {
         id: "125adpowjpodjapo",
-        name:{'EN': 'Crab cakes with fresh vegetables', 'RU':"Крабовые котлеты со свежими овощами"},
-        title:{'EN': '', 'RU':""},
-        modifier:{'EN':['on the grill', 'steamed'], 'RU':['на гриле','на пару']},
+        name: {
+          EN: "Crab cakes with fresh vegetables",
+          RU: "Крабовые котлеты со свежими овощами",
+        },
+        title: { EN: "", RU: "" },
+        modifier: {
+          EN: ["on the grill", "steamed"],
+          RU: ["на гриле", "на пару"],
+        },
         price: 1300,
         count: 1,
         grams: 245,
         img: "https://eda.yandex/images/1463280/b7df6243da7f461da2a474506c708a16-450x300.jpeg",
       },
-      
+
       {
         id: "12225a321312dpowjpodjapo",
-        name:{'EN': 'Tuna steak with guacamole', 'RU':"Стейк из тунца с гуакамоле"},
-        title:{'EN': '', 'RU':""},
+        name: {
+          EN: "Tuna steak with guacamole",
+          RU: "Стейк из тунца с гуакамоле",
+        },
+        title: { EN: "", RU: "" },
 
-        price: 1200,
+        price: 1500,
         count: 1,
         grams: 200,
         img: "https://eda.yandex/images/3806466/092024d966bb4e7390ac00ae358b6c99-400x400nocrop.jpeg",
       },
       {
         id: "12225a321312dpowjpodjapo",
-        name:{'EN': 'Fried squid with tomatoes', 'RU':"Жареный кальмар с томатами"},
-        title:{'EN': '', 'RU':""},
+        name: {
+          EN: "Fried squid with tomatoes",
+          RU: "Жареный кальмар с томатами",
+        },
+        title: { EN: "", RU: "" },
 
         price: 1100,
         count: 1,
@@ -682,218 +982,282 @@ const items = [
         img: "https://eda.yandex/images/3550919/e3c8ebb9f049414eb2a497c906e9d7c9-450x300.jpeg",
       },
 
-        {
-          id: 125,
-          name:{'EN': 'Salmon steak with vegetable salsa', 'RU':"Стейк лосося с овощной сальсой"},
-          title:{'EN': 'Salmon fillet, tomato salsa, avocado, cucumber vegetable oil', 'RU':"Филе лосося, сальса из томатов, авокадо, огурец масло растительное"},
-          modifier:{'EN':['on the grill', 'steamed'], 'RU':['на гриле','на пару']},
-          price: 1500,
-          count: 1,
-          grams: 200,
-          img: "/assets/img/salmonsteakwithvegetablesalsa.jpeg",
+      {
+        id: 125,
+        name: {
+          EN: "Salmon steak with vegetable salsa",
+          RU: "Стейк лосося с овощной сальсой",
         },
-    ]
+        title: {
+          EN: "Salmon fillet, tomato salsa, avocado, cucumber vegetable oil",
+          RU: "Филе лосося, сальса из томатов, авокадо, огурец масло растительное",
+        },
+        modifier: {
+          EN: ["on the grill", "steamed"],
+          RU: ["на гриле", "на пару"],
+        },
+        price: 1500,
+        count: 1,
+        grams: 200,
+        img: "/assets/img/salmonsteakwithvegetablesalsa.jpeg",
+      },
+    ],
   },
   {
-    'data': 'meatPoultry',
-    'mini': false,
-    'cat':{"EN":'Meat and poultry',"RU":'Мясо и птица'},
-    'items': [
-
-          {
-            id: 72,
-            name:{'EN': 'Chicken curry with rice', 'RU':"Курица карри с рисом" },
-            title:{'EN': 'Chicken fillet, rice, curry sauce', 'RU':"Куриное филе, рис, карри соус" },
-            price: 1100,
-            count: 1,
-            grams: 280,
-            img: "https://eda.yandex/images/1473782/8cf7086ffe6149fbab407c13ca9ec17e-450x300.jpeg",
-          },
-        {
-          id: 72,
-          name:{'EN': 'Marbled beef cutlets', 'RU':"Котлеты из мраморной говядины" },
-          title:{'EN': '', 'RU':"" },
-          price: 1150,
-          count: 1,
-          grams: 300,
-          img: "https://eda.yandex/images/13190335/7b6ab4b8b059497d9eff2211154876ac-400x400nocrop.jpeg",
+    data: "meatPoultry",
+    mini: false,
+    cat: { EN: "Meat and poultry", RU: "Мясо и птица" },
+    items: [
+      {
+        id: 72,
+        name: { EN: "Chicken curry with rice", RU: "Курица карри с рисом" },
+        title: {
+          EN: "Chicken fillet, rice, curry sauce",
+          RU: "Куриное филе, рис, карри соус",
         },
-          {
-            id: 73,
-            name:{'EN': 'Ribeye steak with grilled corn', 'RU':"Рибай стейк с кукурузой на гриле" },
-            title:{'EN': 'Beef loin, corn cob', 'RU':"Говяжья вырезка, початок кукурузы" },
-            price: 3900,
-            count: 1,
-            grams: 380,
-            img: "https://eda.yandex/images/3506707/a89969f78e974f268b0610de54dcded2-450x300.jpeg",
-          },
-          {
-            id: 'm3',
-            name:{'EN': 'Beef Stroganoff', 'RU':"Бефстроганов" },
-            title:{'EN': 'Beef, cream, mushrooms, walnut sauce, pickles, watercress, almond slices', 'RU':"Говядина, сливки, шампиньоны, соус ореховый, огурцы маринованные, кресс-салат, слайсы миндаля" },
-            price: 970,
-            count: 1,
-            grams: 340,
-            img: "https://eda.yandex/images/13439948/75448d004dab456080ab38c9426a1e2d-450x300.jpeg",
-          },
-          {
-            id: 'm4',
-            name: {
-              'EN': 'Chicken with Cole Slow', 'RU': 'Цыпленок с Коул Слоу'
-            },
-            title: {
-              'EN': 'Baked chicken with truffle coleslaw', 'RU': 'Запеченный цыпленек с трюфельным коул слоу'
-            },
-            price: 1250,
-            count: 1,
-            grams: 260,
-            img: 'https://eda.yandex/images/1472406/c67dd898282c4815ae426d33726e6ced-450x300.jpeg'
-          }
-        
-         
-    ]
-  }, 
-  {
-    'data' : 'sideDishes',
-    'mini' : false,
-    'cat':{"EN":'Side dishes',"RU":'Гарниры'},
-    'items': [
-        {
-            id: 66,
-            name:{'EN': 'Fried potatoes with oyster mushrooms', 'RU':"Жареный картофель с вешенками" },
-            title:{'EN': 'Potatoes, oyster mushrooms, onions, parsley, garlic oil, salt, pepper', 'RU':"Картофель, грибы вешенки, лук, петрушка, чесночное масло, соль, перец" },
-            price: 450,
-            count: 1,
-            grams: 200,
-            img: "https://eda.yandex/images/1447609/031bdfa19c7c4038b06af56a6d500d3d-450x300.jpeg",
-          },
-        
-          {
-            id: 68,
-            name:{'EN': 'Mashed potatoes', 'RU':"Картофельное пюре" },
-            title:{'EN': 'Potatoes, butter, cream', 'RU':"Картофель, сливочное масло, сливки" },
-            price: 400,
-            count: 1,
-            grams: 150,
-            img: "https://eda.yandex/images/3806466/e27e11ae989a4800b6f6346adee5577f-450x300.jpeg",
-          },
-          {
-            id: 69,
-            name:{'EN': 'Grilled corn', 'RU':"Кукуруза на гриле" },
-            title:{'EN': 'Corn', 'RU':"Кукуруза" },
-            price: 450,
-            count: 1,
-            grams: 200,
-            img: "https://eda.yandex/images/3806315/e87cfe9fc265416aa9657619ffc42034-450x300.jpeg",
-          },
-          {
-            id: 'v1',
-            name:{'EN': 'Cabbage steak with red caviar', 'RU':"Стейк из капусты с красной икрой" },
-            title:{'EN': 'Grilled cabbage steak served with cream sauce and red caviar', 'RU':"Стейк из капусты на гриле подается со сливочным соусом и красной икрой" },
-            price: 900,
-            count: 1,
-            grams: 250,
-            img: "/assets/items/v1.jpeg",
-          },
-    ]
-  }, 
-  {
-    'data' : 'desserts',
-    'mini' : false,
-    'cat': {"EN": 'Desserts', "RU": 'Десерты'},
-    'items': [
-        
-        {
-            id: 89,
-            name:{'EN': 'Warm apple pie with an ice cream scoop', 'RU':"Теплый яблочный пирог с шариком мороженого"} ,
-            title:{'EN': 'Homemade apple and puff pastry pie, ice cream scoop, nuts', 'RU':"Домашний пирог из яблок и слоеного теста, шарик мороженого, орехи"} ,
-            price: 850,
-            count: 1,
-            grams: 210,
-            img: "/assets/img/warmapplepiewithanicecreamscoop.jpeg",
-          },
-          {
-            id: 'ds2',
-            name:{'EN': 'Miles with patisserie cream and fresh berries', 'RU':"Мильфей с кремом патисьер и свежими ягодами"},
-            title:{'EN': 'Puff pastry, cream, raspberries, strawberries, blueberries, blackberries, freeze-dried raspberries', 'RU':"Тесто слоеное, крем, малина, клубника, голубика, ежевика, малина сублимированная"},
-            price: 900,
-            count: 1,
-            grams: 160,
-            img: "/assets/img/mileswithpatisseriecreamandfreshberries.jpeg",
-          },
-
-          {
-            id: 'ds5',
-            name: {'EN': 'Chocolate fondant with vanilla ice cream', 'RU': 'Шоколадный фондан с ванильным мороженым'},
-            title: {'EN': '', 'RU': ''},
-            price: 870,
-            grams: 180,
-            count: 1,
-            img: '/assets/img/chocolatefondant.jpeg'
-          }
-         
-         
-    ]
+        price: 1100,
+        count: 1,
+        grams: 280,
+        img: "https://eda.yandex/images/1473782/8cf7086ffe6149fbab407c13ca9ec17e-450x300.jpeg",
+      },
+      {
+        id: 72,
+        name: {
+          EN: "Marbled beef cutlets",
+          RU: "Котлеты из мраморной говядины",
+        },
+        title: { EN: "", RU: "" },
+        price: 1150,
+        count: 1,
+        grams: 300,
+        img: "https://eda.yandex/images/13190335/7b6ab4b8b059497d9eff2211154876ac-400x400nocrop.jpeg",
+      },
+      {
+        id: 73,
+        name: {
+          EN: "Ribeye steak with grilled corn",
+          RU: "Рибай стейк с кукурузой на гриле",
+        },
+        title: {
+          EN: "Beef loin, corn cob",
+          RU: "Говяжья вырезка, початок кукурузы",
+        },
+        price: 3900,
+        count: 1,
+        grams: 380,
+        img: "https://eda.yandex/images/3506707/a89969f78e974f268b0610de54dcded2-450x300.jpeg",
+      },
+      {
+        id: "m3",
+        name: { EN: "Beef Stroganoff", RU: "Бефстроганов" },
+        title: {
+          EN: "Beef, cream, mushrooms, walnut sauce, pickles, watercress, almond slices",
+          RU: "Говядина, сливки, шампиньоны, соус ореховый, огурцы маринованные, кресс-салат, слайсы миндаля",
+        },
+        price: 970,
+        count: 1,
+        grams: 340,
+        img: "https://eda.yandex/images/13439948/75448d004dab456080ab38c9426a1e2d-450x300.jpeg",
+      },
+      {
+        id: "m4",
+        name: {
+          EN: "Chicken with Cole Slow",
+          RU: "Цыпленок с Коул Слоу",
+        },
+        title: {
+          EN: "Baked chicken with truffle coleslaw",
+          RU: "Запеченный цыпленек с трюфельным коул слоу",
+        },
+        price: 1250,
+        count: 1,
+        grams: 260,
+        img: "https://eda.yandex/images/1472406/c67dd898282c4815ae426d33726e6ced-450x300.jpeg",
+      },
+    ],
   },
   {
-        'data' : 'children',
-        'mini' : false,
-        'cat':{"EN":'Children`s menu',"RU":'Детское меню'},
-        'items': [
-          {
-            id: '55d2',
-            name:{'EN': 'Vegetable salad', 'RU':"Салат овощной" },
-            title:{'EN': '', 'RU':"" },
-            price: 700,
-            count: 1,
-            grams: 110,
-            img: "",
-          },
-            {
-                id: 55,
-                name:{'EN': 'Beef stroganoff with mashed potatoes', 'RU':"Бефстроганов из говядины с картофельным пюре" },
-                title:{'EN': 'Beef loin, mashed potatoes, cream sauce', 'RU':"Говяжья вырезка, картофельное пюре, сливочный соус" },
-                price: 700,
-                count: 1,
-                grams: 240,
-                img: "/assets/img/beefstroganoffchild.jpeg",
-              },
-              {
-                id: 56,
-                name:{'EN': 'Chicken cutlets with mashed potatoes', 'RU':"Куриные котлеты с картофельным пюре" },
-                title:{'EN': 'Minced chicken, mashed potatoes, butter', 'RU':"Куриный фарш, картофельное пюре, сливочное масло" },
-                price: 700,
-                count: 1,
-                grams: 240,
-                img: "/assets/img/chickencutletswithmashedpotatoes.jpeg",
-              },
-              {
-                id: '56D1',
-                name:{'EN': 'Girandole in creamy sauce with Parmesan cheese', 'RU':"Джирандоле в сливочном соусе с сыром пармезан" },
-                title:{'EN': '', 'RU':"" },
-                price: 380,
-                count: 1,
-                grams: 210,
-                img: "https://eda.yandex/images/3596693/cbb90f9cc80e41439cdba76970191082-450x300.jpeg",
-              },
-              {
-                id: 57,
-                name:{'EN': 'Chicken broth with noodles and vegetables', 'RU':"Куриный бульон с лапшой и овощами" },
-                title:{'EN': 'Chicken broth, chicken filet, noodles, vegetables', 'RU':"Куриный бульон, куриное филе, лапша, овощи" },
-                price: 260,
-                count: 1,
-                grams: 230,
-                img: "/assets/items/Chickenbouillon.jpeg",
-              },
+    data: "sideDishes",
+    mini: false,
+    cat: { EN: "Side dishes", RU: "Гарниры" },
+    items: [
+      {
+        id: 66,
+        name: {
+          EN: "Fried potatoes with oyster mushrooms",
+          RU: "Жареный картофель с вешенками",
+        },
+        title: {
+          EN: "Potatoes, oyster mushrooms, onions, parsley, garlic oil, salt, pepper",
+          RU: "Картофель, грибы вешенки, лук, петрушка, чесночное масло, соль, перец",
+        },
+        price: 450,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/1447609/031bdfa19c7c4038b06af56a6d500d3d-450x300.jpeg",
+      },
 
-        ]
-  },   
- 
+      {
+        id: 68,
+        name: { EN: "Mashed potatoes", RU: "Картофельное пюре" },
+        title: {
+          EN: "Potatoes, butter, cream",
+          RU: "Картофель, сливочное масло, сливки",
+        },
+        price: 400,
+        count: 1,
+        grams: 150,
+        img: "https://eda.yandex/images/3806466/e27e11ae989a4800b6f6346adee5577f-450x300.jpeg",
+      },
+      {
+        id: 69,
+        name: { EN: "Grilled corn", RU: "Кукуруза на гриле" },
+        title: { EN: "Corn", RU: "Кукуруза" },
+        price: 450,
+        count: 1,
+        grams: 200,
+        img: "https://eda.yandex/images/3806315/e87cfe9fc265416aa9657619ffc42034-450x300.jpeg",
+      },
+      {
+        id: "v1",
+        name: {
+          EN: "Cabbage steak with red caviar",
+          RU: "Стейк из капусты с красной икрой",
+        },
+        title: {
+          EN: "Grilled cabbage steak served with cream sauce and red caviar",
+          RU: "Стейк из капусты на гриле подается со сливочным соусом и красной икрой",
+        },
+        price: 900,
+        count: 1,
+        grams: 250,
+        img: "/assets/items/v1.jpeg",
+      },
+    ],
+  },
+  {
+    data: "desserts",
+    mini: false,
+    cat: { EN: "Desserts", RU: "Десерты" },
+    items: [
+      {
+        id: 89,
+        name: {
+          EN: "Warm apple pie with an ice cream scoop",
+          RU: "Теплый яблочный пирог с шариком мороженого",
+        },
+        title: {
+          EN: "Homemade apple and puff pastry pie, ice cream scoop, nuts",
+          RU: "Домашний пирог из яблок и слоеного теста, шарик мороженого, орехи",
+        },
+        price: 850,
+        count: 1,
+        grams: 210,
+        img: "/assets/img/warmapplepiewithanicecreamscoop.jpeg",
+      },
+      {
+        id: "ds2",
+        name: {
+          EN: "Miles with patisserie cream and fresh berries",
+          RU: "Мильфей с кремом патисьер и свежими ягодами",
+        },
+        title: {
+          EN: "Puff pastry, cream, raspberries, strawberries, blueberries, blackberries, freeze-dried raspberries",
+          RU: "Тесто слоеное, крем, малина, клубника, голубика, ежевика, малина сублимированная",
+        },
+        price: 900,
+        count: 1,
+        grams: 160,
+        img: "/assets/img/mileswithpatisseriecreamandfreshberries.jpeg",
+      },
+
+      {
+        id: "ds5",
+        name: {
+          EN: "Chocolate fondant with vanilla ice cream",
+          RU: "Шоколадный фондан с ванильным мороженым",
+        },
+        title: { EN: "", RU: "" },
+        price: 870,
+        grams: 180,
+        count: 1,
+        img: "/assets/img/chocolatefondant.jpeg",
+      },
+    ],
+  },
+  {
+    data: "children",
+    mini: false,
+    cat: { EN: "Children`s menu", RU: "Детское меню" },
+    items: [
+      {
+        id: "55d2",
+        name: { EN: "Vegetable salad", RU: "Салат овощной" },
+        title: { EN: "", RU: "" },
+        price: 700,
+        count: 1,
+        grams: 110,
+        img: "",
+      },
+      {
+        id: 55,
+        name: {
+          EN: "Beef stroganoff with mashed potatoes",
+          RU: "Бефстроганов из говядины с картофельным пюре",
+        },
+        title: {
+          EN: "Beef loin, mashed potatoes, cream sauce",
+          RU: "Говяжья вырезка, картофельное пюре, сливочный соус",
+        },
+        price: 700,
+        count: 1,
+        grams: 240,
+        img: "/assets/img/beefstroganoffchild.jpeg",
+      },
+      {
+        id: 56,
+        name: {
+          EN: "Chicken cutlets with mashed potatoes",
+          RU: "Куриные котлеты с картофельным пюре",
+        },
+        title: {
+          EN: "Minced chicken, mashed potatoes, butter",
+          RU: "Куриный фарш, картофельное пюре, сливочное масло",
+        },
+        price: 700,
+        count: 1,
+        grams: 240,
+        img: "/assets/img/chickencutletswithmashedpotatoes.jpeg",
+      },
+      {
+        id: "56D1",
+        name: {
+          EN: "Girandole in creamy sauce with Parmesan cheese",
+          RU: "Джирандоле в сливочном соусе с сыром пармезан",
+        },
+        title: { EN: "", RU: "" },
+        price: 380,
+        count: 1,
+        grams: 210,
+        img: "https://eda.yandex/images/3596693/cbb90f9cc80e41439cdba76970191082-450x300.jpeg",
+      },
+      {
+        id: 57,
+        name: {
+          EN: "Chicken broth with noodles and vegetables",
+          RU: "Куриный бульон с лапшой и овощами",
+        },
+        title: {
+          EN: "Chicken broth, chicken filet, noodles, vegetables",
+          RU: "Куриный бульон, куриное филе, лапша, овощи",
+        },
+        price: 260,
+        count: 1,
+        grams: 230,
+        img: "/assets/items/Chickenbouillon.jpeg",
+      },
+    ],
+  },
 ];
-
-
-
-
-
 
 module.exports = { items };
