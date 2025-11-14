@@ -233,7 +233,7 @@ const items = [
       {
         id: "wfafafaw241faw24125151awf",
         name: {
-          EN: "Севиче из тунца с понзу-соусом",
+          EN: "Tuna ceviche with ponzu sauce",
           RU: "Севиче из тунца с понзу-соусом",
         },
         title: { EN: "", RU: "" },
@@ -254,7 +254,18 @@ const items = [
         grams: 10,
         img: "https://avatars.mds.yandex.net/get-eda/3805363/82fc446f3def42d7bdf6a79840d52018/450x300",
       },
-
+      {
+        id: "dwa81dja",
+        name: { EN: "Oyster", RU: "Устрица" },
+        title: {
+          EN: "",
+          RU: "",
+        },
+        price: 600,
+        count: 1,
+        grams: 0,
+        img: "",
+      },
       {
         id: 50,
         name: {
@@ -267,7 +278,7 @@ const items = [
         },
         price: 1200,
         count: 1,
-        grams: 190,
+        grams: 130,
         img: "https://eda.yandex/images/13439948/e81bce53f2b84f3b8c9eb2ef2d158cdb-450x300.jpeg",
       },
       {
@@ -804,6 +815,21 @@ const items = [
         img: "https://eda.yandex/images/931388/3aa89fcbcae943128735a629256d712e-450x300.jpeg",
       },
       {
+        id: "2p3",
+        name: {
+          EN: "Pasta Carbonara",
+          RU: "Паста Карбонара",
+        },
+        title: {
+          EN: "",
+          RU: "",
+        },
+        price: 800,
+        count: 1,
+        grams: 210,
+        img: "/assets/img/pastaCarbonara.jpeg",
+      },
+      {
         id: "p4",
         name: {
           EN: "Penne with beef, porcini mushrooms and truffle sauce",
@@ -1095,6 +1121,36 @@ const items = [
         count: 1,
         grams: 200,
         img: "https://eda.yandex/images/1447609/031bdfa19c7c4038b06af56a6d500d3d-450x300.jpeg",
+      },
+      {
+        id: "ihq0rh0912",
+        name: {
+          EN: "Grilled Vegetables",
+          RU: "Овощи на гриле",
+        },
+        title: {
+          EN: "",
+          RU: "",
+        },
+        price: 450,
+        count: 1,
+        grams: 150,
+        img: "https://eda.yandex/images/3559865/c480333a0d9d4fd9991957eb1083d6c0-450x300.jpeg",
+      },
+      {
+        id: "ihq02123rh0912",
+        name: {
+          EN: "French fries",
+          RU: "Картофель фри",
+        },
+        title: {
+          EN: "",
+          RU: "",
+        },
+        price: 450,
+        count: 1,
+        grams: 150,
+        img: "",
       },
 
       {
