@@ -6,7 +6,7 @@ const items = [
     items: [
       {
         id: "foijnaoiiwoaifowa1",
-        name: { EN: "Грибная похлебка", RU: "Грибная похлебка" },
+        name: { EN: "Mushroom Soup", RU: "Грибная похлебка" },
         title: { EN: "", RU: "" },
         price: 750,
         count: 1,
@@ -15,7 +15,7 @@ const items = [
       },
       {
         id: "foijnaoiiwoaifowa2",
-        name: { EN: "Суп Тыквенный", RU: "Суп Тыквенный" },
+        name: { EN: "Pumpkin Soup", RU: "Суп Тыквенный" },
         title: { EN: "", RU: "" },
         price: 650,
         count: 1,
@@ -24,7 +24,7 @@ const items = [
       },
       {
         id: "foijnaoiiwoaifowa7",
-        name: { EN: "Карпаччо из цукини", RU: "Карпаччо из цукини" },
+        name: { EN: "Zucchini Carpaccio", RU: "Карпаччо из цукини" },
         title: { EN: "", RU: "" },
         price: 650,
         count: 1,
@@ -34,7 +34,7 @@ const items = [
       {
         id: "foijnaoiiwoaifowa5",
         name: {
-          EN: "Свекла со сливочным кремом",
+          EN: "Beetroot with Cream Sauce",
           RU: "Свекла со сливочным кремом",
         },
         title: { EN: "", RU: "" },
@@ -45,7 +45,7 @@ const items = [
       },
       {
         id: "foijnaoiiwoaifowa341",
-        name: { EN: "Ризотто с гребешками", RU: "Ризотто с гребешками" },
+        name: { EN: "Scallop Risotto", RU: "Ризотто с гребешками" },
         title: { EN: "", RU: "" },
         price: 980,
         count: 1,
@@ -54,7 +54,7 @@ const items = [
       },
       {
         id: "foijnaoiiwoaifowa21w",
-        name: { EN: "Салат с тунцом", RU: "Салат с тунцом" },
+        name: { EN: "Tuna Salad", RU: "Салат с тунцом" },
         title: { EN: "", RU: "" },
         price: 950,
         count: 1,
@@ -63,7 +63,7 @@ const items = [
       },
       {
         id: "foijnaoii2e1woaifowa",
-        name: { EN: "Салат с тыквой", RU: "Салат с тыквой" },
+        name: { EN: "Pumpkin Salad", RU: "Салат с тыквой" },
         title: { EN: "", RU: "" },
         price: 700,
         count: 1,
@@ -73,7 +73,7 @@ const items = [
       {
         id: "foijnaoiiwoaifo412a",
         name: {
-          EN: "Язычки ягненка с мини картофелем",
+          EN: "Lamb Tongues with Baby Potatoes",
           RU: "Язычки ягненка с мини картофелем",
         },
         title: { EN: "", RU: "" },
@@ -84,7 +84,7 @@ const items = [
       },
       {
         id: "foijfaw214naoiiwoaifowa",
-        name: { EN: "Говядина по-азиатски", RU: "Говядина по-азиатски" },
+        name: { EN: "Asian-Style Beef", RU: "Говядина по-азиатски" },
         title: { EN: "", RU: "" },
         price: 1100,
         count: 1,
