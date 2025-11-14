@@ -31,10 +31,10 @@ export class Category {
 
 export const categoryUpdateValidator = (category) => {
   const v = new Validator();
-  if (category.name) {
+  if (category.name != undefined) {
     v.check(category.name, "Name").isString().lengthMin(5).lengthMax(255);
   }
-  if (category.code) {
+  if (category.code != undefined) {
     v.check(category.code, "Code").isString().lengthMin(3).lengthMax(100);
   }
 

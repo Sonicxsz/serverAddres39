@@ -39,6 +39,7 @@ router.patch("/category", UpdateCategory);
 
 // БЛЮДА
 router.post("/items", AddItem);
+// router.patch("/items", AddItem);
 router.get("/items/all", GetAllItems);
 router.delete("/items/:id", DeleteItem);
 router.post("/items/add-image", AddImageToItem);
