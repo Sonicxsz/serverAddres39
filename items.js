@@ -99,34 +99,6 @@ const items = [
     cat: { EN: "Breakfasts until 14:00", RU: "Завтраки до 14:00" },
     items: [
       {
-        id: 15,
-        name: {
-          EN: "Zucchini dredges with salmon and cream sauce",
-          RU: "Драники из цукини с лососем и сметаной",
-        },
-        title: {
-          EN: "Zucchini, egg, lightly salted salmon, cream sauce",
-          RU: "Цукини, яйцо, лосось слабосоленый, соус сметанный",
-        },
-        price: 910,
-        count: 1,
-        grams: 200,
-        img: "/assets/img/brekfast/10.jpg",
-      },
-      {
-        id: "breakfast0108202401",
-        name: {
-          EN: "Casserole with Patissiere cream and fresh berries",
-          RU: "Запеканка с кремом Патисьер и свежими ягодами",
-        },
-        title: { EN: "", RU: "" },
-        price: 870,
-        count: 1,
-        grams: 220,
-        img: "/assets/img/brekfast/2.jpg",
-      },
-
-      {
         id: 16,
         name: { EN: "Scramble with mortadella", RU: "Скрэмбл с мортаделлой" },
         title: { EN: "", RU: "" },
@@ -134,22 +106,6 @@ const items = [
         count: 1,
         grams: 265,
         img: "/assets/img/brekfast/6.jpg",
-      },
-
-      {
-        id: "z1",
-        name: {
-          EN: "Rice porridge with coconut milk and fresh berries",
-          RU: "Рисовая каша на кокосовом молоке со свежими ягодами",
-        },
-        title: {
-          EN: "Rice, milk, coconut milk, sugar, salt, vanilla sugar, cream, cherry topping, raspberries, blackberries, strawberries, blueberries",
-          RU: "Рис, молоко, молоко кокосовое, сахар, соль, ванильный сахар, сливки, топпинг вишневый, малина, ежевика, клубника, голубика",
-        },
-        price: 540,
-        count: 1,
-        grams: 260,
-        img: "",
       },
       {
         id: "z2",
@@ -166,61 +122,120 @@ const items = [
         grams: 370,
         img: "/assets/img/brekfast/8.jpg",
       },
+
       {
-        id: "z3",
+        id: "breakfast2141241",
         name: {
-          EN: "Omelet with crab and truffle sauce",
-          RU: "Омлет с крабом и трюфельным соусом",
+          EN: "Rice porridge with nuts and mango puree",
+          RU: "Рисовая каша с орехами и пюре манго",
+        },
+        title: { EN: "", RU: "" },
+        price: 540,
+        count: 1,
+        grams: 260,
+        img: "",
+      },
+      {
+        id: "breakfas421t421",
+        name: {
+          EN: "Unagi Eel Scrambled Eggs",
+          RU: "Скрэмбл с угрем унаги",
+        },
+        title: { EN: "", RU: "" },
+        price: 900,
+        count: 1,
+        grams: 265,
+        img: "",
+      },
+      {
+        id: "breakfas2131fef",
+        name: {
+          EN: "Roast beef brioche",
+          RU: "Бриошь с ростбифом",
+        },
+        title: { EN: "", RU: "" },
+        price: 850,
+        count: 1,
+        grams: 240,
+        img: "",
+      },
+      {
+        id: "breakf2dawfaa",
+        name: {
+          EN: "Scrambled eggs with brie and toast",
+          RU: "Скрэмбл с бри и тостами",
+        },
+        title: { EN: "", RU: "" },
+        price: 750,
+        count: 1,
+        grams: 330,
+        img: "",
+      },
+      {
+        id: "b2131reakfa2141st",
+        name: {
+          EN: "Toast tonnato",
+          RU: "Тост тоннато",
+        },
+        title: { EN: "", RU: "" },
+        price: 750,
+        count: 1,
+        grams: 195,
+        img: "",
+      },
+      {
+        id: "fwawfabreakf14124ast",
+        name: {
+          EN: "French toast with avocado",
+          RU: "Френч тост с авокадо",
+        },
+        title: { EN: "", RU: "" },
+        price: 750,
+        count: 1,
+        grams: 200,
+        img: "",
+      },
+      {
+        id: 15,
+        name: {
+          EN: "Zucchini pancakes with salmon",
+          RU: "Драники из кабачки с лососем",
         },
         title: {
-          EN: "Egg, cream, salt, pepper, corn, grana cheese, truffle oil, crab, green onions, truffle sauce",
-          RU: "Яйцо, сливки, соль, перец, корн, сыр грана, масло трюфельное, краб, зеленый лук, трюфельный соус",
+          EN: "",
+          RU: "",
         },
-        price: 990,
+        price: 910,
         count: 1,
-        grams: 220,
-        img: "/assets/img/brekfast/7.jpg",
+        grams: 200,
+        img: "/assets/img/brekfast/10.jpg",
       },
-
+      {
+        id: "bre21414akf4124ast",
+        name: {
+          EN: "Brioche with spicy shrimp",
+          RU: "Бриошь со спайси-креветками",
+        },
+        title: { EN: "", RU: "" },
+        price: 850,
+        count: 1,
+        grams: 270,
+        img: "",
+      },
       {
         id: 22,
         name: {
-          EN: "Cheesecakes with melted milk and sour cream",
-          RU: "Сырники из топленого молока со сметаной",
+          EN: "Cheesecakes made from melted cottage cheese",
+          RU: "Сырники из топлёного творога",
         },
         title: {
           EN: "Cottage cheese, flour, chicken egg, sour cream",
           RU: "Творог, мука, яйцо куриное, сметана",
         },
-        price: 420,
+        price: 550,
         count: 1,
         grams: 170,
         img: "/assets/img/brekfast/1.jpg",
-      },
-      {
-        id: "breakfast0108202403",
-        name: {
-          EN: "Benedict with salmon and truffle Golandaise",
-          RU: "Бенедикт с лососем и трюфельным Голандез",
-        },
-        title: { EN: "", RU: "" },
-        price: 990,
-        count: 1,
-        grams: 220,
-        img: "/assets/img/brekfast/4.jpg",
-      },
-
-      {
-        id: "breakfast0108202402",
-        name: {
-          EN: "Benedict with mortadella and truffle Golandaise",
-          RU: "Бенедикт с мортаделлой с трюфельным Голандез",
-        },
-        title: { EN: "", RU: "" },
-        price: 990,
-        count: 1,
-        grams: 220,
-        img: "/assets/img/brekfast/9.jpg",
       },
     ],
   },
