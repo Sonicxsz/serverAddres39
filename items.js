@@ -122,7 +122,18 @@ const items = [
         grams: 370,
         img: "/assets/img/brekfast/8.jpg",
       },
-
+      {
+        id: "breakfast214141faw241",
+        name: {
+          EN: "Scrambled eggs with spinach and beans",
+          RU: "Яичница со шпинатом и фасолью",
+        },
+        title: { EN: "", RU: "" },
+        price: 550,
+        count: 1,
+        grams: 220,
+        img: "",
+      },
       {
         id: "breakfast2141241",
         name: {
