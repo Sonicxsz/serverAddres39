@@ -144,7 +144,7 @@ const items = [
         price: 540,
         count: 1,
         grams: 260,
-        img: "",
+        img: "https://eda.yandex/images/17780910/bb0465b34c6944d3a3a5863bbadd37ef-450x300.jpeg",
       },
       {
         id: "breakfas421t421",
@@ -192,7 +192,7 @@ const items = [
         price: 750,
         count: 1,
         grams: 195,
-        img: "",
+        img: "https://eda.yandex/images/17780111/d4e86d68752b4502bbac2c9dbc9f30b7-450x300.jpeg",
       },
       {
         id: "fwawfabreakf14124ast",
@@ -204,13 +204,13 @@ const items = [
         price: 750,
         count: 1,
         grams: 200,
-        img: "",
+        img: "https://eda.yandex/images/17772865/6b2392328a474b9fb744fbdb6c47284f-450x300.jpeg",
       },
       {
         id: 15,
         name: {
           EN: "Zucchini pancakes with salmon",
-          RU: "Драники из кабачки с лососем",
+          RU: "Драники из кабачков с лососем",
         },
         title: {
           EN: "",
@@ -219,7 +219,7 @@ const items = [
         price: 910,
         count: 1,
         grams: 200,
-        img: "/assets/img/brekfast/10.jpg",
+        img: "https://eda.yandex/images/1473782/65f4de66a934454d886cb7e4ece98655-450x300.jpeg",
       },
       {
         id: "bre21414akf4124ast",
@@ -246,7 +246,7 @@ const items = [
         price: 550,
         count: 1,
         grams: 170,
-        img: "/assets/img/brekfast/1.jpg",
+        img: "https://eda.yandex/images/13058477/aeb7cdb30fca41c68f9079d93fda8a11-450x300.jpeg",
       },
     ],
   },
