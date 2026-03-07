@@ -1019,7 +1019,7 @@ const items = [
       },
 
       {
-        id: "12225a321312dpowjpodjapo",
+        id: "12225a321312dpowjpodjawapo",
         name: {
           EN: "Tuna steak with guacamole",
           RU: "Стейк из тунца с гуакамоле",
@@ -1084,7 +1084,7 @@ const items = [
         img: "https://eda.yandex/images/1473782/8cf7086ffe6149fbab407c13ca9ec17e-450x300.jpeg",
       },
       {
-        id: 72,
+        id: '232173',
         name: {
           EN: "Marbled beef cutlets",
           RU: "Котлеты из мраморной говядины",
