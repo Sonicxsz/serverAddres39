@@ -2,12 +2,15 @@ const dotenv = require('dotenv');
 const nodeMailer = require('nodemailer');
 dotenv.config()
 
-const {EMAIL_HOST, EMAIL_HOST_USERNAME, EMAIL_PORT, EMAIL_HOST_PASSWORD} = process.env
+const {EMAIL_HOST, EMAIL_HOST_USERNAME, EMAIL_PORT, EMAIL_HOST_PASSWORD, MODE} = process.env
+const isDev = MODE === 'development';
 
 class Mail {
     #transporter = null;
     constructor(){
-        this.#transporter = this.#getTransporter()
+        if (!isDev) {
+            this.#transporter = this.#getTransporter()
+        }
     }
 
     #getTransporter(){
@@ -23,6 +26,12 @@ class Mail {
     }
 
     async send(message, type){
+        if (isDev) {
+            console.log('[DEV MOCK] Email не отправлен. Subject:', type);
+            console.log('[DEV MOCK] Body:', message);
+            return 'mock-email-id';
+        }
+
         try{
             const info = await this.#transporter.sendMail({
                 from: 'arbi.hizriev.feedback@gmail.com',
@@ -40,4 +49,4 @@ class Mail {
 
 const mail = new Mail()
 
-module.exports = { mail };
+module.exports = { mail, isDev };
