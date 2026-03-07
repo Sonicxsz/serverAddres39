@@ -8,7 +8,7 @@
 // },
 const items = [
   {
-    data: "lenten",
+    data: "season",
     mini: false,
     cat: { EN: "Lenten menu", RU: "Постное меню" },
     items: [
