@@ -8,6 +8,85 @@
 // },
 const items = [
   {
+  data: "season",
+  mini: false,
+  cat: { EN: "Seasonal offer", RU: "Сезонное предложение" },
+  items: [
+    {
+      id: 3033987315,
+      name: { EN: "Smashed Radish Salad", RU: "Салат Битый редис" },
+      title: {
+        EN: "fresh radish, soy sauce, olive oil, sesame oil, sweet chili sauce, garlic, cilantro, shallot, cashew nuts, dill",
+        RU: "редис свежий, соус соевый, масло оливковое, масло кунжутное, соус свит чили, чеснок, кинза, лук-шалот, орех кешью, укроп",
+      },
+      price: 700,
+      count: 1,
+      grams: 280,
+      img: "https://eda.yandex.ru/images/19925171/bf224f374f0e429ea82acd2c6a47904c-450x300.jpeg",
+    },
+    {
+      id: 3033987316,
+      name: { EN: "Romano Tonnato", RU: "Романо Тоннато" },
+      title: {
+        EN: "romano lettuce, tonnato sauce, homemade mayonnaise, tuna, lemon juice, salt, pepper, capers, parmesan, chives",
+        RU: "салат романо, соус тоннато, домашний майонез, тунец, сок лимона, соль, перец, каперсы, пармезан, лук сибулет",
+      },
+      price: 750,
+      count: 1,
+      grams: 130,
+      img: "https://eda.yandex.ru/images/20194341/b735bf9ce5d3497ea0770723f873ae9c-450x300.jpeg",
+    },
+    {
+      id: 3033987317,
+      name: { EN: "Grilled Zucchini with Mint Cream", RU: "Кабачки на гриле со сливочным кремом с мятой" },
+      title: {
+        EN: "zucchini, cream cheese, heavy cream, green herb oil (parsley & dill), soy sauce, garlic, mint",
+        RU: "кабачки, сливочный крем, творожный сыр, сливки, зеленое масло из петрушки и укропа, соевый соус, чеснок, мята",
+      },
+      price: 650,
+      count: 1,
+      grams: 220,
+      img: "https://eda.yandex.ru/images/18022535/c00c98d72eb54d23916b43b7144ffcf0-450x300.jpeg",
+    },
+    {
+      id: 3033988257,
+      name: { EN: "Lemon Pasta with Tuna", RU: "Лимонная паста с тунцом" },
+      title: {
+        EN: "ptitim pasta, lemon juice, chicken broth, cream, lemon zest, tuna, salt, parmesan, turmeric",
+        RU: "паста птитим, сок лимонный, куриный бульон, сливки, цедра лимона, тунец, соль, пармезан, куркума",
+      },
+      price: 950,
+      count: 1,
+      grams: 280,
+      img: "https://eda.yandex.ru/images/18772141/5d116eac4d8f4cfabad25d429b4877cf-450x300.jpeg",
+    },
+    {
+      id: 3033988693,
+      name: { EN: "Potato Burger with Onion Rings", RU: "Картофельный бургер с луковыми кольцами" },
+      title: {
+        EN: "potato, egg, flour, canned tuna, homemade mayonnaise, sour cream, shallot, green onion, fresh tomato, fresh cucumber, lettuce, onion rings, tartar sauce, capers, pickled cucumbers, dill, garlic",
+        RU: "картофель, яйцо, мука, тунец консервированный, домашний майонез, сметана, лук-шалот, зеленый лук, помидор свежий, огурец свежий, листья салата, луковые кольца, соус тартар, каперсы, огурцы маринованные, укроп, чеснок",
+      },
+      price: 950,
+      count: 1,
+      grams: 460,
+      img: "https://eda.yandex.ru/images/18473941/94dbae5be196423b8d5baff8377e1909-450x300.jpeg",
+    },
+    {
+      id: 3033988256,
+      name: { EN: "Sorrel Soup", RU: "Щавелевый суп" },
+      title: {
+        EN: "potato, sorrel, carrot, onion, sour cream, egg, borodinsky bread, parsley, dill, garlic",
+        RU: "картофель, щавель, морковь, лук, сметана, яйцо, хлеб бородинский, петрушка, укроп, чеснок",
+      },
+      price: 700,
+      count: 1,
+      grams: 420,
+      img: "",
+    },
+  ],
+},
+  {
     data: "breakfast",
     mini: false,
     cat: { EN: "Breakfasts until 14:00", RU: "Завтраки до 14:00" },
