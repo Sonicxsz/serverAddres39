@@ -95,7 +95,7 @@ const items = [
   {
     data: "breakfast",
     mini: false,
-    cat: { EN: "Breakfasts until 14:00", RU: "Завтраки до 14:00" },
+    cat: { EN: "Breakfasts until 14:00", RU: "Завтраки до 16:00" },
     items: [
       {
         id: "breakfast3035925766",
