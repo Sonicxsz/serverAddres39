@@ -143,7 +143,7 @@ const items = [
         price: 1100,
         count: 1,
         grams: 320,
-        img: "https://eda.yandex/images/19396445/dd19a01e4e8a4d68b5d37ce05e4fbb46-450x300.jpeg",
+        img: "https://eda.yandex/images/19396445/dc215a1e2b5f4eb7aad863a97d9db03f-450x300.jpeg",
       },
       {
         id: "breakfast3035926066",
@@ -155,7 +155,7 @@ const items = [
         price: 1200,
         count: 1,
         grams: 335,
-        img: "https://eda.yandex/images/19396445/a01d2eeff9bb41059b9e1da0eb5a3c05-450x300.jpeg",
+        img: "https://eda.yandex/images/20194341/194e8d9c42f34749806e860134296227-450x300.jpeg",
       },
       {
         id: "breakfast3035926125",
@@ -167,7 +167,7 @@ const items = [
         price: 980,
         count: 1,
         grams: 312,
-        img: "https://eda.yandex/images/19855951/7e3c8d8cf5054c3bb3bacd55fe5a4f94-450x300.jpeg",
+        img: "https://eda.yandex/images/18753459/8d0dadc8342244ffb7e8d3851e5c52cd-450x300.jpeg",
       },
       {
         id: "breakfast3035926126",
@@ -179,7 +179,7 @@ const items = [
         price: 1100,
         count: 1,
         grams: 306,
-        img: "https://eda.yandex/images/19855951/ce17f55879904d0182b3a70b3d7a83db-450x300.jpeg",
+        img: "https://eda.yandex/images/19396445/4d825a3606e046c887c37c208b518724-450x300.jpeg",
       },
       {
         id: "breakfast3035926742",
@@ -191,7 +191,7 @@ const items = [
         price: 950,
         count: 1,
         grams: 327,
-        img: "https://eda.yandex/images/19855951/8d65e5bf1e7b40278a86a9c9ace3e5f5-450x300.jpeg",
+        img: "https://eda.yandex/images/18916937/6ad80064948843948e864ce10f3e6cb8-450x300.jpeg",
       },
       {
         id: "breakfast3035930239",
@@ -203,7 +203,7 @@ const items = [
         price: 1100,
         count: 1,
         grams: 295,
-        img: "https://eda.yandex/images/19855951/b12ce2f6c2704d71a6f11a0d3e26fa0b-450x300.jpeg",
+        img: "https://eda.yandex/images/17763632/67106e96f7a94c998fc21f5dc280a1f2-450x300.jpeg",
       },
       {
         id: "breakfast3035930240",
@@ -251,7 +251,7 @@ const items = [
         price: 650,
         count: 1,
         grams: 305,
-        img: "https://eda.yandex/images/19925171/61e9c9e1fc224dbdb5803c74ab8b9a5c-450x300.jpeg",
+        img: "https://eda.yandex/images/20780435/1168f91c4ad145f58ab81437c278de5f-450x300.jpeg",
       },
       {
         id: "breakfast3035930816",
